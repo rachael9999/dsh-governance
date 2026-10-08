@@ -1,0 +1,110 @@
+{
+  "$schema": "https://ontology.dsh/schema-v1.json",
+  "packId": "pe-dd",
+  "version": "v1.2-canonical",
+  "packType": "private-equity",
+  "description": "纳琳威项目 PE 尽调 Ontology Pack（545 metrics + 7 entities + 38 risk rules）",
+  "tables": {
+    "questions": {
+      "path": "seed/01_ddq_200.csv",
+      "columns": {
+        "id": "ddq_id",
+        "domain": "domain",
+        "category": "category",
+        "text": "question",
+        "questionType": "question_type",
+        "priority": "priority",
+        "applicability": "applicability",
+        "investigationObjective": "investigation_objective",
+        "evidenceRequirement": "evidence_requirement",
+        "answerSchema": "answer_schema",
+        "mappingStatus": "mapping_status",
+        "mappingConfidence": "mapping_confidence",
+        "source": "source",
+        "ontologyIds": "required_ontology_ids",
+        "taskTemplateIds": "task_template_ids",
+        "riskRuleIds": "risk_rule_ids"
+      }
+    },
+    "ontologyMapping": {
+      "path": "seed/02_ddq_ontology_mapping.csv",
+      "columns": {
+        "questionId": "ddq_id",
+        "ontologyId": "ontology_id"
+      }
+    },
+    "evidenceRequirements": {
+      "path": "seed/03_ddq_evidence_requirement.csv",
+      "columns": {
+        "questionId": "ddq_id"
+      }
+    },
+    "taskMapping": {
+      "path": "seed/04_ddq_task_template_mapping.csv",
+      "columns": {
+        "questionId": "ddq_id",
+        "taskTemplateId": "task_template_id"
+      }
+    },
+    "riskMapping": {
+      "path": "seed/05_ddq_risk_rule_mapping.csv",
+      "columns": {
+        "questionId": "ddq_id",
+        "riskRuleId": "risk_rule_id",
+        "riskId": "risk_id",
+        "severity": "severity",
+        "condition": "condition",
+        "triggerType": "trigger_type"
+      }
+    },
+    "inventory": {
+      "path": "seed/06_ontology_inventory.csv",
+      "columns": {
+        "id": "id",
+        "objectType": "object_type",
+        "domain": "domain_or_type",
+        "name": "name_or_condition",
+        "version": "version",
+        "riskId": "risk_id",
+        "severity": "severity",
+        "condition": "condition",
+        "triggerType": "trigger_type"
+      },
+      "identityProps": [
+        "risk_id"
+      ]
+    },
+    "taskTemplates": {
+      "path": "seed/07_task_templates.csv",
+      "columns": {
+        "id": "task_template_id"
+      }
+    }
+  },
+  "graph": {
+    "nodes": {
+      "path": "graph/nodes.csv",
+      "id": "node_id",
+      "type": "node_type",
+      "props": "props_json",
+      "idPrefix": "^[A-Za-z]+:{1,2}",
+      "identityProps": [
+        "risk_id"
+      ]
+    }
+  },
+  "documented": {
+    "questions": 257,
+    "ontologyMapping": 2501,
+    "evidenceRequirements": 257,
+    "taskMapping": 400,
+    "riskMapping": 1128,
+    "inventory": 591,
+    "taskTemplates": 8
+  },
+  "declaredCanonical": {
+    "metric": 545,
+    "entity": 7,
+    "riskRule": 39
+  }
+}

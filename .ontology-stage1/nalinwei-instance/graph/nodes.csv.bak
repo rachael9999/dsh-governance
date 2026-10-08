@@ -1,0 +1,608 @@
+﻿node_id,node_type,name,description,metadata_json
+CORP.001,Metric,CompanyName,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.002,Metric,LegalEntityType,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.003,Metric,RegistrationNumber,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.004,Metric,EstablishmentDate,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.005,Metric,RegisteredCapital,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.006,Metric,PaidInCapital,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.007,Metric,RegisteredAddress,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.008,Metric,OperatingAddress,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.009,Metric,BusinessScope,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.010,Metric,BusinessStatus,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.011,Metric,TotalShares,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.012,Metric,ShareholderCount,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.013,Metric,Top1ShareholderRatio,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.014,Metric,Top3ShareholderRatio,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.015,Metric,Top5ShareholderRatio,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.016,Metric,FounderOwnership,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.017,Metric,ManagementOwnership,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.018,Metric,EmployeeOwnership,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.019,Metric,InstitutionalOwnership,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.020,Metric,ForeignOwnership,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.021,Metric,UltimateBeneficialOwner,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.022,Metric,VotingRightsRatio,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.023,Metric,ControlRightsRatio,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.024,Metric,FounderControlRatio,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.025,Metric,BoardControlRatio,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.026,Metric,VetoRights,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.027,Metric,ConcertPartyArrangement,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.028,Metric,ControlChainLength,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.029,Metric,ControlComplexity,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.030,Metric,ControlStability,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.031,Metric,SubsidiaryCount,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.032,Metric,ControlledSubsidiaryRatio,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.033,Metric,AssociateCount,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.034,Metric,JointVentureCount,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.035,Metric,ConsolidationScope,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.036,Metric,RelatedPartyCount,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.037,Metric,RelatedPartyTransactionRatio,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.038,Metric,RelatedPartyReceivable,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.039,Metric,RelatedPartyPayable,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.040,Metric,RelatedPartyCapitalOccupation,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.041,Metric,CorporateLifecycleStatus,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.042,Metric,CorporateRegistrationAnomalies,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.043,Metric,DormantShellEntityExposure,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.044,Metric,CorporateInformationCompleteness,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+CORP.045,Metric,CorporateDataConsistency,Corporate & Ownership 棰嗗煙鐨勬寚鏍?{"domain":"CORP","derived":"" if derived else "false"}
+MGMT.001,Metric,FounderAge,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.002,Metric,FounderEducation,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.003,Metric,FounderIndustryExperience,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.004,Metric,FounderManagementExperience,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.005,Metric,FounderEntrepreneurialExperience,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.006,Metric,FounderTenure,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.007,Metric,FounderOwnership,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.008,Metric,FounderControl,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.009,Metric,FounderReputation,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.010,Metric,FounderDependency,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.011,Metric,ManagementTeamSize,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.012,Metric,AverageManagementTenure,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.013,Metric,ManagementTurnover,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.014,Metric,CEO_Tenure,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.015,Metric,CFO_Tenure,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.016,Metric,CTO_Tenure,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.017,Metric,SalesHeadTenure,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.018,Metric,OperationsHeadTenure,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.019,Metric,KeyManagementVacancy,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.020,Metric,ManagementSuccessionPlan,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.021,Metric,EmployeeCount,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.022,Metric,EmployeeGrowthRate,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.023,Metric,EmployeeTurnoverRate,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.024,Metric,AverageEmployeeTenure,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.025,Metric,AverageEmployeeCost,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.026,Metric,SalesHeadcount,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.027,Metric,SalesHeadcountRatio,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.028,Metric,ManagementHeadcount,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.029,Metric,RevenuePerEmployee,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.030,Metric,EBITDAPerEmployee,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.031,Metric,ManagementSpan,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.032,Metric,OrganizationalLayerCount,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.033,Metric,CriticalRoleCoverage,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.034,Metric,TalentRetentionCapability,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.035,Metric,ManagementBenchStrength,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.036,Metric,KeyRoleVacancy,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.037,Metric,ManagementCapabilityGap,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.038,Metric,ManagementScalability,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.039,Metric,FunctionalTeamSpecializationScore,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.040,Metric,FunctionalTeamSizeVsBenchmark,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+MGMT.041,Metric,FunctionalTeamAttritionRate,Management & Organization 棰嗗煙鐨勬寚鏍?{"domain":"MGMT","derived":"" if derived else "false"}
+BMOD.001,Metric,BusinessModelType,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.002,Metric,RevenueModelType,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.003,Metric,CostModelType,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.004,Metric,ValueProposition,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.005,Metric,TargetCustomerType,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.006,Metric,SalesModelType,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.007,Metric,DistributionModel,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.008,Metric,MonetizationMechanism,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.009,Metric,RecurringRevenueRatio,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.010,Metric,NonRecurringRevenueRatio,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.011,Metric,ProductRevenueRatio,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.012,Metric,ServiceRevenueRatio,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.013,Metric,SubscriptionRevenueRatio,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.014,Metric,ProjectRevenueRatio,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.015,Metric,LicensingRevenueRatio,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.016,Metric,DomesticRevenueRatio,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.017,Metric,OverseasRevenueRatio,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.018,Metric,B2BRevenueRatio,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.019,Metric,B2CRevenueRatio,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.020,Metric,NewBusinessRevenueRatio,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.021,Metric,AverageRevenuePerCustomer,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.022,Metric,CustomerAcquisitionCost,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.023,Metric,CustomerLifetimeValue,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.024,Metric,LTV_CAC,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.025,Metric,CACPaybackPeriod,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.026,Metric,ContributionMargin,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.027,Metric,ContributionMarginPerCustomer,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.028,Metric,AverageSellingPrice,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.029,Metric,AverageOrderValue,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.030,Metric,RevenuePerTransaction,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.031,Metric,SingleProductRevenueRatio,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.032,Metric,SingleCustomerRevenueRatio,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.033,Metric,SingleChannelRevenueRatio,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.034,Metric,SingleRegionRevenueRatio,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+BMOD.035,Metric,PolicyDependentRevenueRatio,Business Model 棰嗗煙鐨勬寚鏍?{"domain":"BMOD","derived":"" if derived else "false"}
+CUST.001,Metric,CustomerCount,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.002,Metric,ActiveCustomerCount,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.003,Metric,NewCustomerCount,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.004,Metric,LostCustomerCount,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.005,Metric,CustomerGrowthRate,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.006,Metric,CustomerAverageTenure,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.007,Metric,CustomerRepeatRate,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.008,Metric,CustomerRetentionRate,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.009,Metric,CustomerChurnRate,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.010,Metric,CustomerReactivationRate,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.011,Metric,Top1CustomerRevenueRatio,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.012,Metric,Top3CustomerRevenueRatio,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.013,Metric,Top5CustomerRevenueRatio,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.014,Metric,Top10CustomerRevenueRatio,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.015,Metric,CustomerHHI,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.016,Metric,Top1CustomerGrossProfitRatio,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.017,Metric,Top5CustomerGrossProfitRatio,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.018,Metric,StrategicCustomerRatio,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.019,Metric,RelatedCustomerRevenueRatio,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.020,Metric,OverseasCustomerRatio,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.021,Metric,CustomerCreditQuality,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.022,Metric,CustomerProfitability,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.023,Metric,CustomerGrossMargin,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.024,Metric,CustomerPaymentDays,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.025,Metric,CustomerAR,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.026,Metric,CustomerOverdueRatio,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.027,Metric,CustomerBadDebtRatio,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.028,Metric,CustomerContractCoverage,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.029,Metric,CustomerRenewalProbability,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.030,Metric,CustomerDependencyScore,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.031,Metric,ActiveContractCount,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.032,Metric,ContractValue,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.033,Metric,ContractBacklog,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.034,Metric,ContractAverageDuration,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.035,Metric,ContractRenewalRate,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.036,Metric,ContractTerminationRate,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.037,Metric,ContractPriceAdjustmentMechanism,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.038,Metric,ContractExclusivityRatio,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.039,Metric,MinimumPurchaseCommitment,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.040,Metric,ChangeOfControlClauseRatio,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.041,Metric,OrderCount,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.042,Metric,OrderValue,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.043,Metric,OrderGrowthRate,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.044,Metric,AverageOrderValue,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.045,Metric,OrderConversionRate,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.046,Metric,OrderCancellationRate,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.047,Metric,OrderFulfillmentRate,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.048,Metric,OrderBacklog,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.049,Metric,BacklogCoverageMonths,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.050,Metric,BacklogConversionRate,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.051,Metric,LeadCount,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.052,Metric,QualifiedLeadCount,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.053,Metric,SalesPipelineValue,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.054,Metric,PipelineCoverage,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.055,Metric,OpportunityConversionRate,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.056,Metric,WinRate,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.057,Metric,AverageSalesCycle,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.058,Metric,SalesRepProductivity,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.059,Metric,SalesExpenseRatio,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.060,Metric,SalesEfficiency,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+CUST.061,Metric,RepurchaseRate,Customer & Sales 棰嗗煙鐨勬寚鏍?{"domain":"CUST","derived":"" if derived else "false"}
+PROD.001,Metric,ProductCount,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.002,Metric,ActiveSKUCount,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.003,Metric,NewProductCount,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.004,Metric,NewProductRevenueRatio,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.005,Metric,ProductRevenueConcentration,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.006,Metric,ProductGrossMargin,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.007,Metric,ProductGrowthRate,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.008,Metric,ProductAveragePrice,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.009,Metric,ProductReturnRate,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.010,Metric,ProductLifecycleStage,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.011,Metric,CoreProductRevenueRatio,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.012,Metric,MatureProductRevenueRatio,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.013,Metric,GrowthProductRevenueRatio,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.014,Metric,DecliningProductRevenueRatio,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.015,Metric,ProductSubstitutionRisk,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.016,Metric,ProductCannibalizationRisk,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.017,Metric,ProductDevelopmentCycle,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.018,Metric,ProductLaunchSuccessRate,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.019,Metric,ProductFailureRate,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.020,Metric,ProductCertificationCoverage,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.021,Metric,FactoryCount,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.022,Metric,ProductionSiteCount,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.023,Metric,FactoryCapacity,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.024,Metric,EffectiveCapacity,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.025,Metric,ActualProduction,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.026,Metric,CapacityUtilization,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.027,Metric,ProductionGrowthRate,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.028,Metric,ProductionLineCount,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.029,Metric,ProductionLineUtilization,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.030,Metric,OEE,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.031,Metric,YieldRate,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.032,Metric,ScrapRate,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.033,Metric,ReworkRate,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.034,Metric,ProductionCycleTime,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.035,Metric,LeadTime,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.036,Metric,OnTimeDeliveryRate,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.037,Metric,DowntimeRate,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.038,Metric,MaintenanceCost,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.039,Metric,UnitProductionCost,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.040,Metric,ManufacturingCostRatio,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.041,Metric,FirstPassYield,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.042,Metric,DefectRate,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.043,Metric,CustomerComplaintRate,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.044,Metric,ProductReturnRate,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.045,Metric,WarrantyClaimRate,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.050,Metric,QualityControlSystemMaturity,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+PROD.051,Metric,ProductionProcessDocumentationCompleteness,Product & Production 棰嗗煙鐨勬寚鏍?{"domain":"PROD","derived":"" if derived else "false"}
+SUPP.001,Metric,SupplierCount,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.002,Metric,ActiveSupplierCount,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.003,Metric,Top1SupplierPurchaseRatio,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.004,Metric,Top5SupplierPurchaseRatio,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.005,Metric,SupplierHHI,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.006,Metric,SingleSourceSupplierCount,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.007,Metric,StrategicSupplierCount,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.008,Metric,SupplierSwitchingCost,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.009,Metric,SupplierAverageTenure,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.010,Metric,SupplierConcentrationRisk,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.011,Metric,ProcurementValue,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.012,Metric,ProcurementGrowthRate,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.013,Metric,RawMaterialCostRatio,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.014,Metric,ProcurementCostRatio,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.015,Metric,AverageProcurementPrice,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.016,Metric,ProcurementPriceVolatility,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.017,Metric,ImportedMaterialRatio,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.018,Metric,SingleCountrySourcingRatio,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.019,Metric,LongTermContractCoverage,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.020,Metric,ProcurementPaymentDays,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.021,Metric,AverageSupplierLeadTime,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.022,Metric,SupplyChainCycleTime,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.023,Metric,SupplyChainBufferDays,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.024,Metric,SafetyStockDays,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.025,Metric,SupplyChainDisruptionFrequency,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.026,Metric,CriticalMaterialCount,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.027,Metric,AlternativeSupplierCoverage,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.028,Metric,SupplierQualityRate,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.029,Metric,SupplierOnTimeDeliveryRate,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+SUPP.030,Metric,SupplyChainResilienceScore,Supply Chain 棰嗗煙鐨勬寚鏍?{"domain":"SUPP","derived":"" if derived else "false"}
+TECH.001,Metric,CoreTechnologyCount,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.002,Metric,TechnologyMaturity,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.003,Metric,TechnologyDifferentiation,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.004,Metric,TechnologyPerformanceAdvantage,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.005,Metric,TechnologyCostAdvantage,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.006,Metric,TechnologyBarrier,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.007,Metric,TechnologyReplacementRisk,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.008,Metric,TechnologyLifecycle,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.009,Metric,TechnologyCommercializationRate,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.010,Metric,TechnologyValidationCount,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.011,Metric,PatentCount,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.012,Metric,InventionPatentCount,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.013,Metric,UtilityPatentCount,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.014,Metric,ValidPatentCount,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.015,Metric,PatentGrantRate,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.016,Metric,PatentGrowthRate,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.017,Metric,PatentFamilyCount,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.018,Metric,CorePatentCount,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.019,Metric,PatentCitationCount,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.020,Metric,PatentGeographicCoverage,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.021,Metric,IPOwnershipRatio,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.022,Metric,ThirdPartyLicenseRatio,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.023,Metric,IPEncumbranceCount,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.024,Metric,IPDisputeCount,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.025,Metric,PatentExpiryExposure,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.026,Metric,PatentInvalidationRisk,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.027,Metric,FreedomToOperate,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.028,Metric,TradeSecretDependency,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.029,Metric,SoftwareCopyrightCount,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.030,Metric,TrademarkCount,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.031,Metric,CorePersonTechnologyDependency,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.032,Metric,ThirdPartyTechnologyDependency,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.033,Metric,OpenSourceDependency,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.034,Metric,PlatformDependency,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+TECH.035,Metric,TechnologySupplyDependency,Technology & IP 棰嗗煙鐨勬寚鏍?{"domain":"TECH","derived":"" if derived else "false"}
+MKT.001,Metric,TAM,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.002,Metric,SAM,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.003,Metric,SOM,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.004,Metric,MarketSize,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.005,Metric,MarketGrowthRate,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.006,Metric,MarketCAGR,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.007,Metric,MarketPenetration,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.008,Metric,AddressableCustomerCount,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.009,Metric,AverageMarketPrice,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.010,Metric,MarketPriceGrowth,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.011,Metric,CompanyMarketShare,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.012,Metric,CompanyMarketShareGrowth,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.013,Metric,RegionalMarketShare,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.014,Metric,SegmentMarketShare,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.015,Metric,Top3MarketShare,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.016,Metric,Top5MarketShare,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.017,Metric,MarketHHI,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.018,Metric,MarketConcentration,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.019,Metric,MarketFragmentation,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.020,Metric,ShareVolatility,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.021,Metric,CompetitorCount,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.022,Metric,DirectCompetitorCount,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.023,Metric,IndirectCompetitorCount,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.024,Metric,CompetitorRevenueMedian,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.025,Metric,CompetitorGrowthMedian,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.026,Metric,CompetitorGrossMarginMedian,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.027,Metric,CompetitorEBITDAMarginMedian,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.028,Metric,CompetitiveIntensity,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.029,Metric,PriceCompetitionIntensity,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.030,Metric,TechnologyCompetitionIntensity,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.031,Metric,CapitalEntryBarrier,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.032,Metric,TechnologyEntryBarrier,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.033,Metric,CustomerEntryBarrier,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.034,Metric,ChannelEntryBarrier,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.035,Metric,CertificationEntryBarrier,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.036,Metric,RegulatoryEntryBarrier,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.037,Metric,SwitchingCost,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.038,Metric,NetworkEffectStrength,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.039,Metric,ScaleEconomyStrength,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.040,Metric,BrandBarrier,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+MKT.042,Metric,PolicyTrendDirection,Market & Competition 棰嗗煙鐨勬寚鏍?{"domain":"MKT","derived":"" if derived else "false"}
+FIN.001,Metric,Revenue,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.002,Metric,RevenueGrowthRate,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"(FIN.001_t - FIN.001_t-1) / FIN.001_t-1" if derived else "false"}
+FIN.003,Metric,RevenueCAGR,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"CAGR of FIN.001" if derived else "false"}
+FIN.004,Metric,RevenuePerCustomer,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.001 / CUST.001" if derived else "false"}
+FIN.005,Metric,RevenuePerEmployee,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.001 / MGMT.021" if derived else "false"}
+FIN.006,Metric,RevenueConcentration,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.007,Metric,RevenueQualityScore,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.008,Metric,OrganicRevenueGrowth,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.009,Metric,AcquisitionDrivenGrowth,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.010,Metric,RecurringRevenue,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.011,Metric,GrossProfit,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.001 - FIN.XXX_COGS" if derived else "false"}
+FIN.012,Metric,GrossMargin,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.011 / FIN.001" if derived else "false"}
+FIN.013,Metric,GrossProfitGrowth,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"(FIN.011_t - FIN.011_t-1) / FIN.011_t-1" if derived else "false"}
+FIN.014,Metric,ProductGrossMargin,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.015,Metric,CustomerGrossMargin,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.016,Metric,RegionalGrossMargin,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.017,Metric,SegmentGrossMargin,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.018,Metric,GrossMarginVolatility,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.019,Metric,GrossMarginBenchmark,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.020,Metric,GrossMarginPosition,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.021,Metric,EBITDA,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.022,Metric,EBITDA_Growth,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"(FIN.021_t - FIN.021_t-1) / FIN.021_t-1" if derived else "false"}
+FIN.023,Metric,EBITDA_Margin,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.021 / FIN.001" if derived else "false"}
+FIN.024,Metric,EBIT,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.025,Metric,EBITMargin,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.024 / FIN.001" if derived else "false"}
+FIN.026,Metric,EBITGrowth,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"(FIN.024_t - FIN.024_t-1) / FIN.024_t-1" if derived else "false"}
+FIN.027,Metric,OperatingExpense,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.028,Metric,OperatingExpenseRatio,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.027 / FIN.001" if derived else "false"}
+FIN.029,Metric,OperatingLeverage,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.030,Metric,NetIncome,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.031,Metric,NetIncomeGrowth,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"(FIN.030_t - FIN.030_t-1) / FIN.030_t-1" if derived else "false"}
+FIN.032,Metric,NetMargin,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.030 / FIN.001" if derived else "false"}
+FIN.033,Metric,AdjustedNetIncome,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.034,Metric,NonRecurringProfitRatio,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"(FIN.030 - FIN.033) / FIN.030" if derived else "false"}
+FIN.035,Metric,OperatingCashFlow,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.036,Metric,OCFMargin,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.035 / FIN.001" if derived else "false"}
+FIN.037,Metric,OCFToNetIncome,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.035 / FIN.030" if derived else "false"}
+FIN.038,Metric,FreeCashFlow,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.035 - FIN.085" if derived else "false"}
+FIN.039,Metric,FCFMargin,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.038 / FIN.001" if derived else "false"}
+FIN.040,Metric,FCFYield,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.038 / MarketCap" if derived else "false"}
+FIN.041,Metric,CashConversionRatio,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.035 / FIN.030" if derived else "false"}
+FIN.042,Metric,CashConversionCycle,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.048 + FIN.049 - FIN.050" if derived else "false"}
+FIN.043,Metric,CashGenerationQuality,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.044,Metric,FCFVolatility,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.045,Metric,WorkingCapital,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"CurrentAssets - CurrentLiabilities" if derived else "false"}
+FIN.046,Metric,NetWorkingCapital,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.047,Metric,NWCRevenueRatio,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.046 / FIN.001" if derived else "false"}
+FIN.048,Metric,DSO,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"(FIN.056 / FIN.001) * 365" if derived else "false"}
+FIN.049,Metric,DIO,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"(FIN.057 / COGS) * 365" if derived else "false"}
+FIN.050,Metric,DPO,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"(AccountsPayable / COGS) * 365" if derived else "false"}
+FIN.051,Metric,ARTurnover,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.001 / FIN.056" if derived else "false"}
+FIN.052,Metric,InventoryTurnover,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"COGS / FIN.057" if derived else "false"}
+FIN.053,Metric,APPayablesTurnover,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.054,Metric,WorkingCapitalIntensity,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.055,Metric,CashBalance,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.056,Metric,AccountsReceivable,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.057,Metric,InventoryBalance,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.058,Metric,FixedAssets,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.059,Metric,IntangibleAssets,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.060,Metric,TotalAssets,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.061,Metric,TotalLiabilities,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.062,Metric,Equity,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.063,Metric,NetDebt,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.065 - FIN.055" if derived else "false"}
+FIN.064,Metric,NetDebtGrowth,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"(FIN.063_t - FIN.063_t-1) / FIN.063_t-1" if derived else "false"}
+FIN.065,Metric,TotalDebt,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.066,Metric,ShortTermDebt,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.067,Metric,LongTermDebt,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.068,Metric,NetDebt,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.069,Metric,DebtToEquity,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.065 / FIN.062" if derived else "false"}
+FIN.070,Metric,DebtToAssets,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.061 / FIN.060" if derived else "false"}
+FIN.071,Metric,DebtToEBITDA,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.065 / FIN.021" if derived else "false"}
+FIN.072,Metric,NetDebtToEBITDA,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.063 / FIN.021" if derived else "false"}
+FIN.073,Metric,InterestCoverage,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.024 / InterestExpense" if derived else "false"}
+FIN.074,Metric,DebtMaturityConcentration,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.075,Metric,CurrentRatio,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"CurrentAssets / CurrentLiabilities" if derived else "false"}
+FIN.076,Metric,QuickRatio,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"(CurrentAssets - FIN.057) / CurrentLiabilities" if derived else "false"}
+FIN.077,Metric,CashRatio,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.055 / CurrentLiabilities" if derived else "false"}
+FIN.078,Metric,ShortTermDebtCoverage,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.035 / FIN.066" if derived else "false"}
+FIN.079,Metric,DebtServiceCoverageRatio,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.021 / DebtService" if derived else "false"}
+FIN.080,Metric,LiquidityGap,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.081,Metric,MinimumCashRequirement,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.082,Metric,RefinancingNeed,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.083,Metric,RefinancingRisk,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.084,Metric,CovenantHeadroom,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.085,Metric,Capex,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.086,Metric,CapexGrowth,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"(FIN.085_t - FIN.085_t-1) / FIN.085_t-1" if derived else "false"}
+FIN.087,Metric,CapexToRevenue,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.085 / FIN.001" if derived else "false"}
+FIN.088,Metric,MaintenanceCapex,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.089,Metric,GrowthCapex,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.090,Metric,ROA,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.030 / FIN.060" if derived else "false"}
+FIN.091,Metric,ROE,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.030 / FIN.062" if derived else "false"}
+FIN.092,Metric,ROIC,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"FIN.024 / (FIN.062 + FIN.065)" if derived else "false"}
+FIN.093,Metric,IncrementalROIC,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.094,Metric,EconomicProfit,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.095,Metric,RevenueForecast,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.096,Metric,EBITDAForecast,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.097,Metric,EBITForecast,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.098,Metric,NetIncomeForecast,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.099,Metric,OCF_Forecast,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.100,Metric,FCF_Forecast,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.101,Metric,CapexForecast,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.102,Metric,WorkingCapitalForecast,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.103,Metric,ForecastAccuracy,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+FIN.104,Metric,ForecastBias,Financial 棰嗗煙鐨勬寚鏍?{"domain":"FIN","derived":"" if derived else "false"}
+LEGAL.001,Metric,LitigationCount,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.002,Metric,LitigationAmount,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.003,Metric,MaterialLitigationCount,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.004,Metric,LitigationLossProbability,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.005,Metric,PotentialLiability,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.006,Metric,ArbitrationCount,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.007,Metric,ArbitrationAmount,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.008,Metric,LitigationExposureRatio,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.009,Metric,AdministrativePenaltyCount,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.010,Metric,AdministrativePenaltyAmount,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.011,Metric,ComplianceViolationCount,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.012,Metric,RegulatoryInvestigationCount,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.013,Metric,ComplianceRemediationRate,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.014,Metric,LicenseCount,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.015,Metric,LicenseExpiryExposure,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.016,Metric,MaterialContractCount,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.017,Metric,MaterialContractValue,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.018,Metric,ContractConcentration,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.019,Metric,ContractTerminationExposure,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.020,Metric,ChangeOfControlExposure,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.021,Metric,ExclusivityExposure,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.022,Metric,MinimumPurchaseExposure,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.023,Metric,ContractPenaltyExposure,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.024,Metric,GuaranteeExposure,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.025,Metric,PledgeExposure,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.026,Metric,MortgageExposure,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.027,Metric,TaxExposure,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.028,Metric,LaborDisputeCount,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.029,Metric,IPDisputeExposure,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.030,Metric,RelatedPartyLegalExposure,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.031,Metric,InternalControlDeficiency,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.032,Metric,RegulatoryDependency,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.033,Metric,LegalDueDiligenceCompletion,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+LEGAL.039,Metric,EHSSystemMaturity,Legal & Compliance 棰嗗煙鐨勬寚鏍?{"domain":"LEGAL","derived":"" if derived else "false"}
+DATA.001,Metric,DataCoverage,Data Asset Quality 棰嗗煙鐨勬寚鏍?{"domain":"DATA","derived":"" if derived else "false"}
+DATA.002,Metric,DataAccuracy,Data Asset Quality 棰嗗煙鐨勬寚鏍?{"domain":"DATA","derived":"" if derived else "false"}
+DATA.003,Metric,DataSourceChannelStability,Data Asset Quality 棰嗗煙鐨勬寚鏍?{"domain":"DATA","derived":"" if derived else "false"}
+DATA.004,Metric,DataAcquisitionChannelConcentration,Data Asset Quality 棰嗗煙鐨勬寚鏍?{"domain":"DATA","derived":"" if derived else "false"}
+DATA.005,Metric,DataQualificationCertificates,Data Asset Quality 棰嗗煙鐨勬寚鏍?{"domain":"DATA","derived":"" if derived else "false"}
+DATA.006,Metric,DataMethodologyScientificRigor,Data Asset Quality 棰嗗煙鐨勬寚鏍?{"domain":"DATA","derived":"" if derived else "false"}
+DATA.007,Metric,DataFreshnessUpdateFrequency,Data Asset Quality 棰嗗煙鐨勬寚鏍?{"domain":"DATA","derived":"" if derived else "false"}
+DATA.008,Metric,DataLicensingOwnershipCompliance,Data Asset Quality 棰嗗煙鐨勬寚鏍?{"domain":"DATA","derived":"" if derived else "false"}
+LOGI.001,Metric,LogisticsProviderCount,LOGI 棰嗗煙鐨勬寚鏍?{"domain":"LOGI","derived":"" if derived else "false"}
+LOGI.002,Metric,LogisticsProviderConcentration,LOGI 棰嗗煙鐨勬寚鏍?{"domain":"LOGI","derived":"" if derived else "false"}
+LOGI.003,Metric,LogisticsProviderTenureStability,LOGI 棰嗗煙鐨勬寚鏍?{"domain":"LOGI","derived":"" if derived else "false"}
+LOGI.004,Metric,LogisticsCostRatio,LOGI 棰嗗煙鐨勬寚鏍?{"domain":"LOGI","derived":"" if derived else "false"}
+LOGI.005,Metric,LogisticsDeliveryReliability,LOGI 棰嗗煙鐨勬寚鏍?{"domain":"LOGI","derived":"" if derived else "false"}
+LOGI.006,Metric,WarehouseNetworkCoverage,LOGI 棰嗗煙鐨勬寚鏍?{"domain":"LOGI","derived":"" if derived else "false"}
+LOGI.007,Metric,WarehouseUtilization,LOGI 棰嗗煙鐨勬寚鏍?{"domain":"LOGI","derived":"" if derived else "false"}
+LOGI.008,Metric,RegionalDistributionConcentration,LOGI 棰嗗煙鐨勬寚鏍?{"domain":"LOGI","derived":"" if derived else "false"}
+ESG.001,Metric,Scope1Emission,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.002,Metric,Scope2Emission,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.003,Metric,Scope3Emission,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.004,Metric,TotalCarbonEmission,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.005,Metric,CarbonIntensity,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.006,Metric,EnergyConsumption,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.007,Metric,EnergyIntensity,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.008,Metric,RenewableEnergyRatio,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.009,Metric,WaterConsumption,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.010,Metric,WasteGeneration,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.011,Metric,EnvironmentalPenaltyCount,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.012,Metric,EnvironmentalIncidentCount,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.013,Metric,EnvironmentalComplianceRate,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.014,Metric,EmployeeSafetyIncidentRate,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.015,Metric,LostTimeInjuryRate,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.016,Metric,EmployeeTrainingHours,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.017,Metric,EmployeeTurnover,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.018,Metric,LaborComplianceRate,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.019,Metric,EmployeeGrievanceCount,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.020,Metric,BoardIndependenceRatio,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.021,Metric,RelatedPartyGovernanceRisk,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.022,Metric,AntiCorruptionControlScore,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.023,Metric,WhistleblowerMechanism,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.024,Metric,ESGDisclosureQuality,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.025,Metric,ESGRiskScore,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.026,Metric,ESGGovernanceMaturity,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+ESG.027,Metric,ESGDisclosureCompleteness,ESG 棰嗗煙鐨勬寚鏍?{"domain":"ESG","derived":"" if derived else "false"}
+TXN.001,Metric,DealSize,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.002,Metric,EntryEquityValue,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.003,Metric,EntryEnterpriseValue,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.004,Metric,PrimaryInvestment,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.005,Metric,SecondaryInvestment,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.006,Metric,OwnershipAfterInvestment,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.007,Metric,DilutionRate,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.008,Metric,EV_Revenue,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.009,Metric,EV_EBITDA,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.010,Metric,P_E,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.011,Metric,EV_FCF,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.012,Metric,DCFValue,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.013,Metric,ComparableCompanyValue,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.014,Metric,PrecedentTransactionValue,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.015,Metric,ValuationPremium,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.016,Metric,ValuationDiscount,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.017,Metric,EntryValuationPercentile,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.018,Metric,EntryIRR,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.019,Metric,EntryMOIC,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.020,Metric,ExitIRR,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.021,Metric,ExitMOIC,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.022,Metric,HoldingPeriod,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.023,Metric,ExitMultiple,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.024,Metric,ReturnSensitivity,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.025,Metric,DownsideMOIC,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+TXN.026,Metric,ExitMultipleAssumption,TXN 棰嗗煙鐨勬寚鏍?{"domain":"TXN","derived":"" if derived else "false"}
+RISK.001,Metric,StrategicRiskScore,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.002,Metric,MarketRiskScore,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.003,Metric,CustomerRiskScore,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.004,Metric,SupplierRiskScore,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.005,Metric,ProductRiskScore,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.006,Metric,TechnologyRiskScore,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.007,Metric,OperationalRiskScore,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.008,Metric,FinancialRiskScore,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.009,Metric,LiquidityRiskScore,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.010,Metric,LegalRiskScore,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.011,Metric,ManagementRiskScore,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.012,Metric,KeyPersonRiskScore,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.013,Metric,GovernanceRiskScore,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.014,Metric,PolicyRiskScore,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.015,Metric,TransactionRiskScore,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.016,Metric,ExitRiskScore,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.017,Metric,BaseCaseProbability,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.018,Metric,UpsideCaseProbability,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.019,Metric,DownsideCaseProbability,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.020,Metric,StressCaseProbability,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.021,Metric,DataAssetRisk,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+RISK.022,Metric,LogisticsContinuityRisk,RISK 棰嗗煙鐨勬寚鏍?{"domain":"RISK","derived":"" if derived else "false"}
+DEC.001,Metric,InvestmentConfidenceScore,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+DEC.002,Metric,ValuationImpactScore,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+DEC.003,Metric,IRRImpactScore,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+DEC.004,Metric,DownsideRiskScore,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+DEC.005,Metric,InvestmentDecisionScore,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.004,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.004,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.009,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.009,Metric,CRITICAL,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.009,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.008,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.021,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.021,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.021,Metric,CRITICAL,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.022,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.022,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.008,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.011,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.005,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.005,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.004,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.011,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.003,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.009,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.004,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.009,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.008,Metric,MEDIUM,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.010,Metric,MEDIUM,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.004,Metric,CRITICAL,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.009,Metric,CRITICAL,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.010,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.008,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.005,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.015,Metric,CRITICAL,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.021,Metric,CRITICAL,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.022,Metric,CRITICAL,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.009,Metric,CRITICAL,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.008,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.009,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.010,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.006,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.011,Metric,CRITICAL,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}
+RISK.022,Metric,HIGH,DEC 棰嗗煙鐨勬寚鏍?{"domain":"DEC","derived":"" if derived else "false"}

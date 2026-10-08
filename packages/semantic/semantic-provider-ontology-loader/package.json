@@ -1,0 +1,36 @@
+{
+  "name": "@deepseek-ai/dsh-semantic-provider-ontology-loader",
+  "version": "0.1.0",
+  "description": "Dynamic ontology pack loader provider - discovers and loads packs from .ontology-stage1/",
+  "type": "module",
+  "main": "./lib/types/index.js",
+  "types": "./lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "import": "./lib/types/index.js"
+    }
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "test": "vitest run",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "@deepseek-ai/cordis": "workspace:^",
+    "@deepseek-ai/dsh-semantic-core": "workspace:^",
+    "@deepseek-ai/dsh-ontology-files": "workspace:^",
+    "@deepseek-ai/dsh-ontology": "workspace:^"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "eslint": "^8.57.0",
+    "tsdown": "^0.12.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.0.0"
+  }
+}

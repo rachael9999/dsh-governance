@@ -1,0 +1,1129 @@
+ddq_id,risk_rule_id,risk_id,severity,condition,trigger_type
+DDQ.003,RR.PROD.050.001,RISK.005,HIGH,Quality Control System Maturity < 70,trigger_if_applicable
+DDQ.003,RR.PROD.051.001,RISK.005,HIGH,Production Process Documentation Completeness < 80%,trigger_if_applicable
+DDQ.003,RR.COMP.PROD.005,RISK.005,HIGH,Defect Rate > 2% AND Gross Margin < 20%,trigger_if_applicable
+DDQ.005,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.005,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.005,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.005,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.005,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.005,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.005,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.005,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.005,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.006,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.006,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.006,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.006,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.006,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.006,RR.COMP.SUPP.002,RISK.010,HIGH,Top3 supplier concentration > 40% AND Inventory Turnover < 3x,trigger_if_applicable
+DDQ.006,RR.CROSS.008,RISK.010,HIGH,Supplier concentration high AND defect rate high AND customer complaints high,trigger_if_applicable
+DDQ.007,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.007,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.009,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.009,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.009,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.009,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.009,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.009,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.009,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.009,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.009,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.012,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.012,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.012,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.012,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.012,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.012,RR.COMP.SUPP.002,RISK.010,HIGH,Top3 supplier concentration > 40% AND Inventory Turnover < 3x,trigger_if_applicable
+DDQ.012,RR.CROSS.008,RISK.010,HIGH,Supplier concentration high AND defect rate high AND customer complaints high,trigger_if_applicable
+DDQ.014,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.014,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.014,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.014,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.014,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.014,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.014,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.014,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.015,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.020,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.020,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.020,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.020,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.020,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.020,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.020,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.020,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.022,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.022,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.022,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.022,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.022,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.022,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.022,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.022,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.022,RR.MKT.042.001,RISK.011,HIGH,Policy Trend Direction = tightening,trigger_if_applicable
+DDQ.022,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.023,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.023,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.023,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.023,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.023,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.023,RR.COMP.SUPP.002,RISK.010,HIGH,Top3 supplier concentration > 40% AND Inventory Turnover < 3x,trigger_if_applicable
+DDQ.023,RR.CROSS.008,RISK.010,HIGH,Supplier concentration high AND defect rate high AND customer complaints high,trigger_if_applicable
+DDQ.023,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.024,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.025,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.026,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.027,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.028,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.028,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.028,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.028,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.028,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.028,RR.COMP.SUPP.002,RISK.010,HIGH,Top3 supplier concentration > 40% AND Inventory Turnover < 3x,trigger_if_applicable
+DDQ.028,RR.CROSS.008,RISK.010,HIGH,Supplier concentration high AND defect rate high AND customer complaints high,trigger_if_applicable
+DDQ.028,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.029,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.030,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.031,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.031,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.031,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.031,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.031,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.031,RR.COMP.SUPP.002,RISK.010,HIGH,Top3 supplier concentration > 40% AND Inventory Turnover < 3x,trigger_if_applicable
+DDQ.031,RR.CROSS.008,RISK.010,HIGH,Supplier concentration high AND defect rate high AND customer complaints high,trigger_if_applicable
+DDQ.031,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.032,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.032,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.032,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.032,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.032,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.032,RR.COMP.SUPP.002,RISK.010,HIGH,Top3 supplier concentration > 40% AND Inventory Turnover < 3x,trigger_if_applicable
+DDQ.032,RR.CROSS.008,RISK.010,HIGH,Supplier concentration high AND defect rate high AND customer complaints high,trigger_if_applicable
+DDQ.033,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.033,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.033,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.033,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.033,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.033,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.033,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.033,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.033,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.033,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.033,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.033,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.033,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.033,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.035,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.035,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.035,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.035,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.035,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.035,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.035,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.035,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.035,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.035,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.035,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.035,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.035,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.035,RR.COMP.SUPP.002,RISK.010,HIGH,Top3 supplier concentration > 40% AND Inventory Turnover < 3x,trigger_if_applicable
+DDQ.035,RR.CROSS.008,RISK.010,HIGH,Supplier concentration high AND defect rate high AND customer complaints high,trigger_if_applicable
+DDQ.036,RR.PROD.050.001,RISK.005,HIGH,Quality Control System Maturity < 70,trigger_if_applicable
+DDQ.036,RR.PROD.051.001,RISK.005,HIGH,Production Process Documentation Completeness < 80%,trigger_if_applicable
+DDQ.036,RR.COMP.PROD.005,RISK.005,HIGH,Defect Rate > 2% AND Gross Margin < 20%,trigger_if_applicable
+DDQ.037,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.037,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.041,RR.PROD.050.001,RISK.005,HIGH,Quality Control System Maturity < 70,trigger_if_applicable
+DDQ.041,RR.PROD.051.001,RISK.005,HIGH,Production Process Documentation Completeness < 80%,trigger_if_applicable
+DDQ.041,RR.COMP.PROD.005,RISK.005,HIGH,Defect Rate > 2% AND Gross Margin < 20%,trigger_if_applicable
+DDQ.042,RR.PROD.050.001,RISK.005,HIGH,Quality Control System Maturity < 70,trigger_if_applicable
+DDQ.042,RR.PROD.051.001,RISK.005,HIGH,Production Process Documentation Completeness < 80%,trigger_if_applicable
+DDQ.042,RR.COMP.PROD.005,RISK.005,HIGH,Defect Rate > 2% AND Gross Margin < 20%,trigger_if_applicable
+DDQ.043,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.043,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.043,RR.PROD.050.001,RISK.005,HIGH,Quality Control System Maturity < 70,trigger_if_applicable
+DDQ.043,RR.PROD.051.001,RISK.005,HIGH,Production Process Documentation Completeness < 80%,trigger_if_applicable
+DDQ.043,RR.COMP.PROD.005,RISK.005,HIGH,Defect Rate > 2% AND Gross Margin < 20%,trigger_if_applicable
+DDQ.045,RR.PROD.050.001,RISK.005,HIGH,Quality Control System Maturity < 70,trigger_if_applicable
+DDQ.045,RR.PROD.051.001,RISK.005,HIGH,Production Process Documentation Completeness < 80%,trigger_if_applicable
+DDQ.045,RR.COMP.PROD.005,RISK.005,HIGH,Defect Rate > 2% AND Gross Margin < 20%,trigger_if_applicable
+DDQ.047,RR.PROD.050.001,RISK.005,HIGH,Quality Control System Maturity < 70,trigger_if_applicable
+DDQ.047,RR.PROD.051.001,RISK.005,HIGH,Production Process Documentation Completeness < 80%,trigger_if_applicable
+DDQ.047,RR.COMP.PROD.005,RISK.005,HIGH,Defect Rate > 2% AND Gross Margin < 20%,trigger_if_applicable
+DDQ.049,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.049,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.049,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.049,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.049,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.049,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.050,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.050,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.050,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.050,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.050,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.050,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.050,RR.PROD.050.001,RISK.005,HIGH,Quality Control System Maturity < 70,trigger_if_applicable
+DDQ.050,RR.PROD.051.001,RISK.005,HIGH,Production Process Documentation Completeness < 80%,trigger_if_applicable
+DDQ.050,RR.COMP.PROD.005,RISK.005,HIGH,Defect Rate > 2% AND Gross Margin < 20%,trigger_if_applicable
+DDQ.056,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.056,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.056,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.056,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.056,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.056,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.057,RR.COMP.SUPP.002,RISK.010,HIGH,Top3 supplier concentration > 40% AND Inventory Turnover < 3x,trigger_if_applicable
+DDQ.057,RR.CROSS.008,RISK.010,HIGH,Supplier concentration high AND defect rate high AND customer complaints high,trigger_if_applicable
+DDQ.057,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.057,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.058,RR.COMP.SUPP.002,RISK.010,HIGH,Top3 supplier concentration > 40% AND Inventory Turnover < 3x,trigger_if_applicable
+DDQ.058,RR.CROSS.008,RISK.010,HIGH,Supplier concentration high AND defect rate high AND customer complaints high,trigger_if_applicable
+DDQ.058,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.058,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.059,RR.COMP.SUPP.002,RISK.010,HIGH,Top3 supplier concentration > 40% AND Inventory Turnover < 3x,trigger_if_applicable
+DDQ.059,RR.CROSS.008,RISK.010,HIGH,Supplier concentration high AND defect rate high AND customer complaints high,trigger_if_applicable
+DDQ.060,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.060,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.060,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.060,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.060,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.060,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.060,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.060,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.060,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.060,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.060,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.061,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.061,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.062,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.062,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.062,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.062,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.062,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.062,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.066,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.066,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.069,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.069,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.072,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.072,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.072,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.072,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.072,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.072,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.072,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.072,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.073,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.073,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.073,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.073,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.073,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.073,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.073,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.073,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.075,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.075,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.075,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.075,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.075,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.075,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.080,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.080,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.080,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.080,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.080,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.080,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.083,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.083,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.085,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.085,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.085,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.085,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.085,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.085,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.085,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.085,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.085,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.085,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.085,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.085,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.085,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.086,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.086,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.086,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.086,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.086,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.086,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.086,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.086,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.086,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.086,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.086,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.086,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.086,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.086,RR.PROD.050.001,RISK.005,HIGH,Quality Control System Maturity < 70,trigger_if_applicable
+DDQ.086,RR.PROD.051.001,RISK.005,HIGH,Production Process Documentation Completeness < 80%,trigger_if_applicable
+DDQ.086,RR.COMP.PROD.005,RISK.005,HIGH,Defect Rate > 2% AND Gross Margin < 20%,trigger_if_applicable
+DDQ.087,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.087,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.087,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.087,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.087,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.087,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.087,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.087,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.088,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.088,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.088,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.088,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.088,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.088,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.088,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.088,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.088,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.088,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.088,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.088,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.088,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.088,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.089,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.089,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.089,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.089,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.089,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.089,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.089,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.089,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.089,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.089,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.089,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.089,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.089,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.090,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.090,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.090,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.090,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.090,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.091,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.091,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.091,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.091,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.091,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.091,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.091,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.091,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.091,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.091,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.091,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.091,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.091,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.092,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.092,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.092,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.092,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.092,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.092,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.092,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.092,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.092,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.092,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.092,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.093,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.093,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.093,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.093,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.093,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.093,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.093,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.093,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.093,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.093,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.093,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.093,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.093,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.093,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.093,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.093,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.093,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.093,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.093,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.094,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.094,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.094,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.094,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.094,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.094,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.094,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.094,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.094,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.095,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.095,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.095,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.095,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.095,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.096,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.096,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.096,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.096,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.096,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.096,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.096,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.096,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.096,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.096,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.097,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.097,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.097,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.097,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.097,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.097,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.097,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.097,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.098,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.098,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.098,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.098,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.098,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.098,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.098,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.098,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.101,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.101,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.101,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.101,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.101,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.101,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.101,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.101,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.102,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.102,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.102,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.102,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.102,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.102,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.102,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.102,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.104,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.104,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.104,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.104,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.104,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.104,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.104,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.104,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.104,RR.MKT.042.001,RISK.011,HIGH,Policy Trend Direction = tightening,trigger_if_applicable
+DDQ.106,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.106,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.106,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.106,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.106,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.106,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.106,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.106,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.106,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.107,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.107,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.107,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.107,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.107,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.107,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.107,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.107,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.108,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.108,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.108,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.108,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.108,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.108,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.108,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.108,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.108,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.108,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.108,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.108,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.108,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.108,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.109,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.109,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.109,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.109,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.109,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.109,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.109,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.109,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.109,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.109,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.109,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.109,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.109,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.110,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.110,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.110,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.110,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.110,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.111,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.111,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.111,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.111,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.111,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.111,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.111,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.111,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.112,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.112,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.112,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.112,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.112,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.112,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.112,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.112,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.113,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.113,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.113,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.113,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.113,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.113,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.113,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.113,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.113,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.113,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.113,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.113,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.113,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.113,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.113,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.114,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.114,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.114,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.114,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.114,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.114,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.114,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.114,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.114,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.114,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.114,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.114,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.114,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.115,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.115,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.115,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.115,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.115,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.115,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.115,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.115,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.115,RR.MKT.042.001,RISK.011,HIGH,Policy Trend Direction = tightening,trigger_if_applicable
+DDQ.116,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.116,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.116,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.116,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.116,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.116,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.116,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.116,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.116,RR.PROD.050.001,RISK.005,HIGH,Quality Control System Maturity < 70,trigger_if_applicable
+DDQ.116,RR.PROD.051.001,RISK.005,HIGH,Production Process Documentation Completeness < 80%,trigger_if_applicable
+DDQ.116,RR.COMP.PROD.005,RISK.005,HIGH,Defect Rate > 2% AND Gross Margin < 20%,trigger_if_applicable
+DDQ.117,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.117,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.117,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.117,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.117,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.117,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.117,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.117,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.118,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.118,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.118,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.118,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.118,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.118,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.118,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.118,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.119,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.119,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.119,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.119,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.119,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.119,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.119,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.119,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.119,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.119,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.119,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.120,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.120,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.120,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.120,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.120,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.120,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.120,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.120,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.121,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.121,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.121,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.121,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.121,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.121,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.121,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.121,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.121,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.121,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.121,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.121,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.121,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.121,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.122,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.122,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.122,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.122,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.122,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.122,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.122,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.122,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.123,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.123,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.123,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.123,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.123,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.123,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.123,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.123,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.124,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.124,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.124,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.124,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.124,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.124,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.124,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.124,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.125,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.125,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.125,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.125,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.125,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.125,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.125,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.125,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.125,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.125,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.125,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.125,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.125,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.125,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.126,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.126,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.126,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.126,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.126,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.126,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.126,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.126,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.126,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.128,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.128,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.128,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.128,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.128,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.128,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.128,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.128,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.128,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.128,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.129,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.129,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.129,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.129,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.129,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.129,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.129,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.129,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.130,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.130,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.130,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.130,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.130,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.130,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.130,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.130,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.130,RR.MKT.042.001,RISK.011,HIGH,Policy Trend Direction = tightening,trigger_if_applicable
+DDQ.131,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.131,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.131,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.131,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.131,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.131,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.131,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.131,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.132,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.132,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.132,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.132,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.132,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.132,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.132,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.132,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.133,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.133,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.133,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.133,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.133,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.133,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.133,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.133,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.134,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.134,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.134,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.134,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.134,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.134,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.134,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.134,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.134,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.136,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.136,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.136,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.136,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.136,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.136,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.136,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.136,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.137,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.137,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.138,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.138,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.138,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.138,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.138,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.138,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.138,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.138,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.138,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.139,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.139,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.139,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.139,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.139,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.139,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.139,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.139,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.143,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.143,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.143,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.143,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.143,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.143,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.143,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.143,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.144,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.145,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.145,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.145,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.145,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.145,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.145,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.145,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.145,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.145,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.145,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.145,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.145,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.145,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.145,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.145,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.146,RR.COMP.SUPP.002,RISK.010,HIGH,Top3 supplier concentration > 40% AND Inventory Turnover < 3x,trigger_if_applicable
+DDQ.146,RR.CROSS.008,RISK.010,HIGH,Supplier concentration high AND defect rate high AND customer complaints high,trigger_if_applicable
+DDQ.147,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.147,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.147,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.147,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.147,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.147,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.147,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.147,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.147,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.148,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.148,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.148,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.148,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.148,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.148,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.148,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.148,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.148,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.148,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.149,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.149,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.149,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.149,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.149,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.149,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.149,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.149,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.149,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.149,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.149,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.149,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.149,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.149,RR.COMP.SUPP.002,RISK.010,HIGH,Top3 supplier concentration > 40% AND Inventory Turnover < 3x,trigger_if_applicable
+DDQ.149,RR.CROSS.008,RISK.010,HIGH,Supplier concentration high AND defect rate high AND customer complaints high,trigger_if_applicable
+DDQ.150,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.151,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.152,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.152,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.152,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.152,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.152,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.152,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.152,RR.DATA.001.001,RISK.021,HIGH,Data Coverage < 70%,trigger_if_applicable
+DDQ.152,RR.DATA.002.001,RISK.021,HIGH,Data Accuracy < 85%,trigger_if_applicable
+DDQ.152,RR.DATA.008.001,RISK.021,CRITICAL,Data Licensing Ownership Compliance = non_compliant,trigger_if_applicable
+DDQ.152,RR.COMP.DATA.001,RISK.021,CRITICAL,Data Coverage < 70% AND Data Accuracy < 85%,trigger_if_applicable
+DDQ.152,RR.CROSS.011,RISK.022,HIGH,Data accuracy low AND policy trend tightening AND logistics delivery reliability low,trigger_if_applicable
+DDQ.152,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.153,RR.DATA.001.001,RISK.021,HIGH,Data Coverage < 70%,trigger_if_applicable
+DDQ.153,RR.DATA.002.001,RISK.021,HIGH,Data Accuracy < 85%,trigger_if_applicable
+DDQ.153,RR.DATA.008.001,RISK.021,CRITICAL,Data Licensing Ownership Compliance = non_compliant,trigger_if_applicable
+DDQ.153,RR.COMP.DATA.001,RISK.021,CRITICAL,Data Coverage < 70% AND Data Accuracy < 85%,trigger_if_applicable
+DDQ.153,RR.CROSS.011,RISK.022,HIGH,Data accuracy low AND policy trend tightening AND logistics delivery reliability low,trigger_if_applicable
+DDQ.153,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.154,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.154,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.154,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.154,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.154,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.154,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.154,RR.DATA.001.001,RISK.021,HIGH,Data Coverage < 70%,trigger_if_applicable
+DDQ.154,RR.DATA.002.001,RISK.021,HIGH,Data Accuracy < 85%,trigger_if_applicable
+DDQ.154,RR.DATA.008.001,RISK.021,CRITICAL,Data Licensing Ownership Compliance = non_compliant,trigger_if_applicable
+DDQ.154,RR.COMP.DATA.001,RISK.021,CRITICAL,Data Coverage < 70% AND Data Accuracy < 85%,trigger_if_applicable
+DDQ.154,RR.CROSS.011,RISK.022,HIGH,Data accuracy low AND policy trend tightening AND logistics delivery reliability low,trigger_if_applicable
+DDQ.154,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.156,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.156,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.156,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.156,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.156,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.156,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.156,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.156,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.156,RR.DATA.001.001,RISK.021,HIGH,Data Coverage < 70%,trigger_if_applicable
+DDQ.156,RR.DATA.002.001,RISK.021,HIGH,Data Accuracy < 85%,trigger_if_applicable
+DDQ.156,RR.DATA.008.001,RISK.021,CRITICAL,Data Licensing Ownership Compliance = non_compliant,trigger_if_applicable
+DDQ.156,RR.COMP.DATA.001,RISK.021,CRITICAL,Data Coverage < 70% AND Data Accuracy < 85%,trigger_if_applicable
+DDQ.156,RR.CROSS.011,RISK.022,HIGH,Data accuracy low AND policy trend tightening AND logistics delivery reliability low,trigger_if_applicable
+DDQ.156,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.158,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.158,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.158,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.158,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.158,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.158,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.158,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.158,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.158,RR.MKT.042.001,RISK.011,HIGH,Policy Trend Direction = tightening,trigger_if_applicable
+DDQ.158,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.159,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.159,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.159,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.159,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.159,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.159,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.159,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.159,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.159,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.159,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.159,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.161,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.161,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.161,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.161,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.161,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.161,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.161,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.161,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.161,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.161,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.161,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.161,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.161,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.161,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.162,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.162,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.162,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.162,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.162,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.162,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.162,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.162,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.162,RR.PROD.050.001,RISK.005,HIGH,Quality Control System Maturity < 70,trigger_if_applicable
+DDQ.162,RR.PROD.051.001,RISK.005,HIGH,Production Process Documentation Completeness < 80%,trigger_if_applicable
+DDQ.162,RR.COMP.PROD.005,RISK.005,HIGH,Defect Rate > 2% AND Gross Margin < 20%,trigger_if_applicable
+DDQ.162,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.162,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.162,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.163,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.163,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.163,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.163,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.163,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.163,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.163,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.163,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.163,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.163,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.163,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.163,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.163,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.163,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.163,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.163,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.164,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.164,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.164,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.164,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.164,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.164,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.164,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.164,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.164,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.164,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.164,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.165,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.165,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.165,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.165,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.165,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.165,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.165,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.165,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.165,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.165,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.165,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.166,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.166,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.166,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.166,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.166,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.166,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.166,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.166,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.166,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.166,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.166,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.167,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.167,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.167,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.167,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.167,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.167,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.167,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.167,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.167,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.167,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.167,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.168,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.168,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.168,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.168,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.168,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.168,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.168,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.168,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.168,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.168,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.168,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.169,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.169,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.169,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.169,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.169,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.169,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.169,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.169,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.169,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.169,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.169,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.169,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.169,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.169,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.169,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.170,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.170,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.170,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.170,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.170,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.170,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.170,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.170,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.170,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.170,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.170,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.170,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.171,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.171,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.171,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.171,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.171,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.171,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.171,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.171,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.171,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.172,RR.MKT.042.001,RISK.011,HIGH,Policy Trend Direction = tightening,trigger_if_applicable
+DDQ.172,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.173,RR.MKT.042.001,RISK.011,HIGH,Policy Trend Direction = tightening,trigger_if_applicable
+DDQ.173,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.174,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.174,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.174,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.174,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.174,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.174,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.174,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.174,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.174,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.174,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.174,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.174,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.174,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.174,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.174,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.175,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.175,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.175,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.175,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.175,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.175,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.176,RR.DATA.001.001,RISK.021,HIGH,Data Coverage < 70%,trigger_if_applicable
+DDQ.176,RR.DATA.002.001,RISK.021,HIGH,Data Accuracy < 85%,trigger_if_applicable
+DDQ.176,RR.DATA.008.001,RISK.021,CRITICAL,Data Licensing Ownership Compliance = non_compliant,trigger_if_applicable
+DDQ.176,RR.COMP.DATA.001,RISK.021,CRITICAL,Data Coverage < 70% AND Data Accuracy < 85%,trigger_if_applicable
+DDQ.176,RR.CROSS.011,RISK.022,HIGH,Data accuracy low AND policy trend tightening AND logistics delivery reliability low,trigger_if_applicable
+DDQ.179,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.179,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.181,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.181,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.181,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.181,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.181,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.181,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.181,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.181,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.182,RR.DATA.001.001,RISK.021,HIGH,Data Coverage < 70%,trigger_if_applicable
+DDQ.182,RR.DATA.002.001,RISK.021,HIGH,Data Accuracy < 85%,trigger_if_applicable
+DDQ.182,RR.DATA.008.001,RISK.021,CRITICAL,Data Licensing Ownership Compliance = non_compliant,trigger_if_applicable
+DDQ.182,RR.COMP.DATA.001,RISK.021,CRITICAL,Data Coverage < 70% AND Data Accuracy < 85%,trigger_if_applicable
+DDQ.182,RR.CROSS.011,RISK.022,HIGH,Data accuracy low AND policy trend tightening AND logistics delivery reliability low,trigger_if_applicable
+DDQ.183,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.183,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.183,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.183,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.183,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.183,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.183,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.183,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.184,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.184,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.184,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.184,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.184,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.184,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.184,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.184,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.184,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.184,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.184,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.184,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.184,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.184,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.184,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.184,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.184,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.184,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.184,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.185,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.186,RR.MKT.042.001,RISK.011,HIGH,Policy Trend Direction = tightening,trigger_if_applicable
+DDQ.187,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.187,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.187,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.187,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.187,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.188,RR.PROD.050.001,RISK.005,HIGH,Quality Control System Maturity < 70,trigger_if_applicable
+DDQ.188,RR.PROD.051.001,RISK.005,HIGH,Production Process Documentation Completeness < 80%,trigger_if_applicable
+DDQ.188,RR.COMP.PROD.005,RISK.005,HIGH,Defect Rate > 2% AND Gross Margin < 20%,trigger_if_applicable
+DDQ.189,RR.COMP.SUPP.002,RISK.010,HIGH,Top3 supplier concentration > 40% AND Inventory Turnover < 3x,trigger_if_applicable
+DDQ.189,RR.CROSS.008,RISK.010,HIGH,Supplier concentration high AND defect rate high AND customer complaints high,trigger_if_applicable
+DDQ.190,RR.PROD.050.001,RISK.005,HIGH,Quality Control System Maturity < 70,trigger_if_applicable
+DDQ.190,RR.PROD.051.001,RISK.005,HIGH,Production Process Documentation Completeness < 80%,trigger_if_applicable
+DDQ.190,RR.COMP.PROD.005,RISK.005,HIGH,Defect Rate > 2% AND Gross Margin < 20%,trigger_if_applicable
+DDQ.190,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.190,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.190,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.192,RR.DATA.001.001,RISK.021,HIGH,Data Coverage < 70%,trigger_if_applicable
+DDQ.192,RR.DATA.002.001,RISK.021,HIGH,Data Accuracy < 85%,trigger_if_applicable
+DDQ.192,RR.DATA.008.001,RISK.021,CRITICAL,Data Licensing Ownership Compliance = non_compliant,trigger_if_applicable
+DDQ.192,RR.COMP.DATA.001,RISK.021,CRITICAL,Data Coverage < 70% AND Data Accuracy < 85%,trigger_if_applicable
+DDQ.192,RR.CROSS.011,RISK.022,HIGH,Data accuracy low AND policy trend tightening AND logistics delivery reliability low,trigger_if_applicable
+DDQ.193,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.193,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.194,RR.LOGI.002.001,RISK.022,HIGH,Logistics Provider Concentration > 0.25,trigger_if_applicable
+DDQ.194,RR.LOGI.005.001,RISK.022,HIGH,Logistics Delivery Reliability < 92%,trigger_if_applicable
+DDQ.194,RR.COMP.LOGI.001,RISK.022,CRITICAL,Logistics Provider Concentration > 0.25 AND Logistics Delivery Reliability < 92%,trigger_if_applicable
+DDQ.194,RR.CROSS.011,RISK.022,HIGH,Data accuracy low AND policy trend tightening AND logistics delivery reliability low,trigger_if_applicable
+DDQ.194,RR.COMP.SUPP.002,RISK.010,HIGH,Top3 supplier concentration > 40% AND Inventory Turnover < 3x,trigger_if_applicable
+DDQ.194,RR.CROSS.008,RISK.010,HIGH,Supplier concentration high AND defect rate high AND customer complaints high,trigger_if_applicable
+DDQ.195,RR.MGMT.011.001,RISK.008,HIGH,Senior Management Turnover Rate > 25%,trigger_if_applicable
+DDQ.195,RR.MGMT.041.001,RISK.008,HIGH,Functional Team Attrition Rate > 20%,trigger_if_applicable
+DDQ.195,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.195,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.195,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.195,RR.CROSS.009,RISK.006,HIGH,Management turnover high AND R&D intensity low AND churn high,trigger_if_applicable
+DDQ.196,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.196,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.196,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.196,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.196,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.196,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.196,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.196,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.196,RR.DATA.001.001,RISK.021,HIGH,Data Coverage < 70%,trigger_if_applicable
+DDQ.196,RR.DATA.002.001,RISK.021,HIGH,Data Accuracy < 85%,trigger_if_applicable
+DDQ.196,RR.DATA.008.001,RISK.021,CRITICAL,Data Licensing Ownership Compliance = non_compliant,trigger_if_applicable
+DDQ.196,RR.COMP.DATA.001,RISK.021,CRITICAL,Data Coverage < 70% AND Data Accuracy < 85%,trigger_if_applicable
+DDQ.196,RR.CROSS.011,RISK.022,HIGH,Data accuracy low AND policy trend tightening AND logistics delivery reliability low,trigger_if_applicable
+DDQ.196,RR.TREND.005,RISK.008,MEDIUM,Forecast Accuracy declines for 2 consecutive periods,trigger_if_applicable
+DDQ.196,RR.COMP.MGMT.004,RISK.008,HIGH,Senior Management Turnover Rate > 20% AND Forecast Accuracy < 75%,trigger_if_applicable
+DDQ.196,RR.CROSS.006,RISK.008,HIGH,Management turnover high AND forecast accuracy < 70%,trigger_if_applicable
+DDQ.197,RR.CUST.016.001,RISK.004,HIGH,Top1 Customer Revenue Ratio > 30%,trigger_if_applicable
+DDQ.197,RR.CUST.018.001,RISK.004,HIGH,Top5 Customer Revenue Ratio > 60%,trigger_if_applicable
+DDQ.197,RR.COMP.CUST.001,RISK.004,CRITICAL,Top5 concentration > 60% AND Largest Customer Renewal Rate < 70%,trigger_if_applicable
+DDQ.197,RR.TREND.003,RISK.004,HIGH,Customer Churn Rate increases for 2 consecutive periods,trigger_if_applicable
+DDQ.197,RR.CROSS.003,RISK.009,CRITICAL,Top5 customer concentration high AND churn high AND net debt/EBITDA high,trigger_if_applicable
+DDQ.197,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.197,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.197,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.197,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.197,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.197,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.197,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.197,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.197,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.198,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.199,RR.LEGAL.039.001,RISK.011,HIGH,EHS System Maturity < 60,trigger_if_applicable
+DDQ.199,RR.CROSS.010,RISK.011,CRITICAL,Compliance incidents high AND refinancing pressure high AND covenant headroom low,trigger_if_applicable
+DDQ.199,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.200,RR.FIN.060.001,RISK.009,HIGH,Net Debt / EBITDA > 4x,trigger_if_applicable
+DDQ.200,RR.FIN.060.002,RISK.009,CRITICAL,Net Debt / EBITDA > 6x,trigger_if_applicable
+DDQ.200,RR.FIN.055.001,RISK.009,HIGH,Interest Coverage < 3x,trigger_if_applicable
+DDQ.200,RR.TREND.001,RISK.003,HIGH,Revenue Growth declines for 3 consecutive periods,trigger_if_applicable
+DDQ.200,RR.TREND.002,RISK.009,HIGH,Gross Margin declines >300bps for 3 consecutive periods,trigger_if_applicable
+DDQ.200,RR.TREND.004,RISK.009,HIGH,Operating Cash Flow Margin declines for 3 consecutive periods,trigger_if_applicable
+DDQ.200,RR.COMP.FIN.003,RISK.009,CRITICAL,Net Debt / EBITDA > 4x AND Interest Coverage < 3x,trigger_if_applicable
+DDQ.200,RR.CROSS.007,RISK.009,HIGH,Revenue growth downtrend AND DSO rising AND cash conversion worsening,trigger_if_applicable
+DDQ.200,RR.COMP.TXN.006,RISK.015,CRITICAL,Entry EV/EBITDA > 14x AND DownsideCaseProbability > 35%,trigger_if_applicable
+DDQ.051,RR.IP.001.001,RISK.IP01,HIGH,IP pledge not released AND listing blocked,trigger_if_applicable
+DDQ.191,RR.IP.001.001,RISK.IP01,HIGH,IP pledge not released AND listing blocked,trigger_if_applicable
+DDQ.053,RR.IP.002.001,RISK.IP02,HIGH,Co-owned IP share > 30% AND independence impaired,trigger_if_applicable
+DDQ.052,RR.IP.002.001,RISK.IP02,HIGH,Co-owned IP share > 30% AND independence impaired,trigger_if_applicable
+DDQ.054,RR.IP.003.001,RISK.IP03,MEDIUM,Core employee without IPAgreement AND key-person dependency,trigger_if_applicable

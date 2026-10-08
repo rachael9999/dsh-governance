@@ -1,0 +1,2029 @@
+source_id,target_id,relation_type,description
+CORP.001,CORP.002,related_to,CORP.001 与 CORP.002 相关
+CORP.002,CORP.003,related_to,CORP.002 与 CORP.003 相关
+CORP.003,CORP.004,related_to,CORP.003 与 CORP.004 相关
+CORP.004,CORP.005,related_to,CORP.004 与 CORP.005 相关
+CORP.005,CORP.006,related_to,CORP.005 与 CORP.006 相关
+CORP.006,CORP.007,related_to,CORP.006 与 CORP.007 相关
+CORP.007,CORP.008,related_to,CORP.007 与 CORP.008 相关
+CORP.008,CORP.009,related_to,CORP.008 与 CORP.009 相关
+CORP.009,CORP.010,related_to,CORP.009 与 CORP.010 相关
+CORP.010,CORP.011,related_to,CORP.010 与 CORP.011 相关
+CORP.011,CORP.012,related_to,CORP.011 与 CORP.012 相关
+CORP.012,CORP.013,related_to,CORP.012 与 CORP.013 相关
+CORP.013,CORP.014,related_to,CORP.013 与 CORP.014 相关
+CORP.014,CORP.015,related_to,CORP.014 与 CORP.015 相关
+CORP.015,CORP.016,related_to,CORP.015 与 CORP.016 相关
+CORP.016,CORP.017,related_to,CORP.016 与 CORP.017 相关
+CORP.017,CORP.018,related_to,CORP.017 与 CORP.018 相关
+CORP.018,CORP.019,related_to,CORP.018 与 CORP.019 相关
+CORP.019,CORP.020,related_to,CORP.019 与 CORP.020 相关
+CORP.020,CORP.021,related_to,CORP.020 与 CORP.021 相关
+CORP.021,CORP.022,related_to,CORP.021 与 CORP.022 相关
+CORP.022,CORP.023,related_to,CORP.022 与 CORP.023 相关
+CORP.023,CORP.024,related_to,CORP.023 与 CORP.024 相关
+CORP.024,CORP.025,related_to,CORP.024 与 CORP.025 相关
+CORP.025,CORP.026,related_to,CORP.025 与 CORP.026 相关
+CORP.026,CORP.027,related_to,CORP.026 与 CORP.027 相关
+CORP.027,CORP.028,related_to,CORP.027 与 CORP.028 相关
+CORP.028,CORP.029,related_to,CORP.028 与 CORP.029 相关
+CORP.029,CORP.030,related_to,CORP.029 与 CORP.030 相关
+CORP.030,CORP.031,related_to,CORP.030 与 CORP.031 相关
+CORP.031,CORP.032,related_to,CORP.031 与 CORP.032 相关
+CORP.032,CORP.033,related_to,CORP.032 与 CORP.033 相关
+CORP.033,CORP.034,related_to,CORP.033 与 CORP.034 相关
+CORP.034,CORP.035,related_to,CORP.034 与 CORP.035 相关
+CORP.035,CORP.036,related_to,CORP.035 与 CORP.036 相关
+CORP.036,CORP.037,related_to,CORP.036 与 CORP.037 相关
+CORP.037,CORP.038,related_to,CORP.037 与 CORP.038 相关
+CORP.038,CORP.039,related_to,CORP.038 与 CORP.039 相关
+CORP.039,CORP.040,related_to,CORP.039 与 CORP.040 相关
+CORP.040,CORP.041,related_to,CORP.040 与 CORP.041 相关
+CORP.041,CORP.042,related_to,CORP.041 与 CORP.042 相关
+CORP.042,CORP.043,related_to,CORP.042 与 CORP.043 相关
+CORP.043,CORP.044,related_to,CORP.043 与 CORP.044 相关
+CORP.044,CORP.045,related_to,CORP.044 与 CORP.045 相关
+MGMT.001,MGMT.002,related_to,MGMT.001 与 MGMT.002 相关
+MGMT.002,MGMT.003,related_to,MGMT.002 与 MGMT.003 相关
+MGMT.003,MGMT.004,related_to,MGMT.003 与 MGMT.004 相关
+MGMT.004,MGMT.005,related_to,MGMT.004 与 MGMT.005 相关
+MGMT.005,MGMT.006,related_to,MGMT.005 与 MGMT.006 相关
+MGMT.006,MGMT.007,related_to,MGMT.006 与 MGMT.007 相关
+MGMT.007,MGMT.008,related_to,MGMT.007 与 MGMT.008 相关
+MGMT.008,MGMT.009,related_to,MGMT.008 与 MGMT.009 相关
+MGMT.009,MGMT.010,related_to,MGMT.009 与 MGMT.010 相关
+MGMT.010,MGMT.011,related_to,MGMT.010 与 MGMT.011 相关
+MGMT.011,MGMT.012,related_to,MGMT.011 与 MGMT.012 相关
+MGMT.012,MGMT.013,related_to,MGMT.012 与 MGMT.013 相关
+MGMT.013,MGMT.014,related_to,MGMT.013 与 MGMT.014 相关
+MGMT.014,MGMT.015,related_to,MGMT.014 与 MGMT.015 相关
+MGMT.015,MGMT.016,related_to,MGMT.015 与 MGMT.016 相关
+MGMT.016,MGMT.017,related_to,MGMT.016 与 MGMT.017 相关
+MGMT.017,MGMT.018,related_to,MGMT.017 与 MGMT.018 相关
+MGMT.018,MGMT.019,related_to,MGMT.018 与 MGMT.019 相关
+MGMT.019,MGMT.020,related_to,MGMT.019 与 MGMT.020 相关
+MGMT.020,MGMT.021,related_to,MGMT.020 与 MGMT.021 相关
+MGMT.021,MGMT.022,related_to,MGMT.021 与 MGMT.022 相关
+MGMT.022,MGMT.023,related_to,MGMT.022 与 MGMT.023 相关
+MGMT.023,MGMT.024,related_to,MGMT.023 与 MGMT.024 相关
+MGMT.024,MGMT.025,related_to,MGMT.024 与 MGMT.025 相关
+MGMT.025,MGMT.026,related_to,MGMT.025 与 MGMT.026 相关
+MGMT.026,MGMT.027,related_to,MGMT.026 与 MGMT.027 相关
+MGMT.027,MGMT.028,related_to,MGMT.027 与 MGMT.028 相关
+MGMT.028,MGMT.029,related_to,MGMT.028 与 MGMT.029 相关
+MGMT.029,MGMT.030,related_to,MGMT.029 与 MGMT.030 相关
+MGMT.030,MGMT.031,related_to,MGMT.030 与 MGMT.031 相关
+MGMT.031,MGMT.032,related_to,MGMT.031 与 MGMT.032 相关
+MGMT.032,MGMT.033,related_to,MGMT.032 与 MGMT.033 相关
+MGMT.033,MGMT.034,related_to,MGMT.033 与 MGMT.034 相关
+MGMT.034,MGMT.035,related_to,MGMT.034 与 MGMT.035 相关
+MGMT.035,MGMT.036,related_to,MGMT.035 与 MGMT.036 相关
+MGMT.036,MGMT.037,related_to,MGMT.036 与 MGMT.037 相关
+MGMT.037,MGMT.038,related_to,MGMT.037 与 MGMT.038 相关
+MGMT.038,MGMT.039,related_to,MGMT.038 与 MGMT.039 相关
+MGMT.039,MGMT.040,related_to,MGMT.039 与 MGMT.040 相关
+MGMT.040,MGMT.041,related_to,MGMT.040 与 MGMT.041 相关
+BMOD.001,BMOD.002,related_to,BMOD.001 与 BMOD.002 相关
+BMOD.002,BMOD.003,related_to,BMOD.002 与 BMOD.003 相关
+BMOD.003,BMOD.004,related_to,BMOD.003 与 BMOD.004 相关
+BMOD.004,BMOD.005,related_to,BMOD.004 与 BMOD.005 相关
+BMOD.005,BMOD.006,related_to,BMOD.005 与 BMOD.006 相关
+BMOD.006,BMOD.007,related_to,BMOD.006 与 BMOD.007 相关
+BMOD.007,BMOD.008,related_to,BMOD.007 与 BMOD.008 相关
+BMOD.008,BMOD.009,related_to,BMOD.008 与 BMOD.009 相关
+BMOD.009,BMOD.010,related_to,BMOD.009 与 BMOD.010 相关
+BMOD.010,BMOD.011,related_to,BMOD.010 与 BMOD.011 相关
+BMOD.011,BMOD.012,related_to,BMOD.011 与 BMOD.012 相关
+BMOD.012,BMOD.013,related_to,BMOD.012 与 BMOD.013 相关
+BMOD.013,BMOD.014,related_to,BMOD.013 与 BMOD.014 相关
+BMOD.014,BMOD.015,related_to,BMOD.014 与 BMOD.015 相关
+BMOD.015,BMOD.016,related_to,BMOD.015 与 BMOD.016 相关
+BMOD.016,BMOD.017,related_to,BMOD.016 与 BMOD.017 相关
+BMOD.017,BMOD.018,related_to,BMOD.017 与 BMOD.018 相关
+BMOD.018,BMOD.019,related_to,BMOD.018 与 BMOD.019 相关
+BMOD.019,BMOD.020,related_to,BMOD.019 与 BMOD.020 相关
+BMOD.020,BMOD.021,related_to,BMOD.020 与 BMOD.021 相关
+BMOD.021,BMOD.022,related_to,BMOD.021 与 BMOD.022 相关
+BMOD.022,BMOD.023,related_to,BMOD.022 与 BMOD.023 相关
+BMOD.023,BMOD.024,related_to,BMOD.023 与 BMOD.024 相关
+BMOD.024,BMOD.025,related_to,BMOD.024 与 BMOD.025 相关
+BMOD.025,BMOD.026,related_to,BMOD.025 与 BMOD.026 相关
+BMOD.026,BMOD.027,related_to,BMOD.026 与 BMOD.027 相关
+BMOD.027,BMOD.028,related_to,BMOD.027 与 BMOD.028 相关
+BMOD.028,BMOD.029,related_to,BMOD.028 与 BMOD.029 相关
+BMOD.029,BMOD.030,related_to,BMOD.029 与 BMOD.030 相关
+BMOD.030,BMOD.031,related_to,BMOD.030 与 BMOD.031 相关
+BMOD.031,BMOD.032,related_to,BMOD.031 与 BMOD.032 相关
+BMOD.032,BMOD.033,related_to,BMOD.032 与 BMOD.033 相关
+BMOD.033,BMOD.034,related_to,BMOD.033 与 BMOD.034 相关
+BMOD.034,BMOD.035,related_to,BMOD.034 与 BMOD.035 相关
+CUST.001,CUST.002,related_to,CUST.001 与 CUST.002 相关
+CUST.002,CUST.003,related_to,CUST.002 与 CUST.003 相关
+CUST.003,CUST.004,related_to,CUST.003 与 CUST.004 相关
+CUST.004,CUST.005,related_to,CUST.004 与 CUST.005 相关
+CUST.005,CUST.006,related_to,CUST.005 与 CUST.006 相关
+CUST.006,CUST.007,related_to,CUST.006 与 CUST.007 相关
+CUST.007,CUST.008,related_to,CUST.007 与 CUST.008 相关
+CUST.008,CUST.009,related_to,CUST.008 与 CUST.009 相关
+CUST.009,CUST.010,related_to,CUST.009 与 CUST.010 相关
+CUST.010,CUST.011,related_to,CUST.010 与 CUST.011 相关
+CUST.011,CUST.012,related_to,CUST.011 与 CUST.012 相关
+CUST.012,CUST.013,related_to,CUST.012 与 CUST.013 相关
+CUST.013,CUST.014,related_to,CUST.013 与 CUST.014 相关
+CUST.014,CUST.015,related_to,CUST.014 与 CUST.015 相关
+CUST.015,CUST.016,related_to,CUST.015 与 CUST.016 相关
+CUST.016,CUST.017,related_to,CUST.016 与 CUST.017 相关
+CUST.017,CUST.018,related_to,CUST.017 与 CUST.018 相关
+CUST.018,CUST.019,related_to,CUST.018 与 CUST.019 相关
+CUST.019,CUST.020,related_to,CUST.019 与 CUST.020 相关
+CUST.020,CUST.021,related_to,CUST.020 与 CUST.021 相关
+CUST.021,CUST.022,related_to,CUST.021 与 CUST.022 相关
+CUST.022,CUST.023,related_to,CUST.022 与 CUST.023 相关
+CUST.023,CUST.024,related_to,CUST.023 与 CUST.024 相关
+CUST.024,CUST.025,related_to,CUST.024 与 CUST.025 相关
+CUST.025,CUST.026,related_to,CUST.025 与 CUST.026 相关
+CUST.026,CUST.027,related_to,CUST.026 与 CUST.027 相关
+CUST.027,CUST.028,related_to,CUST.027 与 CUST.028 相关
+CUST.028,CUST.029,related_to,CUST.028 与 CUST.029 相关
+CUST.029,CUST.030,related_to,CUST.029 与 CUST.030 相关
+CUST.030,CUST.031,related_to,CUST.030 与 CUST.031 相关
+CUST.031,CUST.032,related_to,CUST.031 与 CUST.032 相关
+CUST.032,CUST.033,related_to,CUST.032 与 CUST.033 相关
+CUST.033,CUST.034,related_to,CUST.033 与 CUST.034 相关
+CUST.034,CUST.035,related_to,CUST.034 与 CUST.035 相关
+CUST.035,CUST.036,related_to,CUST.035 与 CUST.036 相关
+CUST.036,CUST.037,related_to,CUST.036 与 CUST.037 相关
+CUST.037,CUST.038,related_to,CUST.037 与 CUST.038 相关
+CUST.038,CUST.039,related_to,CUST.038 与 CUST.039 相关
+CUST.039,CUST.040,related_to,CUST.039 与 CUST.040 相关
+CUST.040,CUST.041,related_to,CUST.040 与 CUST.041 相关
+CUST.041,CUST.042,related_to,CUST.041 与 CUST.042 相关
+CUST.042,CUST.043,related_to,CUST.042 与 CUST.043 相关
+CUST.043,CUST.044,related_to,CUST.043 与 CUST.044 相关
+CUST.044,CUST.045,related_to,CUST.044 与 CUST.045 相关
+CUST.045,CUST.046,related_to,CUST.045 与 CUST.046 相关
+CUST.046,CUST.047,related_to,CUST.046 与 CUST.047 相关
+CUST.047,CUST.048,related_to,CUST.047 与 CUST.048 相关
+CUST.048,CUST.049,related_to,CUST.048 与 CUST.049 相关
+CUST.049,CUST.050,related_to,CUST.049 与 CUST.050 相关
+CUST.050,CUST.051,related_to,CUST.050 与 CUST.051 相关
+CUST.051,CUST.052,related_to,CUST.051 与 CUST.052 相关
+CUST.052,CUST.053,related_to,CUST.052 与 CUST.053 相关
+CUST.053,CUST.054,related_to,CUST.053 与 CUST.054 相关
+CUST.054,CUST.055,related_to,CUST.054 与 CUST.055 相关
+CUST.055,CUST.056,related_to,CUST.055 与 CUST.056 相关
+CUST.056,CUST.057,related_to,CUST.056 与 CUST.057 相关
+CUST.057,CUST.058,related_to,CUST.057 与 CUST.058 相关
+CUST.058,CUST.059,related_to,CUST.058 与 CUST.059 相关
+CUST.059,CUST.060,related_to,CUST.059 与 CUST.060 相关
+CUST.060,CUST.061,related_to,CUST.060 与 CUST.061 相关
+PROD.001,PROD.002,related_to,PROD.001 与 PROD.002 相关
+PROD.002,PROD.003,related_to,PROD.002 与 PROD.003 相关
+PROD.003,PROD.004,related_to,PROD.003 与 PROD.004 相关
+PROD.004,PROD.005,related_to,PROD.004 与 PROD.005 相关
+PROD.005,PROD.006,related_to,PROD.005 与 PROD.006 相关
+PROD.006,PROD.007,related_to,PROD.006 与 PROD.007 相关
+PROD.007,PROD.008,related_to,PROD.007 与 PROD.008 相关
+PROD.008,PROD.009,related_to,PROD.008 与 PROD.009 相关
+PROD.009,PROD.010,related_to,PROD.009 与 PROD.010 相关
+PROD.010,PROD.011,related_to,PROD.010 与 PROD.011 相关
+PROD.011,PROD.012,related_to,PROD.011 与 PROD.012 相关
+PROD.012,PROD.013,related_to,PROD.012 与 PROD.013 相关
+PROD.013,PROD.014,related_to,PROD.013 与 PROD.014 相关
+PROD.014,PROD.015,related_to,PROD.014 与 PROD.015 相关
+PROD.015,PROD.016,related_to,PROD.015 与 PROD.016 相关
+PROD.016,PROD.017,related_to,PROD.016 与 PROD.017 相关
+PROD.017,PROD.018,related_to,PROD.017 与 PROD.018 相关
+PROD.018,PROD.019,related_to,PROD.018 与 PROD.019 相关
+PROD.019,PROD.020,related_to,PROD.019 与 PROD.020 相关
+PROD.020,PROD.021,related_to,PROD.020 与 PROD.021 相关
+PROD.021,PROD.022,related_to,PROD.021 与 PROD.022 相关
+PROD.022,PROD.023,related_to,PROD.022 与 PROD.023 相关
+PROD.023,PROD.024,related_to,PROD.023 与 PROD.024 相关
+PROD.024,PROD.025,related_to,PROD.024 与 PROD.025 相关
+PROD.025,PROD.026,related_to,PROD.025 与 PROD.026 相关
+PROD.026,PROD.027,related_to,PROD.026 与 PROD.027 相关
+PROD.027,PROD.028,related_to,PROD.027 与 PROD.028 相关
+PROD.028,PROD.029,related_to,PROD.028 与 PROD.029 相关
+PROD.029,PROD.030,related_to,PROD.029 与 PROD.030 相关
+PROD.030,PROD.031,related_to,PROD.030 与 PROD.031 相关
+PROD.031,PROD.032,related_to,PROD.031 与 PROD.032 相关
+PROD.032,PROD.033,related_to,PROD.032 与 PROD.033 相关
+PROD.033,PROD.034,related_to,PROD.033 与 PROD.034 相关
+PROD.034,PROD.035,related_to,PROD.034 与 PROD.035 相关
+PROD.035,PROD.036,related_to,PROD.035 与 PROD.036 相关
+PROD.036,PROD.037,related_to,PROD.036 与 PROD.037 相关
+PROD.037,PROD.038,related_to,PROD.037 与 PROD.038 相关
+PROD.038,PROD.039,related_to,PROD.038 与 PROD.039 相关
+PROD.039,PROD.040,related_to,PROD.039 与 PROD.040 相关
+PROD.040,PROD.041,related_to,PROD.040 与 PROD.041 相关
+PROD.041,PROD.042,related_to,PROD.041 与 PROD.042 相关
+PROD.042,PROD.043,related_to,PROD.042 与 PROD.043 相关
+PROD.043,PROD.044,related_to,PROD.043 与 PROD.044 相关
+PROD.044,PROD.045,related_to,PROD.044 与 PROD.045 相关
+PROD.045,PROD.050,related_to,PROD.045 与 PROD.050 相关
+PROD.050,PROD.051,related_to,PROD.050 与 PROD.051 相关
+SUPP.001,SUPP.002,related_to,SUPP.001 与 SUPP.002 相关
+SUPP.002,SUPP.003,related_to,SUPP.002 与 SUPP.003 相关
+SUPP.003,SUPP.004,related_to,SUPP.003 与 SUPP.004 相关
+SUPP.004,SUPP.005,related_to,SUPP.004 与 SUPP.005 相关
+SUPP.005,SUPP.006,related_to,SUPP.005 与 SUPP.006 相关
+SUPP.006,SUPP.007,related_to,SUPP.006 与 SUPP.007 相关
+SUPP.007,SUPP.008,related_to,SUPP.007 与 SUPP.008 相关
+SUPP.008,SUPP.009,related_to,SUPP.008 与 SUPP.009 相关
+SUPP.009,SUPP.010,related_to,SUPP.009 与 SUPP.010 相关
+SUPP.010,SUPP.011,related_to,SUPP.010 与 SUPP.011 相关
+SUPP.011,SUPP.012,related_to,SUPP.011 与 SUPP.012 相关
+SUPP.012,SUPP.013,related_to,SUPP.012 与 SUPP.013 相关
+SUPP.013,SUPP.014,related_to,SUPP.013 与 SUPP.014 相关
+SUPP.014,SUPP.015,related_to,SUPP.014 与 SUPP.015 相关
+SUPP.015,SUPP.016,related_to,SUPP.015 与 SUPP.016 相关
+SUPP.016,SUPP.017,related_to,SUPP.016 与 SUPP.017 相关
+SUPP.017,SUPP.018,related_to,SUPP.017 与 SUPP.018 相关
+SUPP.018,SUPP.019,related_to,SUPP.018 与 SUPP.019 相关
+SUPP.019,SUPP.020,related_to,SUPP.019 与 SUPP.020 相关
+SUPP.020,SUPP.021,related_to,SUPP.020 与 SUPP.021 相关
+SUPP.021,SUPP.022,related_to,SUPP.021 与 SUPP.022 相关
+SUPP.022,SUPP.023,related_to,SUPP.022 与 SUPP.023 相关
+SUPP.023,SUPP.024,related_to,SUPP.023 与 SUPP.024 相关
+SUPP.024,SUPP.025,related_to,SUPP.024 与 SUPP.025 相关
+SUPP.025,SUPP.026,related_to,SUPP.025 与 SUPP.026 相关
+SUPP.026,SUPP.027,related_to,SUPP.026 与 SUPP.027 相关
+SUPP.027,SUPP.028,related_to,SUPP.027 与 SUPP.028 相关
+SUPP.028,SUPP.029,related_to,SUPP.028 与 SUPP.029 相关
+SUPP.029,SUPP.030,related_to,SUPP.029 与 SUPP.030 相关
+TECH.001,TECH.002,related_to,TECH.001 与 TECH.002 相关
+TECH.002,TECH.003,related_to,TECH.002 与 TECH.003 相关
+TECH.003,TECH.004,related_to,TECH.003 与 TECH.004 相关
+TECH.004,TECH.005,related_to,TECH.004 与 TECH.005 相关
+TECH.005,TECH.006,related_to,TECH.005 与 TECH.006 相关
+TECH.006,TECH.007,related_to,TECH.006 与 TECH.007 相关
+TECH.007,TECH.008,related_to,TECH.007 与 TECH.008 相关
+TECH.008,TECH.009,related_to,TECH.008 与 TECH.009 相关
+TECH.009,TECH.010,related_to,TECH.009 与 TECH.010 相关
+TECH.010,TECH.011,related_to,TECH.010 与 TECH.011 相关
+TECH.011,TECH.012,related_to,TECH.011 与 TECH.012 相关
+TECH.012,TECH.013,related_to,TECH.012 与 TECH.013 相关
+TECH.013,TECH.014,related_to,TECH.013 与 TECH.014 相关
+TECH.014,TECH.015,related_to,TECH.014 与 TECH.015 相关
+TECH.015,TECH.016,related_to,TECH.015 与 TECH.016 相关
+TECH.016,TECH.017,related_to,TECH.016 与 TECH.017 相关
+TECH.017,TECH.018,related_to,TECH.017 与 TECH.018 相关
+TECH.018,TECH.019,related_to,TECH.018 与 TECH.019 相关
+TECH.019,TECH.020,related_to,TECH.019 与 TECH.020 相关
+TECH.020,TECH.021,related_to,TECH.020 与 TECH.021 相关
+TECH.021,TECH.022,related_to,TECH.021 与 TECH.022 相关
+TECH.022,TECH.023,related_to,TECH.022 与 TECH.023 相关
+TECH.023,TECH.024,related_to,TECH.023 与 TECH.024 相关
+TECH.024,TECH.025,related_to,TECH.024 与 TECH.025 相关
+TECH.025,TECH.026,related_to,TECH.025 与 TECH.026 相关
+TECH.026,TECH.027,related_to,TECH.026 与 TECH.027 相关
+TECH.027,TECH.028,related_to,TECH.027 与 TECH.028 相关
+TECH.028,TECH.029,related_to,TECH.028 与 TECH.029 相关
+TECH.029,TECH.030,related_to,TECH.029 与 TECH.030 相关
+TECH.030,TECH.031,related_to,TECH.030 与 TECH.031 相关
+TECH.031,TECH.032,related_to,TECH.031 与 TECH.032 相关
+TECH.032,TECH.033,related_to,TECH.032 与 TECH.033 相关
+TECH.033,TECH.034,related_to,TECH.033 与 TECH.034 相关
+TECH.034,TECH.035,related_to,TECH.034 与 TECH.035 相关
+MKT.001,MKT.002,related_to,MKT.001 与 MKT.002 相关
+MKT.002,MKT.003,related_to,MKT.002 与 MKT.003 相关
+MKT.003,MKT.004,related_to,MKT.003 与 MKT.004 相关
+MKT.004,MKT.005,related_to,MKT.004 与 MKT.005 相关
+MKT.005,MKT.006,related_to,MKT.005 与 MKT.006 相关
+MKT.006,MKT.007,related_to,MKT.006 与 MKT.007 相关
+MKT.007,MKT.008,related_to,MKT.007 与 MKT.008 相关
+MKT.008,MKT.009,related_to,MKT.008 与 MKT.009 相关
+MKT.009,MKT.010,related_to,MKT.009 与 MKT.010 相关
+MKT.010,MKT.011,related_to,MKT.010 与 MKT.011 相关
+MKT.011,MKT.012,related_to,MKT.011 与 MKT.012 相关
+MKT.012,MKT.013,related_to,MKT.012 与 MKT.013 相关
+MKT.013,MKT.014,related_to,MKT.013 与 MKT.014 相关
+MKT.014,MKT.015,related_to,MKT.014 与 MKT.015 相关
+MKT.015,MKT.016,related_to,MKT.015 与 MKT.016 相关
+MKT.016,MKT.017,related_to,MKT.016 与 MKT.017 相关
+MKT.017,MKT.018,related_to,MKT.017 与 MKT.018 相关
+MKT.018,MKT.019,related_to,MKT.018 与 MKT.019 相关
+MKT.019,MKT.020,related_to,MKT.019 与 MKT.020 相关
+MKT.020,MKT.021,related_to,MKT.020 与 MKT.021 相关
+MKT.021,MKT.022,related_to,MKT.021 与 MKT.022 相关
+MKT.022,MKT.023,related_to,MKT.022 与 MKT.023 相关
+MKT.023,MKT.024,related_to,MKT.023 与 MKT.024 相关
+MKT.024,MKT.025,related_to,MKT.024 与 MKT.025 相关
+MKT.025,MKT.026,related_to,MKT.025 与 MKT.026 相关
+MKT.026,MKT.027,related_to,MKT.026 与 MKT.027 相关
+MKT.027,MKT.028,related_to,MKT.027 与 MKT.028 相关
+MKT.028,MKT.029,related_to,MKT.028 与 MKT.029 相关
+MKT.029,MKT.030,related_to,MKT.029 与 MKT.030 相关
+MKT.030,MKT.031,related_to,MKT.030 与 MKT.031 相关
+MKT.031,MKT.032,related_to,MKT.031 与 MKT.032 相关
+MKT.032,MKT.033,related_to,MKT.032 与 MKT.033 相关
+MKT.033,MKT.034,related_to,MKT.033 与 MKT.034 相关
+MKT.034,MKT.035,related_to,MKT.034 与 MKT.035 相关
+MKT.035,MKT.036,related_to,MKT.035 与 MKT.036 相关
+MKT.036,MKT.037,related_to,MKT.036 与 MKT.037 相关
+MKT.037,MKT.038,related_to,MKT.037 与 MKT.038 相关
+MKT.038,MKT.039,related_to,MKT.038 与 MKT.039 相关
+MKT.039,MKT.040,related_to,MKT.039 与 MKT.040 相关
+MKT.040,MKT.042,related_to,MKT.040 与 MKT.042 相关
+FIN.001,FIN.002,related_to,FIN.001 与 FIN.002 相关
+FIN.002,FIN.003,related_to,FIN.002 与 FIN.003 相关
+FIN.003,FIN.004,related_to,FIN.003 与 FIN.004 相关
+FIN.004,FIN.005,related_to,FIN.004 与 FIN.005 相关
+FIN.005,FIN.006,related_to,FIN.005 与 FIN.006 相关
+FIN.006,FIN.007,related_to,FIN.006 与 FIN.007 相关
+FIN.007,FIN.008,related_to,FIN.007 与 FIN.008 相关
+FIN.008,FIN.009,related_to,FIN.008 与 FIN.009 相关
+FIN.009,FIN.010,related_to,FIN.009 与 FIN.010 相关
+FIN.010,FIN.011,related_to,FIN.010 与 FIN.011 相关
+FIN.011,FIN.012,related_to,FIN.011 与 FIN.012 相关
+FIN.012,FIN.013,related_to,FIN.012 与 FIN.013 相关
+FIN.013,FIN.014,related_to,FIN.013 与 FIN.014 相关
+FIN.014,FIN.015,related_to,FIN.014 与 FIN.015 相关
+FIN.015,FIN.016,related_to,FIN.015 与 FIN.016 相关
+FIN.016,FIN.017,related_to,FIN.016 与 FIN.017 相关
+FIN.017,FIN.018,related_to,FIN.017 与 FIN.018 相关
+FIN.018,FIN.019,related_to,FIN.018 与 FIN.019 相关
+FIN.019,FIN.020,related_to,FIN.019 与 FIN.020 相关
+FIN.020,FIN.021,related_to,FIN.020 与 FIN.021 相关
+FIN.021,FIN.022,related_to,FIN.021 与 FIN.022 相关
+FIN.022,FIN.023,related_to,FIN.022 与 FIN.023 相关
+FIN.023,FIN.024,related_to,FIN.023 与 FIN.024 相关
+FIN.024,FIN.025,related_to,FIN.024 与 FIN.025 相关
+FIN.025,FIN.026,related_to,FIN.025 与 FIN.026 相关
+FIN.026,FIN.027,related_to,FIN.026 与 FIN.027 相关
+FIN.027,FIN.028,related_to,FIN.027 与 FIN.028 相关
+FIN.028,FIN.029,related_to,FIN.028 与 FIN.029 相关
+FIN.029,FIN.030,related_to,FIN.029 与 FIN.030 相关
+FIN.030,FIN.031,related_to,FIN.030 与 FIN.031 相关
+FIN.031,FIN.032,related_to,FIN.031 与 FIN.032 相关
+FIN.032,FIN.033,related_to,FIN.032 与 FIN.033 相关
+FIN.033,FIN.034,related_to,FIN.033 与 FIN.034 相关
+FIN.034,FIN.035,related_to,FIN.034 与 FIN.035 相关
+FIN.035,FIN.036,related_to,FIN.035 与 FIN.036 相关
+FIN.036,FIN.037,related_to,FIN.036 与 FIN.037 相关
+FIN.037,FIN.038,related_to,FIN.037 与 FIN.038 相关
+FIN.038,FIN.039,related_to,FIN.038 与 FIN.039 相关
+FIN.039,FIN.040,related_to,FIN.039 与 FIN.040 相关
+FIN.040,FIN.041,related_to,FIN.040 与 FIN.041 相关
+FIN.041,FIN.042,related_to,FIN.041 与 FIN.042 相关
+FIN.042,FIN.043,related_to,FIN.042 与 FIN.043 相关
+FIN.043,FIN.044,related_to,FIN.043 与 FIN.044 相关
+FIN.044,FIN.045,related_to,FIN.044 与 FIN.045 相关
+FIN.045,FIN.046,related_to,FIN.045 与 FIN.046 相关
+FIN.046,FIN.047,related_to,FIN.046 与 FIN.047 相关
+FIN.047,FIN.048,related_to,FIN.047 与 FIN.048 相关
+FIN.048,FIN.049,related_to,FIN.048 与 FIN.049 相关
+FIN.049,FIN.050,related_to,FIN.049 与 FIN.050 相关
+FIN.050,FIN.051,related_to,FIN.050 与 FIN.051 相关
+FIN.051,FIN.052,related_to,FIN.051 与 FIN.052 相关
+FIN.052,FIN.053,related_to,FIN.052 与 FIN.053 相关
+FIN.053,FIN.054,related_to,FIN.053 与 FIN.054 相关
+FIN.054,FIN.055,related_to,FIN.054 与 FIN.055 相关
+FIN.055,FIN.056,related_to,FIN.055 与 FIN.056 相关
+FIN.056,FIN.057,related_to,FIN.056 与 FIN.057 相关
+FIN.057,FIN.058,related_to,FIN.057 与 FIN.058 相关
+FIN.058,FIN.059,related_to,FIN.058 与 FIN.059 相关
+FIN.059,FIN.060,related_to,FIN.059 与 FIN.060 相关
+FIN.060,FIN.061,related_to,FIN.060 与 FIN.061 相关
+FIN.061,FIN.062,related_to,FIN.061 与 FIN.062 相关
+FIN.062,FIN.063,related_to,FIN.062 与 FIN.063 相关
+FIN.063,FIN.064,related_to,FIN.063 与 FIN.064 相关
+FIN.064,FIN.065,related_to,FIN.064 与 FIN.065 相关
+FIN.065,FIN.066,related_to,FIN.065 与 FIN.066 相关
+FIN.066,FIN.067,related_to,FIN.066 与 FIN.067 相关
+FIN.067,FIN.068,related_to,FIN.067 与 FIN.068 相关
+FIN.068,FIN.069,related_to,FIN.068 与 FIN.069 相关
+FIN.069,FIN.070,related_to,FIN.069 与 FIN.070 相关
+FIN.070,FIN.071,related_to,FIN.070 与 FIN.071 相关
+FIN.071,FIN.072,related_to,FIN.071 与 FIN.072 相关
+FIN.072,FIN.073,related_to,FIN.072 与 FIN.073 相关
+FIN.073,FIN.074,related_to,FIN.073 与 FIN.074 相关
+FIN.074,FIN.075,related_to,FIN.074 与 FIN.075 相关
+FIN.075,FIN.076,related_to,FIN.075 与 FIN.076 相关
+FIN.076,FIN.077,related_to,FIN.076 与 FIN.077 相关
+FIN.077,FIN.078,related_to,FIN.077 与 FIN.078 相关
+FIN.078,FIN.079,related_to,FIN.078 与 FIN.079 相关
+FIN.079,FIN.080,related_to,FIN.079 与 FIN.080 相关
+FIN.080,FIN.081,related_to,FIN.080 与 FIN.081 相关
+FIN.081,FIN.082,related_to,FIN.081 与 FIN.082 相关
+FIN.082,FIN.083,related_to,FIN.082 与 FIN.083 相关
+FIN.083,FIN.084,related_to,FIN.083 与 FIN.084 相关
+FIN.084,FIN.085,related_to,FIN.084 与 FIN.085 相关
+FIN.085,FIN.086,related_to,FIN.085 与 FIN.086 相关
+FIN.086,FIN.087,related_to,FIN.086 与 FIN.087 相关
+FIN.087,FIN.088,related_to,FIN.087 与 FIN.088 相关
+FIN.088,FIN.089,related_to,FIN.088 与 FIN.089 相关
+FIN.089,FIN.090,related_to,FIN.089 与 FIN.090 相关
+FIN.090,FIN.091,related_to,FIN.090 与 FIN.091 相关
+FIN.091,FIN.092,related_to,FIN.091 与 FIN.092 相关
+FIN.092,FIN.093,related_to,FIN.092 与 FIN.093 相关
+FIN.093,FIN.094,related_to,FIN.093 与 FIN.094 相关
+FIN.094,FIN.095,related_to,FIN.094 与 FIN.095 相关
+FIN.095,FIN.096,related_to,FIN.095 与 FIN.096 相关
+FIN.096,FIN.097,related_to,FIN.096 与 FIN.097 相关
+FIN.097,FIN.098,related_to,FIN.097 与 FIN.098 相关
+FIN.098,FIN.099,related_to,FIN.098 与 FIN.099 相关
+FIN.099,FIN.100,related_to,FIN.099 与 FIN.100 相关
+FIN.100,FIN.101,related_to,FIN.100 与 FIN.101 相关
+FIN.101,FIN.102,related_to,FIN.101 与 FIN.102 相关
+FIN.102,FIN.103,related_to,FIN.102 与 FIN.103 相关
+FIN.103,FIN.104,related_to,FIN.103 与 FIN.104 相关
+LEGAL.001,LEGAL.002,related_to,LEGAL.001 与 LEGAL.002 相关
+LEGAL.002,LEGAL.003,related_to,LEGAL.002 与 LEGAL.003 相关
+LEGAL.003,LEGAL.004,related_to,LEGAL.003 与 LEGAL.004 相关
+LEGAL.004,LEGAL.005,related_to,LEGAL.004 与 LEGAL.005 相关
+LEGAL.005,LEGAL.006,related_to,LEGAL.005 与 LEGAL.006 相关
+LEGAL.006,LEGAL.007,related_to,LEGAL.006 与 LEGAL.007 相关
+LEGAL.007,LEGAL.008,related_to,LEGAL.007 与 LEGAL.008 相关
+LEGAL.008,LEGAL.009,related_to,LEGAL.008 与 LEGAL.009 相关
+LEGAL.009,LEGAL.010,related_to,LEGAL.009 与 LEGAL.010 相关
+LEGAL.010,LEGAL.011,related_to,LEGAL.010 与 LEGAL.011 相关
+LEGAL.011,LEGAL.012,related_to,LEGAL.011 与 LEGAL.012 相关
+LEGAL.012,LEGAL.013,related_to,LEGAL.012 与 LEGAL.013 相关
+LEGAL.013,LEGAL.014,related_to,LEGAL.013 与 LEGAL.014 相关
+LEGAL.014,LEGAL.015,related_to,LEGAL.014 与 LEGAL.015 相关
+LEGAL.015,LEGAL.016,related_to,LEGAL.015 与 LEGAL.016 相关
+LEGAL.016,LEGAL.017,related_to,LEGAL.016 与 LEGAL.017 相关
+LEGAL.017,LEGAL.018,related_to,LEGAL.017 与 LEGAL.018 相关
+LEGAL.018,LEGAL.019,related_to,LEGAL.018 与 LEGAL.019 相关
+LEGAL.019,LEGAL.020,related_to,LEGAL.019 与 LEGAL.020 相关
+LEGAL.020,LEGAL.021,related_to,LEGAL.020 与 LEGAL.021 相关
+LEGAL.021,LEGAL.022,related_to,LEGAL.021 与 LEGAL.022 相关
+LEGAL.022,LEGAL.023,related_to,LEGAL.022 与 LEGAL.023 相关
+LEGAL.023,LEGAL.024,related_to,LEGAL.023 与 LEGAL.024 相关
+LEGAL.024,LEGAL.025,related_to,LEGAL.024 与 LEGAL.025 相关
+LEGAL.025,LEGAL.026,related_to,LEGAL.025 与 LEGAL.026 相关
+LEGAL.026,LEGAL.027,related_to,LEGAL.026 与 LEGAL.027 相关
+LEGAL.027,LEGAL.028,related_to,LEGAL.027 与 LEGAL.028 相关
+LEGAL.028,LEGAL.029,related_to,LEGAL.028 与 LEGAL.029 相关
+LEGAL.029,LEGAL.030,related_to,LEGAL.029 与 LEGAL.030 相关
+LEGAL.030,LEGAL.031,related_to,LEGAL.030 与 LEGAL.031 相关
+LEGAL.031,LEGAL.032,related_to,LEGAL.031 与 LEGAL.032 相关
+LEGAL.032,LEGAL.033,related_to,LEGAL.032 与 LEGAL.033 相关
+LEGAL.033,LEGAL.039,related_to,LEGAL.033 与 LEGAL.039 相关
+DATA.001,DATA.002,related_to,DATA.001 与 DATA.002 相关
+DATA.002,DATA.003,related_to,DATA.002 与 DATA.003 相关
+DATA.003,DATA.004,related_to,DATA.003 与 DATA.004 相关
+DATA.004,DATA.005,related_to,DATA.004 与 DATA.005 相关
+DATA.005,DATA.006,related_to,DATA.005 与 DATA.006 相关
+DATA.006,DATA.007,related_to,DATA.006 与 DATA.007 相关
+DATA.007,DATA.008,related_to,DATA.007 与 DATA.008 相关
+LOGI.001,LOGI.002,related_to,LOGI.001 与 LOGI.002 相关
+LOGI.002,LOGI.003,related_to,LOGI.002 与 LOGI.003 相关
+LOGI.003,LOGI.004,related_to,LOGI.003 与 LOGI.004 相关
+LOGI.004,LOGI.005,related_to,LOGI.004 与 LOGI.005 相关
+LOGI.005,LOGI.006,related_to,LOGI.005 与 LOGI.006 相关
+LOGI.006,LOGI.007,related_to,LOGI.006 与 LOGI.007 相关
+LOGI.007,LOGI.008,related_to,LOGI.007 与 LOGI.008 相关
+ESG.001,ESG.002,related_to,ESG.001 与 ESG.002 相关
+ESG.002,ESG.003,related_to,ESG.002 与 ESG.003 相关
+ESG.003,ESG.004,related_to,ESG.003 与 ESG.004 相关
+ESG.004,ESG.005,related_to,ESG.004 与 ESG.005 相关
+ESG.005,ESG.006,related_to,ESG.005 与 ESG.006 相关
+ESG.006,ESG.007,related_to,ESG.006 与 ESG.007 相关
+ESG.007,ESG.008,related_to,ESG.007 与 ESG.008 相关
+ESG.008,ESG.009,related_to,ESG.008 与 ESG.009 相关
+ESG.009,ESG.010,related_to,ESG.009 与 ESG.010 相关
+ESG.010,ESG.011,related_to,ESG.010 与 ESG.011 相关
+ESG.011,ESG.012,related_to,ESG.011 与 ESG.012 相关
+ESG.012,ESG.013,related_to,ESG.012 与 ESG.013 相关
+ESG.013,ESG.014,related_to,ESG.013 与 ESG.014 相关
+ESG.014,ESG.015,related_to,ESG.014 与 ESG.015 相关
+ESG.015,ESG.016,related_to,ESG.015 与 ESG.016 相关
+ESG.016,ESG.017,related_to,ESG.016 与 ESG.017 相关
+ESG.017,ESG.018,related_to,ESG.017 与 ESG.018 相关
+ESG.018,ESG.019,related_to,ESG.018 与 ESG.019 相关
+ESG.019,ESG.020,related_to,ESG.019 与 ESG.020 相关
+ESG.020,ESG.021,related_to,ESG.020 与 ESG.021 相关
+ESG.021,ESG.022,related_to,ESG.021 与 ESG.022 相关
+ESG.022,ESG.023,related_to,ESG.022 与 ESG.023 相关
+ESG.023,ESG.024,related_to,ESG.023 与 ESG.024 相关
+ESG.024,ESG.025,related_to,ESG.024 与 ESG.025 相关
+ESG.025,ESG.026,related_to,ESG.025 与 ESG.026 相关
+ESG.026,ESG.027,related_to,ESG.026 与 ESG.027 相关
+TXN.001,TXN.002,related_to,TXN.001 与 TXN.002 相关
+TXN.002,TXN.003,related_to,TXN.002 与 TXN.003 相关
+TXN.003,TXN.004,related_to,TXN.003 与 TXN.004 相关
+TXN.004,TXN.005,related_to,TXN.004 与 TXN.005 相关
+TXN.005,TXN.006,related_to,TXN.005 与 TXN.006 相关
+TXN.006,TXN.007,related_to,TXN.006 与 TXN.007 相关
+TXN.007,TXN.008,related_to,TXN.007 与 TXN.008 相关
+TXN.008,TXN.009,related_to,TXN.008 与 TXN.009 相关
+TXN.009,TXN.010,related_to,TXN.009 与 TXN.010 相关
+TXN.010,TXN.011,related_to,TXN.010 与 TXN.011 相关
+TXN.011,TXN.012,related_to,TXN.011 与 TXN.012 相关
+TXN.012,TXN.013,related_to,TXN.012 与 TXN.013 相关
+TXN.013,TXN.014,related_to,TXN.013 与 TXN.014 相关
+TXN.014,TXN.015,related_to,TXN.014 与 TXN.015 相关
+TXN.015,TXN.016,related_to,TXN.015 与 TXN.016 相关
+TXN.016,TXN.017,related_to,TXN.016 与 TXN.017 相关
+TXN.017,TXN.018,related_to,TXN.017 与 TXN.018 相关
+TXN.018,TXN.019,related_to,TXN.018 与 TXN.019 相关
+TXN.019,TXN.020,related_to,TXN.019 与 TXN.020 相关
+TXN.020,TXN.021,related_to,TXN.020 与 TXN.021 相关
+TXN.021,TXN.022,related_to,TXN.021 与 TXN.022 相关
+TXN.022,TXN.023,related_to,TXN.022 与 TXN.023 相关
+TXN.023,TXN.024,related_to,TXN.023 与 TXN.024 相关
+TXN.024,TXN.025,related_to,TXN.024 与 TXN.025 相关
+TXN.025,TXN.026,related_to,TXN.025 与 TXN.026 相关
+RISK.001,RISK.002,related_to,RISK.001 与 RISK.002 相关
+RISK.002,RISK.003,related_to,RISK.002 与 RISK.003 相关
+RISK.003,RISK.004,related_to,RISK.003 与 RISK.004 相关
+RISK.004,RISK.005,related_to,RISK.004 与 RISK.005 相关
+RISK.005,RISK.006,related_to,RISK.005 与 RISK.006 相关
+RISK.006,RISK.007,related_to,RISK.006 与 RISK.007 相关
+RISK.007,RISK.008,related_to,RISK.007 与 RISK.008 相关
+RISK.008,RISK.009,related_to,RISK.008 与 RISK.009 相关
+RISK.009,RISK.010,related_to,RISK.009 与 RISK.010 相关
+RISK.010,RISK.011,related_to,RISK.010 与 RISK.011 相关
+RISK.011,RISK.012,related_to,RISK.011 与 RISK.012 相关
+RISK.012,RISK.013,related_to,RISK.012 与 RISK.013 相关
+RISK.013,RISK.014,related_to,RISK.013 与 RISK.014 相关
+RISK.014,RISK.015,related_to,RISK.014 与 RISK.015 相关
+RISK.015,RISK.016,related_to,RISK.015 与 RISK.016 相关
+RISK.016,RISK.017,related_to,RISK.016 与 RISK.017 相关
+RISK.017,RISK.018,related_to,RISK.017 与 RISK.018 相关
+RISK.018,RISK.019,related_to,RISK.018 与 RISK.019 相关
+RISK.019,RISK.020,related_to,RISK.019 与 RISK.020 相关
+RISK.020,RISK.021,related_to,RISK.020 与 RISK.021 相关
+RISK.021,RISK.022,related_to,RISK.021 与 RISK.022 相关
+RISK.022,RISK.004,related_to,RISK.022 与 RISK.004 相关
+RISK.004,RISK.004,related_to,RISK.004 与 RISK.004 相关
+RISK.004,RISK.009,related_to,RISK.004 与 RISK.009 相关
+RISK.009,RISK.009,related_to,RISK.009 与 RISK.009 相关
+RISK.009,RISK.008,related_to,RISK.009 与 RISK.008 相关
+RISK.008,RISK.021,related_to,RISK.008 与 RISK.021 相关
+RISK.021,RISK.021,related_to,RISK.021 与 RISK.021 相关
+RISK.022,RISK.022,related_to,RISK.022 与 RISK.022 相关
+RISK.022,RISK.008,related_to,RISK.022 与 RISK.008 相关
+RISK.008,RISK.011,related_to,RISK.008 与 RISK.011 相关
+RISK.011,RISK.005,related_to,RISK.011 与 RISK.005 相关
+RISK.005,RISK.005,related_to,RISK.005 与 RISK.005 相关
+RISK.005,RISK.004,related_to,RISK.005 与 RISK.004 相关
+RISK.004,RISK.011,related_to,RISK.004 与 RISK.011 相关
+RISK.011,RISK.003,related_to,RISK.011 与 RISK.003 相关
+RISK.003,RISK.009,related_to,RISK.003 与 RISK.009 相关
+RISK.009,RISK.004,related_to,RISK.009 与 RISK.004 相关
+RISK.008,RISK.010,related_to,RISK.008 与 RISK.010 相关
+RISK.010,RISK.004,related_to,RISK.010 与 RISK.004 相关
+RISK.010,RISK.008,related_to,RISK.010 与 RISK.008 相关
+RISK.008,RISK.005,related_to,RISK.008 与 RISK.005 相关
+RISK.005,RISK.015,related_to,RISK.005 与 RISK.015 相关
+RISK.015,RISK.021,related_to,RISK.015 与 RISK.021 相关
+RISK.022,RISK.009,related_to,RISK.022 与 RISK.009 相关
+RISK.010,RISK.006,related_to,RISK.010 与 RISK.006 相关
+RISK.006,RISK.011,related_to,RISK.006 与 RISK.011 相关
+RISK.011,RISK.022,related_to,RISK.011 与 RISK.022 相关
+DEC.001,DEC.002,related_to,DEC.001 与 DEC.002 相关
+DEC.002,DEC.003,related_to,DEC.002 与 DEC.003 相关
+DEC.003,DEC.004,related_to,DEC.003 与 DEC.004 相关
+DEC.004,DEC.005,related_to,DEC.004 与 DEC.005 相关
+CORP.013,MGMT.007,influences,创始人持股影响第一大股东比例
+CORP.015,CORP.019,includes,前五大股东包含机构股东
+MGMT.007,MGMT.008,indicates,创始人持股指示创始人控制权
+MGMT.013,MGMT.023,correlates_with,管理层流失率与员工流失率相关
+BMOD.009,CUST.025,affects,经常性收入比例影响客户留存率
+CUST.003,CUST.005,aggregates_to,第一大客户收入比例汇总为前五大客户比例
+FIN.008,FIN.015,affects,收入增长率影响净利润率
+FIN.023,FIN.031,related_to,毛利率与净利率相关
+PROD.008,PROD.015,affects,产能利用率影响生产计划达成率
+SUPP.003,SUPP.008,correlates_with,供应商集中度与采购周期相关
+TECH.008,TECH.015,indicates,专利数量指示研发投入比例
+MKT.008,MKT.015,influences,市场份额影响品牌知名度
+LEGAL.008,LEGAL.015,related_to,未决诉讼与行政处罚相关
+DATA.002,DATA.003,correlates_with,数据覆盖率与数据准确性相关
+CUST.016,RR.CUST.016.001,triggers_rule,CUST.016 触发风险规则 RR.CUST.016.001
+CUST.018,RR.CUST.018.001,triggers_rule,CUST.018 触发风险规则 RR.CUST.018.001
+FIN.060,RR.FIN.060.001,triggers_rule,FIN.060 触发风险规则 RR.FIN.060.001
+FIN.060,RR.FIN.060.002,triggers_rule,FIN.060 触发风险规则 RR.FIN.060.002
+FIN.055,RR.FIN.055.001,triggers_rule,FIN.055 触发风险规则 RR.FIN.055.001
+MGMT.011,RR.MGMT.011.001,triggers_rule,MGMT.011 触发风险规则 RR.MGMT.011.001
+DATA.001,RR.DATA.001.001,triggers_rule,DATA.001 触发风险规则 RR.DATA.001.001
+DATA.002,RR.DATA.002.001,triggers_rule,DATA.002 触发风险规则 RR.DATA.002.001
+DATA.008,RR.DATA.008.001,triggers_rule,DATA.008 触发风险规则 RR.DATA.008.001
+LOGI.002,RR.LOGI.002.001,triggers_rule,LOGI.002 触发风险规则 RR.LOGI.002.001
+LOGI.005,RR.LOGI.005.001,triggers_rule,LOGI.005 触发风险规则 RR.LOGI.005.001
+MGMT.041,RR.MGMT.041.001,triggers_rule,MGMT.041 触发风险规则 RR.MGMT.041.001
+LEGAL.039,RR.LEGAL.039.001,triggers_rule,LEGAL.039 触发风险规则 RR.LEGAL.039.001
+PROD.050,RR.PROD.050.001,triggers_rule,PROD.050 触发风险规则 RR.PROD.050.001
+PROD.051,RR.PROD.051.001,triggers_rule,PROD.051 触发风险规则 RR.PROD.051.001
+CUST.061,RR.CUST.061.001,triggers_rule,CUST.061 触发风险规则 RR.CUST.061.001
+MKT.042,RR.MKT.042.001,triggers_rule,MKT.042 触发风险规则 RR.MKT.042.001
+CORP.022,CORP.021,influences,VotingRightsRatio influences UltimateBeneficialOwner (from QL002)
+CORP.023,CORP.021,influences,ControlRightsRatio influences UltimateBeneficialOwner (from QL002)
+CORP.025,CORP.021,influences,BoardControlRatio influences UltimateBeneficialOwner (from QL002)
+CORP.026,CORP.021,influences,VetoRights influences UltimateBeneficialOwner (from QL002)
+CORP.027,CORP.021,influences,ConcertPartyArrangement influences UltimateBeneficialOwner (from QL002)
+CORP.028,CORP.021,influences,ControlChainLength influences UltimateBeneficialOwner (from QL002)
+CORP.029,CORP.021,influences,ControlComplexity influences UltimateBeneficialOwner (from QL002)
+CORP.030,CORP.021,influences,ControlStability influences UltimateBeneficialOwner (from QL002)
+CORP.021,CORP.023,influences,UltimateBeneficialOwner influences ControlRightsRatio (from QL002)
+CORP.021,CORP.025,influences,UltimateBeneficialOwner influences BoardControlRatio (from QL002)
+CORP.021,CORP.026,influences,UltimateBeneficialOwner influences VetoRights (from QL002)
+CORP.021,CORP.027,influences,UltimateBeneficialOwner influences ConcertPartyArrangement (from QL002)
+CORP.021,CORP.028,influences,UltimateBeneficialOwner influences ControlChainLength (from QL002)
+CORP.021,CORP.029,influences,UltimateBeneficialOwner influences ControlComplexity (from QL002)
+CORP.021,CORP.030,influences,UltimateBeneficialOwner influences ControlStability (from QL002)
+CORP.022,CORP.025,influences,VotingRightsRatio influences BoardControlRatio (from QL002)
+CORP.022,CORP.026,influences,VotingRightsRatio influences VetoRights (from QL002)
+CORP.022,CORP.027,influences,VotingRightsRatio influences ConcertPartyArrangement (from QL002)
+CORP.022,CORP.028,influences,VotingRightsRatio influences ControlChainLength (from QL002)
+CORP.022,CORP.029,influences,VotingRightsRatio influences ControlComplexity (from QL002)
+CORP.022,CORP.030,influences,VotingRightsRatio influences ControlStability (from QL002)
+CORP.023,CORP.025,influences,ControlRightsRatio influences BoardControlRatio (from QL002)
+CORP.023,CORP.026,influences,ControlRightsRatio influences VetoRights (from QL002)
+CORP.023,CORP.027,influences,ControlRightsRatio influences ConcertPartyArrangement (from QL002)
+CORP.023,CORP.028,influences,ControlRightsRatio influences ControlChainLength (from QL002)
+CORP.023,CORP.029,influences,ControlRightsRatio influences ControlComplexity (from QL002)
+CORP.023,CORP.030,influences,ControlRightsRatio influences ControlStability (from QL002)
+CORP.025,CORP.027,influences,BoardControlRatio influences ConcertPartyArrangement (from QL002)
+CORP.025,CORP.028,influences,BoardControlRatio influences ControlChainLength (from QL002)
+CORP.025,CORP.029,influences,BoardControlRatio influences ControlComplexity (from QL002)
+CORP.025,CORP.030,influences,BoardControlRatio influences ControlStability (from QL002)
+CORP.026,CORP.028,influences,VetoRights influences ControlChainLength (from QL002)
+CORP.026,CORP.029,influences,VetoRights influences ControlComplexity (from QL002)
+CORP.026,CORP.030,influences,VetoRights influences ControlStability (from QL002)
+CORP.027,CORP.029,influences,ConcertPartyArrangement influences ControlComplexity (from QL002)
+CORP.027,CORP.030,influences,ConcertPartyArrangement influences ControlStability (from QL002)
+CORP.028,CORP.030,influences,ControlChainLength influences ControlStability (from QL002)
+CORP.041,CORP.021,influences,CorporateLifecycleStatus influences UltimateBeneficialOwner (from QL003)
+CORP.021,CORP.041,correlates_with,UltimateBeneficialOwner correlates_with CorporateLifecycleStatus (from QL003)
+CORP.030,CORP.041,correlates_with,ControlStability correlates_with CorporateLifecycleStatus (from QL003)
+CORP.019,CORP.012,influences,InstitutionalOwnership influences ShareholderCount (from QL004)
+CORP.035,CORP.012,influences,ConsolidationScope influences ShareholderCount (from QL004)
+LEGAL.032,CORP.012,influences,RegulatoryDependency influences ShareholderCount (from QL004)
+CORP.012,CORP.019,correlates_with,ShareholderCount correlates_with InstitutionalOwnership (from QL004)
+CORP.012,CORP.035,correlates_with,ShareholderCount correlates_with ConsolidationScope (from QL004)
+CORP.012,LEGAL.032,correlates_with,ShareholderCount correlates_with RegulatoryDependency (from QL004)
+CORP.019,CORP.035,correlates_with,InstitutionalOwnership correlates_with ConsolidationScope (from QL004)
+CORP.019,LEGAL.032,correlates_with,InstitutionalOwnership correlates_with RegulatoryDependency (from QL004)
+CORP.035,LEGAL.032,correlates_with,ConsolidationScope correlates_with RegulatoryDependency (from QL004)
+CORP.013,CORP.012,influences,Top1ShareholderRatio influences ShareholderCount (from QL005)
+CORP.030,CORP.012,influences,ControlStability influences ShareholderCount (from QL005)
+CORP.012,CORP.030,trends_with,ShareholderCount trends_with ControlStability (from QL005)
+CORP.013,CORP.030,trends_with,Top1ShareholderRatio trends_with ControlStability (from QL005)
+CORP.014,CORP.013,influences,Top3ShareholderRatio influences Top1ShareholderRatio (from QL006)
+CORP.015,CORP.013,influences,Top5ShareholderRatio influences Top1ShareholderRatio (from QL006)
+TXN.003,CORP.013,influences,EntryEnterpriseValue influences Top1ShareholderRatio (from QL006)
+TXN.017,CORP.013,influences,EntryValuationPercentile influences Top1ShareholderRatio (from QL006)
+CORP.013,CORP.015,correlates_with,Top1ShareholderRatio correlates_with Top5ShareholderRatio (from QL006)
+CORP.013,TXN.003,correlates_with,Top1ShareholderRatio correlates_with EntryEnterpriseValue (from QL006)
+CORP.013,TXN.017,correlates_with,Top1ShareholderRatio correlates_with EntryValuationPercentile (from QL006)
+CORP.014,TXN.003,correlates_with,Top3ShareholderRatio correlates_with EntryEnterpriseValue (from QL006)
+CORP.014,TXN.017,correlates_with,Top3ShareholderRatio correlates_with EntryValuationPercentile (from QL006)
+CORP.015,TXN.003,correlates_with,Top5ShareholderRatio correlates_with EntryEnterpriseValue (from QL006)
+CORP.015,TXN.017,correlates_with,Top5ShareholderRatio correlates_with EntryValuationPercentile (from QL006)
+TXN.003,TXN.017,correlates_with,EntryEnterpriseValue correlates_with EntryValuationPercentile (from QL006)
+CORP.037,CORP.036,influences,RelatedPartyTransactionRatio influences RelatedPartyCount (from QL007)
+CORP.038,CORP.036,influences,RelatedPartyReceivable influences RelatedPartyCount (from QL007)
+CORP.039,CORP.036,influences,RelatedPartyPayable influences RelatedPartyCount (from QL007)
+FIN.033,CORP.036,influences,AdjustedNetIncome influences RelatedPartyCount (from QL007)
+CORP.036,CORP.038,correlates_with,RelatedPartyCount correlates_with RelatedPartyReceivable (from QL007)
+CORP.036,CORP.039,correlates_with,RelatedPartyCount correlates_with RelatedPartyPayable (from QL007)
+CORP.036,FIN.033,correlates_with,RelatedPartyCount correlates_with AdjustedNetIncome (from QL007)
+CORP.037,CORP.039,correlates_with,RelatedPartyTransactionRatio correlates_with RelatedPartyPayable (from QL007)
+CORP.037,FIN.033,correlates_with,RelatedPartyTransactionRatio correlates_with AdjustedNetIncome (from QL007)
+CORP.038,FIN.033,correlates_with,RelatedPartyReceivable correlates_with AdjustedNetIncome (from QL007)
+CORP.039,FIN.033,correlates_with,RelatedPartyPayable correlates_with AdjustedNetIncome (from QL007)
+LEGAL.009,LEGAL.027,influences,AdministrativePenaltyCount influences TaxExposure (from QL008)
+LEGAL.010,LEGAL.027,influences,AdministrativePenaltyAmount influences TaxExposure (from QL008)
+LEGAL.027,LEGAL.009,correlates_with,TaxExposure correlates_with AdministrativePenaltyCount (from QL008)
+LEGAL.027,LEGAL.010,correlates_with,TaxExposure correlates_with AdministrativePenaltyAmount (from QL008)
+CORP.006,CORP.005,influences,PaidInCapital influences RegisteredCapital (from QL009)
+CORP.005,CORP.005,influences,RegisteredCapital influences RegisteredCapital (from QL009)
+TXN.004,TXN.001,influences,PrimaryInvestment influences DealSize (from QL010)
+TXN.005,TXN.001,influences,SecondaryInvestment influences DealSize (from QL010)
+LEGAL.033,TXN.001,influences,LegalDueDiligenceCompletion influences DealSize (from QL010)
+LEGAL.016,TXN.001,influences,MaterialContractCount influences DealSize (from QL010)
+TXN.001,TXN.004,correlates_with,DealSize correlates_with PrimaryInvestment (from QL010)
+TXN.001,TXN.005,correlates_with,DealSize correlates_with SecondaryInvestment (from QL010)
+TXN.001,LEGAL.033,correlates_with,DealSize correlates_with LegalDueDiligenceCompletion (from QL010)
+TXN.001,LEGAL.016,correlates_with,DealSize correlates_with MaterialContractCount (from QL010)
+TXN.004,LEGAL.033,correlates_with,PrimaryInvestment correlates_with LegalDueDiligenceCompletion (from QL010)
+TXN.004,LEGAL.016,correlates_with,PrimaryInvestment correlates_with MaterialContractCount (from QL010)
+TXN.005,LEGAL.033,correlates_with,SecondaryInvestment correlates_with LegalDueDiligenceCompletion (from QL010)
+TXN.005,LEGAL.016,correlates_with,SecondaryInvestment correlates_with MaterialContractCount (from QL010)
+LEGAL.033,LEGAL.016,correlates_with,LegalDueDiligenceCompletion correlates_with MaterialContractCount (from QL010)
+LEGAL.003,LEGAL.001,influences,MaterialLitigationCount influences LitigationCount (from QL011)
+LEGAL.005,LEGAL.001,influences,PotentialLiability influences LitigationCount (from QL011)
+LEGAL.013,LEGAL.001,influences,ComplianceRemediationRate influences LitigationCount (from QL011)
+LEGAL.001,LEGAL.003,correlates_with,LitigationCount correlates_with MaterialLitigationCount (from QL011)
+LEGAL.001,LEGAL.005,correlates_with,LitigationCount correlates_with PotentialLiability (from QL011)
+LEGAL.001,LEGAL.013,correlates_with,LitigationCount correlates_with ComplianceRemediationRate (from QL011)
+LEGAL.003,LEGAL.005,correlates_with,MaterialLitigationCount correlates_with PotentialLiability (from QL011)
+LEGAL.003,LEGAL.013,correlates_with,MaterialLitigationCount correlates_with ComplianceRemediationRate (from QL011)
+LEGAL.005,LEGAL.013,correlates_with,PotentialLiability correlates_with ComplianceRemediationRate (from QL011)
+CORP.044,CORP.043,influences,CorporateInformationCompleteness influences DormantShellEntityExposure (from QL012)
+LEGAL.030,CORP.043,influences,RelatedPartyLegalExposure influences DormantShellEntityExposure (from QL012)
+CORP.043,LEGAL.030,influences,DormantShellEntityExposure influences RelatedPartyLegalExposure (from QL012)
+CORP.044,LEGAL.030,influences,CorporateInformationCompleteness influences RelatedPartyLegalExposure (from QL012)
+CORP.038,CORP.040,influences,RelatedPartyReceivable influences RelatedPartyCapitalOccupation (from QL015)
+FIN.055,CORP.040,influences,CashBalance influences RelatedPartyCapitalOccupation (from QL015)
+CORP.040,CORP.038,correlates_with,RelatedPartyCapitalOccupation correlates_with RelatedPartyReceivable (from QL015)
+CORP.040,CORP.039,correlates_with,RelatedPartyCapitalOccupation correlates_with RelatedPartyPayable (from QL015)
+CORP.040,FIN.055,correlates_with,RelatedPartyCapitalOccupation correlates_with CashBalance (from QL015)
+CORP.038,FIN.055,correlates_with,RelatedPartyReceivable correlates_with CashBalance (from QL015)
+CORP.039,FIN.055,correlates_with,RelatedPartyPayable correlates_with CashBalance (from QL015)
+CORP.036,CORP.021,influences,RelatedPartyCount influences UltimateBeneficialOwner (from QL016)
+CORP.043,CORP.021,influences,DormantShellEntityExposure influences UltimateBeneficialOwner (from QL016)
+CORP.021,CORP.036,correlates_with,UltimateBeneficialOwner correlates_with RelatedPartyCount (from QL016)
+CORP.021,CORP.043,correlates_with,UltimateBeneficialOwner correlates_with DormantShellEntityExposure (from QL016)
+CORP.036,CORP.043,correlates_with,RelatedPartyCount correlates_with DormantShellEntityExposure (from QL016)
+MGMT.019,CORP.017,influences,KeyManagementVacancy influences ManagementOwnership (from QL017)
+MGMT.020,CORP.017,influences,ManagementSuccessionPlan influences ManagementOwnership (from QL017)
+ESG.026,CORP.017,influences,ESGGovernanceMaturity influences ManagementOwnership (from QL017)
+CORP.017,MGMT.019,correlates_with,ManagementOwnership correlates_with KeyManagementVacancy (from QL017)
+CORP.017,MGMT.020,correlates_with,ManagementOwnership correlates_with ManagementSuccessionPlan (from QL017)
+CORP.017,ESG.026,correlates_with,ManagementOwnership correlates_with ESGGovernanceMaturity (from QL017)
+MGMT.019,ESG.026,correlates_with,KeyManagementVacancy correlates_with ESGGovernanceMaturity (from QL017)
+MGMT.020,ESG.026,correlates_with,ManagementSuccessionPlan correlates_with ESGGovernanceMaturity (from QL017)
+CORP.018,CORP.017,influences,EmployeeOwnership influences ManagementOwnership (from QL018)
+CORP.040,CORP.017,influences,RelatedPartyCapitalOccupation influences ManagementOwnership (from QL018)
+FIN.033,CORP.017,influences,AdjustedNetIncome influences ManagementOwnership (from QL018)
+CORP.017,CORP.040,correlates_with,ManagementOwnership correlates_with RelatedPartyCapitalOccupation (from QL018)
+CORP.017,FIN.033,correlates_with,ManagementOwnership correlates_with AdjustedNetIncome (from QL018)
+CORP.018,CORP.040,correlates_with,EmployeeOwnership correlates_with RelatedPartyCapitalOccupation (from QL018)
+CORP.018,FIN.033,correlates_with,EmployeeOwnership correlates_with AdjustedNetIncome (from QL018)
+CORP.040,FIN.033,correlates_with,RelatedPartyCapitalOccupation correlates_with AdjustedNetIncome (from QL018)
+MGMT.023,MGMT.021,influences,EmployeeTurnoverRate influences EmployeeCount (from QL019)
+CORP.018,MGMT.021,influences,EmployeeOwnership influences EmployeeCount (from QL019)
+MGMT.021,MGMT.023,correlates_with,EmployeeCount correlates_with EmployeeTurnoverRate (from QL019)
+MGMT.021,CORP.018,correlates_with,EmployeeCount correlates_with EmployeeOwnership (from QL019)
+MGMT.023,CORP.018,correlates_with,EmployeeTurnoverRate correlates_with EmployeeOwnership (from QL019)
+LEGAL.027,CORP.018,influences,TaxExposure influences EmployeeOwnership (from QL020)
+FIN.033,CORP.018,influences,AdjustedNetIncome influences EmployeeOwnership (from QL020)
+CORP.018,LEGAL.027,influences,EmployeeOwnership influences TaxExposure (from QL020)
+LEGAL.027,FIN.033,influences,TaxExposure influences AdjustedNetIncome (from QL020)
+FIN.030,FIN.033,influences,NetIncome influences AdjustedNetIncome (from QL021)
+FIN.031,FIN.033,influences,NetIncomeGrowth [derived: (FIN.030_t - FIN.030_t-1) / FIN.030_t-1] influences AdjustedNetIncome (from QL021)
+FIN.033,FIN.030,correlates_with,AdjustedNetIncome correlates_with NetIncome (from QL021)
+FIN.033,FIN.031,correlates_with,AdjustedNetIncome correlates_with NetIncomeGrowth [derived: (FIN.030_t - FIN.030_t-1) / FIN.030_t-1] (from QL021)
+TXN.007,CORP.017,influences,DilutionRate influences ManagementOwnership (from QL022)
+TXN.006,CORP.017,influences,OwnershipAfterInvestment influences ManagementOwnership (from QL022)
+CORP.017,TXN.007,correlates_with,ManagementOwnership correlates_with DilutionRate (from QL022)
+CORP.017,TXN.006,correlates_with,ManagementOwnership correlates_with OwnershipAfterInvestment (from QL022)
+CORP.018,TXN.007,correlates_with,EmployeeOwnership correlates_with DilutionRate (from QL022)
+CORP.018,TXN.006,correlates_with,EmployeeOwnership correlates_with OwnershipAfterInvestment (from QL022)
+TXN.007,TXN.006,correlates_with,DilutionRate correlates_with OwnershipAfterInvestment (from QL022)
+MGMT.008,MGMT.007,influences,FounderControl influences FounderOwnership (from QL023)
+CORP.016,MGMT.007,influences,FounderOwnership influences FounderOwnership (from QL023)
+CORP.024,MGMT.007,influences,FounderControlRatio influences FounderOwnership (from QL023)
+TXN.003,MGMT.007,influences,EntryEnterpriseValue influences FounderOwnership (from QL023)
+MGMT.007,CORP.016,correlates_with,FounderOwnership correlates_with FounderOwnership (from QL023)
+MGMT.007,CORP.024,correlates_with,FounderOwnership correlates_with FounderControlRatio (from QL023)
+MGMT.007,TXN.003,correlates_with,FounderOwnership correlates_with EntryEnterpriseValue (from QL023)
+MGMT.008,CORP.016,correlates_with,FounderControl correlates_with FounderOwnership (from QL023)
+MGMT.008,CORP.024,correlates_with,FounderControl correlates_with FounderControlRatio (from QL023)
+MGMT.008,TXN.003,correlates_with,FounderControl correlates_with EntryEnterpriseValue (from QL023)
+CORP.016,CORP.024,correlates_with,FounderOwnership correlates_with FounderControlRatio (from QL023)
+CORP.016,TXN.003,correlates_with,FounderOwnership correlates_with EntryEnterpriseValue (from QL023)
+CORP.024,TXN.003,correlates_with,FounderControlRatio correlates_with EntryEnterpriseValue (from QL023)
+CUST.019,CORP.036,influences,RelatedCustomerRevenueRatio influences RelatedPartyCount (from QL024)
+SUPP.010,CORP.036,influences,SupplierConcentrationRisk influences RelatedPartyCount (from QL024)
+CORP.036,CUST.019,trends_with,RelatedPartyCount trends_with RelatedCustomerRevenueRatio (from QL024)
+CORP.036,SUPP.010,trends_with,RelatedPartyCount trends_with SupplierConcentrationRisk (from QL024)
+CORP.037,CUST.019,trends_with,RelatedPartyTransactionRatio trends_with RelatedCustomerRevenueRatio (from QL024)
+CORP.037,SUPP.010,trends_with,RelatedPartyTransactionRatio trends_with SupplierConcentrationRisk (from QL024)
+CUST.019,SUPP.010,trends_with,RelatedCustomerRevenueRatio trends_with SupplierConcentrationRisk (from QL024)
+CUST.019,CORP.037,influences,RelatedCustomerRevenueRatio influences RelatedPartyTransactionRatio (from QL025)
+SUPP.010,CORP.037,influences,SupplierConcentrationRisk influences RelatedPartyTransactionRatio (from QL025)
+LEGAL.030,CORP.037,influences,RelatedPartyLegalExposure influences RelatedPartyTransactionRatio (from QL026)
+ESG.021,CORP.037,influences,RelatedPartyGovernanceRisk influences RelatedPartyTransactionRatio (from QL026)
+CORP.037,LEGAL.030,correlates_with,RelatedPartyTransactionRatio correlates_with RelatedPartyLegalExposure (from QL026)
+CORP.037,ESG.021,correlates_with,RelatedPartyTransactionRatio correlates_with RelatedPartyGovernanceRisk (from QL026)
+LEGAL.030,ESG.021,correlates_with,RelatedPartyLegalExposure correlates_with RelatedPartyGovernanceRisk (from QL026)
+CUST.022,CORP.037,influences,CustomerProfitability influences RelatedPartyTransactionRatio (from QL027)
+CORP.037,CUST.022,correlates_with,RelatedPartyTransactionRatio correlates_with CustomerProfitability (from QL027)
+CUST.022,SUPP.010,correlates_with,CustomerProfitability correlates_with SupplierConcentrationRisk (from QL027)
+CUST.036,CORP.037,influences,ContractTerminationRate influences RelatedPartyTransactionRatio (from QL028)
+CUST.046,CORP.037,influences,OrderCancellationRate influences RelatedPartyTransactionRatio (from QL028)
+CORP.037,CUST.036,indicates_exposure_to,RelatedPartyTransactionRatio indicates_exposure_to ContractTerminationRate (from QL028)
+CORP.037,CUST.046,indicates_exposure_to,RelatedPartyTransactionRatio indicates_exposure_to OrderCancellationRate (from QL028)
+CUST.036,CUST.046,indicates_exposure_to,ContractTerminationRate indicates_exposure_to OrderCancellationRate (from QL028)
+CUST.001,CORP.037,influences,CustomerCount influences RelatedPartyTransactionRatio (from QL029)
+SUPP.001,CORP.037,influences,SupplierCount influences RelatedPartyTransactionRatio (from QL029)
+CORP.037,CUST.001,correlates_with,RelatedPartyTransactionRatio correlates_with CustomerCount (from QL029)
+CORP.037,SUPP.001,correlates_with,RelatedPartyTransactionRatio correlates_with SupplierCount (from QL029)
+CUST.001,SUPP.001,correlates_with,CustomerCount correlates_with SupplierCount (from QL029)
+CORP.038,CORP.037,influences,RelatedPartyReceivable influences RelatedPartyTransactionRatio (from QL030)
+CORP.039,CORP.037,influences,RelatedPartyPayable influences RelatedPartyTransactionRatio (from QL030)
+LEGAL.030,CORP.036,influences,RelatedPartyLegalExposure influences RelatedPartyCount (from QL031)
+CORP.036,LEGAL.030,correlates_with,RelatedPartyCount correlates_with RelatedPartyLegalExposure (from QL031)
+CORP.043,CORP.036,influences,DormantShellEntityExposure influences RelatedPartyCount (from QL032)
+CORP.043,CUST.019,influences,DormantShellEntityExposure influences RelatedCustomerRevenueRatio (from QL032)
+CORP.043,SUPP.010,influences,DormantShellEntityExposure influences SupplierConcentrationRisk (from QL032)
+CUST.025,CUST.021,influences,CustomerAR influences CustomerCreditQuality (from QL033)
+CUST.026,CUST.021,influences,CustomerOverdueRatio influences CustomerCreditQuality (from QL033)
+CUST.027,CUST.021,influences,CustomerBadDebtRatio influences CustomerCreditQuality (from QL033)
+SUPP.028,CUST.021,influences,SupplierQualityRate influences CustomerCreditQuality (from QL033)
+SUPP.029,CUST.021,influences,SupplierOnTimeDeliveryRate influences CustomerCreditQuality (from QL033)
+CUST.021,CUST.025,correlates_with,CustomerCreditQuality correlates_with CustomerAR (from QL033)
+CUST.021,CUST.026,correlates_with,CustomerCreditQuality correlates_with CustomerOverdueRatio (from QL033)
+CUST.021,CUST.027,correlates_with,CustomerCreditQuality correlates_with CustomerBadDebtRatio (from QL033)
+CUST.021,SUPP.028,correlates_with,CustomerCreditQuality correlates_with SupplierQualityRate (from QL033)
+CUST.021,SUPP.029,correlates_with,CustomerCreditQuality correlates_with SupplierOnTimeDeliveryRate (from QL033)
+CUST.025,CUST.027,correlates_with,CustomerAR correlates_with CustomerBadDebtRatio (from QL033)
+CUST.025,SUPP.028,correlates_with,CustomerAR correlates_with SupplierQualityRate (from QL033)
+CUST.025,SUPP.029,correlates_with,CustomerAR correlates_with SupplierOnTimeDeliveryRate (from QL033)
+CUST.026,SUPP.028,correlates_with,CustomerOverdueRatio correlates_with SupplierQualityRate (from QL033)
+CUST.026,SUPP.029,correlates_with,CustomerOverdueRatio correlates_with SupplierOnTimeDeliveryRate (from QL033)
+CUST.027,SUPP.028,correlates_with,CustomerBadDebtRatio correlates_with SupplierQualityRate (from QL033)
+CUST.027,SUPP.029,correlates_with,CustomerBadDebtRatio correlates_with SupplierOnTimeDeliveryRate (from QL033)
+FIN.056,CUST.025,influences,AccountsReceivable influences CustomerAR (from QL034)
+CORP.038,CUST.025,influences,RelatedPartyReceivable influences CustomerAR (from QL034)
+CORP.039,CUST.025,influences,RelatedPartyPayable influences CustomerAR (from QL034)
+CUST.025,FIN.056,correlates_with,CustomerAR correlates_with AccountsReceivable (from QL034)
+CUST.025,CORP.038,correlates_with,CustomerAR correlates_with RelatedPartyReceivable (from QL034)
+CUST.025,CORP.039,correlates_with,CustomerAR correlates_with RelatedPartyPayable (from QL034)
+FIN.056,CORP.038,correlates_with,AccountsReceivable correlates_with RelatedPartyReceivable (from QL034)
+FIN.056,CORP.039,correlates_with,AccountsReceivable correlates_with RelatedPartyPayable (from QL034)
+FIN.056,LEGAL.005,influences,AccountsReceivable influences PotentialLiability (from QL035)
+FIN.057,LEGAL.005,influences,InventoryBalance influences PotentialLiability (from QL035)
+LEGAL.005,FIN.056,correlates_with,PotentialLiability correlates_with AccountsReceivable (from QL035)
+LEGAL.005,FIN.057,correlates_with,PotentialLiability correlates_with InventoryBalance (from QL035)
+CUST.027,CUST.025,influences,CustomerBadDebtRatio influences CustomerAR (from QL036)
+FIN.057,CUST.025,influences,InventoryBalance influences CustomerAR (from QL036)
+CUST.025,FIN.057,correlates_with,CustomerAR correlates_with InventoryBalance (from QL036)
+CUST.027,FIN.056,correlates_with,CustomerBadDebtRatio correlates_with AccountsReceivable (from QL036)
+CUST.027,FIN.057,correlates_with,CustomerBadDebtRatio correlates_with InventoryBalance (from QL036)
+LEGAL.031,LEGAL.014,influences,InternalControlDeficiency influences LicenseCount (from QL037)
+LEGAL.014,LEGAL.031,correlates_with,LicenseCount correlates_with InternalControlDeficiency (from QL037)
+LEGAL.009,LEGAL.011,influences,AdministrativePenaltyCount influences ComplianceViolationCount (from QL038)
+ESG.011,LEGAL.011,influences,EnvironmentalPenaltyCount influences ComplianceViolationCount (from QL038)
+ESG.012,LEGAL.011,influences,EnvironmentalIncidentCount influences ComplianceViolationCount (from QL038)
+ESG.013,LEGAL.011,influences,EnvironmentalComplianceRate influences ComplianceViolationCount (from QL038)
+LEGAL.011,LEGAL.009,correlates_with,ComplianceViolationCount correlates_with AdministrativePenaltyCount (from QL038)
+LEGAL.011,ESG.011,correlates_with,ComplianceViolationCount correlates_with EnvironmentalPenaltyCount (from QL038)
+LEGAL.011,ESG.012,correlates_with,ComplianceViolationCount correlates_with EnvironmentalIncidentCount (from QL038)
+LEGAL.011,ESG.013,correlates_with,ComplianceViolationCount correlates_with EnvironmentalComplianceRate (from QL038)
+LEGAL.009,ESG.011,correlates_with,AdministrativePenaltyCount correlates_with EnvironmentalPenaltyCount (from QL038)
+LEGAL.009,ESG.012,correlates_with,AdministrativePenaltyCount correlates_with EnvironmentalIncidentCount (from QL038)
+LEGAL.009,ESG.013,correlates_with,AdministrativePenaltyCount correlates_with EnvironmentalComplianceRate (from QL038)
+ESG.011,ESG.013,correlates_with,EnvironmentalPenaltyCount correlates_with EnvironmentalComplianceRate (from QL038)
+LEGAL.015,LEGAL.014,influences,LicenseExpiryExposure influences LicenseCount (from QL039)
+ESG.006,LEGAL.014,influences,EnergyConsumption influences LicenseCount (from QL039)
+ESG.007,LEGAL.014,influences,EnergyIntensity influences LicenseCount (from QL039)
+LEGAL.014,ESG.006,correlates_with,LicenseCount correlates_with EnergyConsumption (from QL039)
+LEGAL.014,ESG.007,correlates_with,LicenseCount correlates_with EnergyIntensity (from QL039)
+LEGAL.015,ESG.006,correlates_with,LicenseExpiryExposure correlates_with EnergyConsumption (from QL039)
+LEGAL.015,ESG.007,correlates_with,LicenseExpiryExposure correlates_with EnergyIntensity (from QL039)
+ESG.018,LEGAL.014,influences,LaborComplianceRate influences LicenseCount (from QL042)
+LEGAL.014,ESG.018,correlates_with,LicenseCount correlates_with LaborComplianceRate (from QL042)
+LEGAL.031,ESG.018,correlates_with,InternalControlDeficiency correlates_with LaborComplianceRate (from QL042)
+ESG.013,LEGAL.014,influences,EnvironmentalComplianceRate influences LicenseCount (from QL043)
+LEGAL.014,ESG.013,correlates_with,LicenseCount correlates_with EnvironmentalComplianceRate (from QL043)
+LEGAL.015,ESG.013,correlates_with,LicenseExpiryExposure correlates_with EnvironmentalComplianceRate (from QL043)
+LEGAL.013,LEGAL.033,influences,ComplianceRemediationRate influences LegalDueDiligenceCompletion (from QL044)
+LEGAL.031,LEGAL.033,influences,InternalControlDeficiency influences LegalDueDiligenceCompletion (from QL044)
+ESG.026,LEGAL.033,influences,ESGGovernanceMaturity influences LegalDueDiligenceCompletion (from QL044)
+LEGAL.033,LEGAL.013,correlates_with,LegalDueDiligenceCompletion correlates_with ComplianceRemediationRate (from QL044)
+LEGAL.033,LEGAL.031,correlates_with,LegalDueDiligenceCompletion correlates_with InternalControlDeficiency (from QL044)
+LEGAL.033,ESG.026,correlates_with,LegalDueDiligenceCompletion correlates_with ESGGovernanceMaturity (from QL044)
+LEGAL.013,LEGAL.031,correlates_with,ComplianceRemediationRate correlates_with InternalControlDeficiency (from QL044)
+LEGAL.013,ESG.026,correlates_with,ComplianceRemediationRate correlates_with ESGGovernanceMaturity (from QL044)
+LEGAL.031,ESG.026,correlates_with,InternalControlDeficiency correlates_with ESGGovernanceMaturity (from QL044)
+LEGAL.024,LEGAL.005,influences,GuaranteeExposure influences PotentialLiability (from QL045)
+LEGAL.025,LEGAL.005,influences,PledgeExposure influences PotentialLiability (from QL045)
+LEGAL.026,LEGAL.005,influences,MortgageExposure influences PotentialLiability (from QL045)
+LEGAL.005,LEGAL.024,correlates_with,PotentialLiability correlates_with GuaranteeExposure (from QL045)
+LEGAL.005,LEGAL.025,correlates_with,PotentialLiability correlates_with PledgeExposure (from QL045)
+LEGAL.005,LEGAL.026,correlates_with,PotentialLiability correlates_with MortgageExposure (from QL045)
+LEGAL.024,LEGAL.026,correlates_with,GuaranteeExposure correlates_with MortgageExposure (from QL045)
+ESG.012,LEGAL.014,influences,EnvironmentalIncidentCount influences LicenseCount (from QL046)
+LEGAL.014,ESG.012,correlates_with,LicenseCount correlates_with EnvironmentalIncidentCount (from QL046)
+LEGAL.031,ESG.012,correlates_with,InternalControlDeficiency correlates_with EnvironmentalIncidentCount (from QL046)
+ESG.010,LEGAL.014,influences,WasteGeneration influences LicenseCount (from QL048)
+LEGAL.014,ESG.010,should_be_consistent_with,LicenseCount should_be_consistent_with WasteGeneration (from QL048)
+LEGAL.031,ESG.010,should_be_consistent_with,InternalControlDeficiency should_be_consistent_with WasteGeneration (from QL048)
+ESG.013,ESG.010,influences,EnvironmentalComplianceRate influences WasteGeneration (from QL049)
+ESG.010,ESG.013,correlates_with,WasteGeneration correlates_with EnvironmentalComplianceRate (from QL049)
+ESG.014,LEGAL.014,influences,EmployeeSafetyIncidentRate influences LicenseCount (from QL050)
+ESG.015,LEGAL.014,influences,LostTimeInjuryRate influences LicenseCount (from QL050)
+LEGAL.014,ESG.014,correlates_with,LicenseCount correlates_with EmployeeSafetyIncidentRate (from QL050)
+LEGAL.014,ESG.015,correlates_with,LicenseCount correlates_with LostTimeInjuryRate (from QL050)
+LEGAL.015,ESG.014,correlates_with,LicenseExpiryExposure correlates_with EmployeeSafetyIncidentRate (from QL050)
+LEGAL.015,ESG.015,correlates_with,LicenseExpiryExposure correlates_with LostTimeInjuryRate (from QL050)
+LEGAL.012,LEGAL.011,influences,RegulatoryInvestigationCount influences ComplianceViolationCount (from QL051)
+ESG.014,LEGAL.011,influences,EmployeeSafetyIncidentRate influences ComplianceViolationCount (from QL051)
+ESG.015,LEGAL.011,influences,LostTimeInjuryRate influences ComplianceViolationCount (from QL051)
+ESG.018,LEGAL.011,influences,LaborComplianceRate influences ComplianceViolationCount (from QL051)
+LEGAL.011,ESG.014,correlates_with,ComplianceViolationCount correlates_with EmployeeSafetyIncidentRate (from QL051)
+LEGAL.011,ESG.015,correlates_with,ComplianceViolationCount correlates_with LostTimeInjuryRate (from QL051)
+LEGAL.011,ESG.018,correlates_with,ComplianceViolationCount correlates_with LaborComplianceRate (from QL051)
+LEGAL.012,ESG.014,correlates_with,RegulatoryInvestigationCount correlates_with EmployeeSafetyIncidentRate (from QL051)
+LEGAL.012,ESG.015,correlates_with,RegulatoryInvestigationCount correlates_with LostTimeInjuryRate (from QL051)
+LEGAL.012,ESG.018,correlates_with,RegulatoryInvestigationCount correlates_with LaborComplianceRate (from QL051)
+ESG.014,ESG.018,correlates_with,EmployeeSafetyIncidentRate correlates_with LaborComplianceRate (from QL051)
+ESG.015,ESG.018,correlates_with,LostTimeInjuryRate correlates_with LaborComplianceRate (from QL051)
+TECH.025,TECH.023,influences,PatentExpiryExposure influences IPEncumbranceCount (from QL052)
+LEGAL.025,TECH.023,influences,PledgeExposure influences IPEncumbranceCount (from QL052)
+LEGAL.026,TECH.023,influences,MortgageExposure influences IPEncumbranceCount (from QL052)
+TECH.023,TECH.025,correlates_with,IPEncumbranceCount correlates_with PatentExpiryExposure (from QL052)
+TECH.023,LEGAL.025,correlates_with,IPEncumbranceCount correlates_with PledgeExposure (from QL052)
+TECH.023,LEGAL.026,correlates_with,IPEncumbranceCount correlates_with MortgageExposure (from QL052)
+TECH.025,LEGAL.025,correlates_with,PatentExpiryExposure correlates_with PledgeExposure (from QL052)
+TECH.025,LEGAL.026,correlates_with,PatentExpiryExposure correlates_with MortgageExposure (from QL052)
+TECH.010,TECH.001,influences,TechnologyValidationCount influences CoreTechnologyCount (from QL053)
+TECH.021,TECH.001,influences,IPOwnershipRatio influences CoreTechnologyCount (from QL053)
+TECH.022,TECH.001,influences,ThirdPartyLicenseRatio influences CoreTechnologyCount (from QL053)
+TECH.001,TECH.010,influences,CoreTechnologyCount influences TechnologyValidationCount (from QL053)
+TECH.001,TECH.021,influences,CoreTechnologyCount influences IPOwnershipRatio (from QL053)
+TECH.001,TECH.022,influences,CoreTechnologyCount influences ThirdPartyLicenseRatio (from QL053)
+TECH.010,TECH.021,influences,TechnologyValidationCount influences IPOwnershipRatio (from QL053)
+TECH.010,TECH.022,influences,TechnologyValidationCount influences ThirdPartyLicenseRatio (from QL053)
+TECH.022,TECH.021,influences,ThirdPartyLicenseRatio influences IPOwnershipRatio (from QL054)
+TECH.027,TECH.021,influences,FreedomToOperate influences IPOwnershipRatio (from QL054)
+TECH.032,TECH.021,influences,ThirdPartyTechnologyDependency influences IPOwnershipRatio (from QL054)
+TECH.021,TECH.027,correlates_with,IPOwnershipRatio correlates_with FreedomToOperate (from QL054)
+TECH.021,TECH.032,correlates_with,IPOwnershipRatio correlates_with ThirdPartyTechnologyDependency (from QL054)
+TECH.022,TECH.027,correlates_with,ThirdPartyLicenseRatio correlates_with FreedomToOperate (from QL054)
+TECH.022,TECH.032,correlates_with,ThirdPartyLicenseRatio correlates_with ThirdPartyTechnologyDependency (from QL054)
+TECH.027,TECH.032,correlates_with,FreedomToOperate correlates_with ThirdPartyTechnologyDependency (from QL054)
+TECH.028,TECH.031,influences,TradeSecretDependency influences CorePersonTechnologyDependency (from QL055)
+TECH.021,TECH.031,influences,IPOwnershipRatio influences CorePersonTechnologyDependency (from QL055)
+TECH.031,TECH.028,correlates_with,CorePersonTechnologyDependency correlates_with TradeSecretDependency (from QL055)
+TECH.031,TECH.021,correlates_with,CorePersonTechnologyDependency correlates_with IPOwnershipRatio (from QL055)
+TECH.028,TECH.021,correlates_with,TradeSecretDependency correlates_with IPOwnershipRatio (from QL055)
+LEGAL.029,TECH.024,influences,IPDisputeExposure influences IPDisputeCount (from QL056)
+TECH.024,LEGAL.029,correlates_with,IPDisputeCount correlates_with IPDisputeExposure (from QL056)
+TECH.033,TECH.028,influences,OpenSourceDependency influences TradeSecretDependency (from QL057)
+TECH.028,TECH.033,indicates_exposure_to,TradeSecretDependency indicates_exposure_to OpenSourceDependency (from QL057)
+TECH.031,TECH.033,indicates_exposure_to,CorePersonTechnologyDependency indicates_exposure_to OpenSourceDependency (from QL057)
+SUPP.007,SUPP.006,influences,StrategicSupplierCount influences SingleSourceSupplierCount (from QL058)
+SUPP.010,SUPP.006,influences,SupplierConcentrationRisk influences SingleSourceSupplierCount (from QL058)
+SUPP.019,SUPP.006,influences,LongTermContractCoverage influences SingleSourceSupplierCount (from QL058)
+SUPP.027,SUPP.006,influences,AlternativeSupplierCoverage influences SingleSourceSupplierCount (from QL058)
+SUPP.006,SUPP.010,influences,SingleSourceSupplierCount influences SupplierConcentrationRisk (from QL058)
+SUPP.006,SUPP.019,influences,SingleSourceSupplierCount influences LongTermContractCoverage (from QL058)
+SUPP.006,SUPP.027,influences,SingleSourceSupplierCount influences AlternativeSupplierCoverage (from QL058)
+SUPP.007,SUPP.010,influences,StrategicSupplierCount influences SupplierConcentrationRisk (from QL058)
+SUPP.007,SUPP.019,influences,StrategicSupplierCount influences LongTermContractCoverage (from QL058)
+SUPP.007,SUPP.027,influences,StrategicSupplierCount influences AlternativeSupplierCoverage (from QL058)
+SUPP.010,SUPP.019,influences,SupplierConcentrationRisk influences LongTermContractCoverage (from QL058)
+SUPP.010,SUPP.027,influences,SupplierConcentrationRisk influences AlternativeSupplierCoverage (from QL058)
+SUPP.019,SUPP.027,influences,LongTermContractCoverage influences AlternativeSupplierCoverage (from QL058)
+SUPP.026,SUPP.006,influences,CriticalMaterialCount influences SingleSourceSupplierCount (from QL059)
+LEGAL.021,SUPP.006,influences,ExclusivityExposure influences SingleSourceSupplierCount (from QL059)
+LEGAL.022,SUPP.006,influences,MinimumPurchaseExposure influences SingleSourceSupplierCount (from QL059)
+SUPP.006,SUPP.026,correlates_with,SingleSourceSupplierCount correlates_with CriticalMaterialCount (from QL059)
+SUPP.006,LEGAL.021,correlates_with,SingleSourceSupplierCount correlates_with ExclusivityExposure (from QL059)
+SUPP.006,LEGAL.022,correlates_with,SingleSourceSupplierCount correlates_with MinimumPurchaseExposure (from QL059)
+SUPP.019,SUPP.026,correlates_with,LongTermContractCoverage correlates_with CriticalMaterialCount (from QL059)
+SUPP.019,LEGAL.021,correlates_with,LongTermContractCoverage correlates_with ExclusivityExposure (from QL059)
+SUPP.019,LEGAL.022,correlates_with,LongTermContractCoverage correlates_with MinimumPurchaseExposure (from QL059)
+SUPP.026,LEGAL.021,correlates_with,CriticalMaterialCount correlates_with ExclusivityExposure (from QL059)
+SUPP.026,LEGAL.022,correlates_with,CriticalMaterialCount correlates_with MinimumPurchaseExposure (from QL059)
+SUPP.021,SUPP.027,influences,AverageSupplierLeadTime influences AlternativeSupplierCoverage (from QL060)
+SUPP.030,SUPP.027,influences,SupplyChainResilienceScore influences AlternativeSupplierCoverage (from QL060)
+SUPP.027,SUPP.021,correlates_with,AlternativeSupplierCoverage correlates_with AverageSupplierLeadTime (from QL060)
+SUPP.027,SUPP.030,correlates_with,AlternativeSupplierCoverage correlates_with SupplyChainResilienceScore (from QL060)
+SUPP.021,SUPP.030,correlates_with,AverageSupplierLeadTime correlates_with SupplyChainResilienceScore (from QL060)
+LEGAL.017,LEGAL.016,influences,MaterialContractValue influences MaterialContractCount (from QL061)
+LEGAL.018,LEGAL.016,influences,ContractConcentration influences MaterialContractCount (from QL061)
+LEGAL.019,LEGAL.016,influences,ContractTerminationExposure influences MaterialContractCount (from QL061)
+LEGAL.020,LEGAL.016,influences,ChangeOfControlExposure influences MaterialContractCount (from QL061)
+CORP.044,LEGAL.016,influences,CorporateInformationCompleteness influences MaterialContractCount (from QL061)
+LEGAL.016,LEGAL.018,correlates_with,MaterialContractCount correlates_with ContractConcentration (from QL061)
+LEGAL.016,LEGAL.019,correlates_with,MaterialContractCount correlates_with ContractTerminationExposure (from QL061)
+LEGAL.016,LEGAL.020,correlates_with,MaterialContractCount correlates_with ChangeOfControlExposure (from QL061)
+LEGAL.016,CORP.044,correlates_with,MaterialContractCount correlates_with CorporateInformationCompleteness (from QL061)
+LEGAL.017,LEGAL.019,correlates_with,MaterialContractValue correlates_with ContractTerminationExposure (from QL061)
+LEGAL.017,LEGAL.020,correlates_with,MaterialContractValue correlates_with ChangeOfControlExposure (from QL061)
+LEGAL.017,CORP.044,correlates_with,MaterialContractValue correlates_with CorporateInformationCompleteness (from QL061)
+LEGAL.018,LEGAL.020,correlates_with,ContractConcentration correlates_with ChangeOfControlExposure (from QL061)
+LEGAL.018,CORP.044,correlates_with,ContractConcentration correlates_with CorporateInformationCompleteness (from QL061)
+LEGAL.019,CORP.044,correlates_with,ContractTerminationExposure correlates_with CorporateInformationCompleteness (from QL061)
+LEGAL.020,CORP.044,correlates_with,ChangeOfControlExposure correlates_with CorporateInformationCompleteness (from QL061)
+LEGAL.024,LEGAL.020,influences,GuaranteeExposure influences ChangeOfControlExposure (from QL062)
+FIN.065,LEGAL.020,influences,TotalDebt influences ChangeOfControlExposure (from QL062)
+FIN.066,LEGAL.020,influences,ShortTermDebt influences ChangeOfControlExposure (from QL062)
+LEGAL.020,LEGAL.024,influences,ChangeOfControlExposure influences GuaranteeExposure (from QL062)
+LEGAL.020,FIN.065,influences,ChangeOfControlExposure influences TotalDebt (from QL062)
+LEGAL.020,FIN.066,influences,ChangeOfControlExposure influences ShortTermDebt (from QL062)
+LEGAL.024,FIN.065,influences,GuaranteeExposure influences TotalDebt (from QL062)
+LEGAL.024,FIN.066,influences,GuaranteeExposure influences ShortTermDebt (from QL062)
+MGMT.019,MGMT.013,influences,KeyManagementVacancy influences ManagementTurnover (from QL063)
+MGMT.036,MGMT.013,influences,KeyRoleVacancy influences ManagementTurnover (from QL063)
+MGMT.037,MGMT.013,influences,ManagementCapabilityGap influences ManagementTurnover (from QL063)
+MGMT.013,MGMT.019,correlates_with,ManagementTurnover correlates_with KeyManagementVacancy (from QL063)
+MGMT.013,MGMT.036,correlates_with,ManagementTurnover correlates_with KeyRoleVacancy (from QL063)
+MGMT.013,MGMT.037,correlates_with,ManagementTurnover correlates_with ManagementCapabilityGap (from QL063)
+MGMT.019,MGMT.036,correlates_with,KeyManagementVacancy correlates_with KeyRoleVacancy (from QL063)
+MGMT.019,MGMT.037,correlates_with,KeyManagementVacancy correlates_with ManagementCapabilityGap (from QL063)
+CORP.042,CORP.031,influences,CorporateRegistrationAnomalies influences SubsidiaryCount (from QL064)
+LEGAL.033,CORP.031,influences,LegalDueDiligenceCompletion influences SubsidiaryCount (from QL064)
+CORP.031,CORP.042,correlates_with,SubsidiaryCount correlates_with CorporateRegistrationAnomalies (from QL064)
+CORP.031,LEGAL.033,correlates_with,SubsidiaryCount correlates_with LegalDueDiligenceCompletion (from QL064)
+CORP.042,LEGAL.033,correlates_with,CorporateRegistrationAnomalies correlates_with LegalDueDiligenceCompletion (from QL064)
+LEGAL.031,LEGAL.016,influences,InternalControlDeficiency influences MaterialContractCount (from QL066)
+LEGAL.016,LEGAL.031,correlates_with,MaterialContractCount correlates_with InternalControlDeficiency (from QL066)
+LEGAL.019,LEGAL.031,correlates_with,ContractTerminationExposure correlates_with InternalControlDeficiency (from QL066)
+LEGAL.016,LEGAL.015,should_be_consistent_with,MaterialContractCount should_be_consistent_with LicenseExpiryExposure (from QL067)
+CORP.008,CORP.007,influences,OperatingAddress influences RegisteredAddress (from QL068)
+CORP.042,CORP.007,influences,CorporateRegistrationAnomalies influences RegisteredAddress (from QL068)
+CORP.007,CORP.042,correlates_with,RegisteredAddress correlates_with CorporateRegistrationAnomalies (from QL068)
+CORP.008,CORP.042,correlates_with,OperatingAddress correlates_with CorporateRegistrationAnomalies (from QL068)
+TXN.002,TXN.001,influences,EntryEquityValue influences DealSize (from QL069)
+TXN.003,TXN.001,influences,EntryEnterpriseValue influences DealSize (from QL069)
+TXN.018,TXN.001,influences,EntryIRR influences DealSize (from QL069)
+TXN.019,TXN.001,influences,EntryMOIC influences DealSize (from QL069)
+TXN.001,TXN.003,correlates_with,DealSize correlates_with EntryEnterpriseValue (from QL069)
+TXN.001,TXN.018,correlates_with,DealSize correlates_with EntryIRR (from QL069)
+TXN.001,TXN.019,correlates_with,DealSize correlates_with EntryMOIC (from QL069)
+TXN.002,TXN.018,correlates_with,EntryEquityValue correlates_with EntryIRR (from QL069)
+TXN.002,TXN.019,correlates_with,EntryEquityValue correlates_with EntryMOIC (from QL069)
+TXN.003,TXN.018,correlates_with,EntryEnterpriseValue correlates_with EntryIRR (from QL069)
+TXN.003,TXN.019,correlates_with,EntryEnterpriseValue correlates_with EntryMOIC (from QL069)
+LEGAL.002,LEGAL.001,influences,LitigationAmount influences LitigationCount (from QL070)
+LEGAL.006,LEGAL.001,influences,ArbitrationCount influences LitigationCount (from QL070)
+LEGAL.007,LEGAL.001,influences,ArbitrationAmount influences LitigationCount (from QL070)
+LEGAL.009,LEGAL.001,influences,AdministrativePenaltyCount influences LitigationCount (from QL070)
+CORP.042,LEGAL.001,influences,CorporateRegistrationAnomalies influences LitigationCount (from QL070)
+LEGAL.001,LEGAL.006,correlates_with,LitigationCount correlates_with ArbitrationCount (from QL070)
+LEGAL.001,LEGAL.007,correlates_with,LitigationCount correlates_with ArbitrationAmount (from QL070)
+LEGAL.001,LEGAL.009,correlates_with,LitigationCount correlates_with AdministrativePenaltyCount (from QL070)
+LEGAL.001,CORP.042,correlates_with,LitigationCount correlates_with CorporateRegistrationAnomalies (from QL070)
+LEGAL.002,LEGAL.006,correlates_with,LitigationAmount correlates_with ArbitrationCount (from QL070)
+LEGAL.002,LEGAL.007,correlates_with,LitigationAmount correlates_with ArbitrationAmount (from QL070)
+LEGAL.002,LEGAL.009,correlates_with,LitigationAmount correlates_with AdministrativePenaltyCount (from QL070)
+LEGAL.002,CORP.042,correlates_with,LitigationAmount correlates_with CorporateRegistrationAnomalies (from QL070)
+LEGAL.006,LEGAL.009,correlates_with,ArbitrationCount correlates_with AdministrativePenaltyCount (from QL070)
+LEGAL.006,CORP.042,correlates_with,ArbitrationCount correlates_with CorporateRegistrationAnomalies (from QL070)
+LEGAL.007,LEGAL.009,correlates_with,ArbitrationAmount correlates_with AdministrativePenaltyCount (from QL070)
+LEGAL.007,CORP.042,correlates_with,ArbitrationAmount correlates_with CorporateRegistrationAnomalies (from QL070)
+LEGAL.009,CORP.042,correlates_with,AdministrativePenaltyCount correlates_with CorporateRegistrationAnomalies (from QL070)
+MGMT.023,ESG.018,influences,EmployeeTurnoverRate influences LaborComplianceRate (from QL071)
+ESG.018,MGMT.023,correlates_with,LaborComplianceRate correlates_with EmployeeTurnoverRate (from QL071)
+ESG.018,MGMT.021,influences,LaborComplianceRate influences EmployeeCount (from QL072)
+LEGAL.032,MGMT.021,influences,RegulatoryDependency influences EmployeeCount (from QL072)
+MGMT.021,ESG.018,correlates_with,EmployeeCount correlates_with LaborComplianceRate (from QL072)
+MGMT.021,LEGAL.032,correlates_with,EmployeeCount correlates_with RegulatoryDependency (from QL072)
+ESG.018,LEGAL.032,correlates_with,LaborComplianceRate correlates_with RegulatoryDependency (from QL072)
+MGMT.024,MGMT.013,influences,AverageEmployeeTenure influences ManagementTurnover (from QL073)
+MGMT.034,MGMT.013,influences,TalentRetentionCapability influences ManagementTurnover (from QL073)
+MGMT.013,MGMT.024,correlates_with,ManagementTurnover correlates_with AverageEmployeeTenure (from QL073)
+MGMT.013,MGMT.034,correlates_with,ManagementTurnover correlates_with TalentRetentionCapability (from QL073)
+MGMT.019,MGMT.024,correlates_with,KeyManagementVacancy correlates_with AverageEmployeeTenure (from QL073)
+MGMT.019,MGMT.034,correlates_with,KeyManagementVacancy correlates_with TalentRetentionCapability (from QL073)
+MGMT.024,MGMT.034,correlates_with,AverageEmployeeTenure correlates_with TalentRetentionCapability (from QL073)
+LEGAL.028,MGMT.021,influences,LaborDisputeCount influences EmployeeCount (from QL074)
+MGMT.021,LEGAL.028,should_be_consistent_with,EmployeeCount should_be_consistent_with LaborDisputeCount (from QL074)
+MGMT.023,LEGAL.028,should_be_consistent_with,EmployeeTurnoverRate should_be_consistent_with LaborDisputeCount (from QL074)
+LEGAL.028,ESG.018,should_be_consistent_with,LaborDisputeCount should_be_consistent_with LaborComplianceRate (from QL074)
+TXN.006,TXN.001,influences,OwnershipAfterInvestment influences DealSize (from QL075)
+CORP.012,TXN.001,influences,ShareholderCount influences DealSize (from QL075)
+CORP.013,TXN.001,influences,Top1ShareholderRatio influences DealSize (from QL075)
+TXN.001,TXN.006,correlates_with,DealSize correlates_with OwnershipAfterInvestment (from QL075)
+TXN.001,CORP.012,correlates_with,DealSize correlates_with ShareholderCount (from QL075)
+TXN.001,CORP.013,correlates_with,DealSize correlates_with Top1ShareholderRatio (from QL075)
+TXN.006,CORP.012,correlates_with,OwnershipAfterInvestment correlates_with ShareholderCount (from QL075)
+TXN.006,CORP.013,correlates_with,OwnershipAfterInvestment correlates_with Top1ShareholderRatio (from QL075)
+LEGAL.025,LEGAL.020,influences,PledgeExposure influences ChangeOfControlExposure (from QL076)
+LEGAL.026,LEGAL.020,influences,MortgageExposure influences ChangeOfControlExposure (from QL076)
+LEGAL.020,LEGAL.019,correlates_with,ChangeOfControlExposure correlates_with ContractTerminationExposure (from QL076)
+LEGAL.020,LEGAL.025,correlates_with,ChangeOfControlExposure correlates_with PledgeExposure (from QL076)
+LEGAL.020,LEGAL.026,correlates_with,ChangeOfControlExposure correlates_with MortgageExposure (from QL076)
+LEGAL.019,LEGAL.024,correlates_with,ContractTerminationExposure correlates_with GuaranteeExposure (from QL076)
+LEGAL.019,LEGAL.025,correlates_with,ContractTerminationExposure correlates_with PledgeExposure (from QL076)
+LEGAL.019,LEGAL.026,correlates_with,ContractTerminationExposure correlates_with MortgageExposure (from QL076)
+LEGAL.018,LEGAL.005,influences,ContractConcentration influences PotentialLiability (from QL077)
+LEGAL.020,LEGAL.005,influences,ChangeOfControlExposure influences PotentialLiability (from QL077)
+LEGAL.030,LEGAL.005,influences,RelatedPartyLegalExposure influences PotentialLiability (from QL077)
+LEGAL.005,LEGAL.018,influences,PotentialLiability influences ContractConcentration (from QL077)
+LEGAL.005,LEGAL.020,influences,PotentialLiability influences ChangeOfControlExposure (from QL077)
+LEGAL.005,LEGAL.030,influences,PotentialLiability influences RelatedPartyLegalExposure (from QL077)
+LEGAL.018,LEGAL.030,influences,ContractConcentration influences RelatedPartyLegalExposure (from QL077)
+LEGAL.020,LEGAL.030,influences,ChangeOfControlExposure influences RelatedPartyLegalExposure (from QL077)
+LEGAL.023,LEGAL.005,influences,ContractPenaltyExposure influences PotentialLiability (from QL078)
+LEGAL.005,LEGAL.023,trends_with,PotentialLiability trends_with ContractPenaltyExposure (from QL078)
+TXN.006,CORP.021,influences,OwnershipAfterInvestment influences UltimateBeneficialOwner (from QL079)
+TXN.024,CORP.021,influences,ReturnSensitivity influences UltimateBeneficialOwner (from QL079)
+CORP.021,TXN.006,correlates_with,UltimateBeneficialOwner correlates_with OwnershipAfterInvestment (from QL079)
+CORP.021,TXN.024,correlates_with,UltimateBeneficialOwner correlates_with ReturnSensitivity (from QL079)
+CORP.030,TXN.006,correlates_with,ControlStability correlates_with OwnershipAfterInvestment (from QL079)
+CORP.030,TXN.024,correlates_with,ControlStability correlates_with ReturnSensitivity (from QL079)
+TXN.006,TXN.024,correlates_with,OwnershipAfterInvestment correlates_with ReturnSensitivity (from QL079)
+RISK.001,LEGAL.033,influences,StrategicRiskScore influences LegalDueDiligenceCompletion (from QL080)
+RISK.003,LEGAL.033,influences,HIGH influences LegalDueDiligenceCompletion (from QL080)
+RISK.008,LEGAL.033,influences,HIGH influences LegalDueDiligenceCompletion (from QL080)
+RISK.010,LEGAL.033,influences,HIGH influences LegalDueDiligenceCompletion (from QL080)
+LEGAL.033,RISK.001,influences,LegalDueDiligenceCompletion influences StrategicRiskScore (from QL080)
+LEGAL.033,RISK.003,influences,LegalDueDiligenceCompletion influences HIGH (from QL080)
+LEGAL.033,RISK.008,influences,LegalDueDiligenceCompletion influences HIGH (from QL080)
+LEGAL.033,RISK.010,influences,LegalDueDiligenceCompletion influences HIGH (from QL080)
+RISK.001,RISK.003,influences,StrategicRiskScore influences HIGH (from QL080)
+RISK.001,RISK.008,influences,StrategicRiskScore influences HIGH (from QL080)
+RISK.001,RISK.010,influences,StrategicRiskScore influences HIGH (from QL080)
+RISK.003,RISK.008,influences,HIGH influences HIGH (from QL080)
+RISK.003,RISK.010,influences,HIGH influences HIGH (from QL080)
+CORP.044,LEGAL.033,influences,CorporateInformationCompleteness influences LegalDueDiligenceCompletion (from QL081)
+CORP.045,LEGAL.033,influences,CorporateDataConsistency influences LegalDueDiligenceCompletion (from QL081)
+LEGAL.033,CORP.044,correlates_with,LegalDueDiligenceCompletion correlates_with CorporateInformationCompleteness (from QL081)
+LEGAL.033,CORP.045,correlates_with,LegalDueDiligenceCompletion correlates_with CorporateDataConsistency (from QL081)
+LEGAL.019,LEGAL.015,influences,ContractTerminationExposure influences LicenseExpiryExposure (from QL083)
+LEGAL.033,LEGAL.015,influences,LegalDueDiligenceCompletion influences LicenseExpiryExposure (from QL083)
+LEGAL.015,LEGAL.019,correlates_with,LicenseExpiryExposure correlates_with ContractTerminationExposure (from QL083)
+LEGAL.015,LEGAL.033,correlates_with,LicenseExpiryExposure correlates_with LegalDueDiligenceCompletion (from QL083)
+LEGAL.019,LEGAL.033,correlates_with,ContractTerminationExposure correlates_with LegalDueDiligenceCompletion (from QL083)
+TECH.023,LEGAL.033,influences,IPEncumbranceCount influences LegalDueDiligenceCompletion (from QL084)
+LEGAL.033,TECH.023,correlates_with,LegalDueDiligenceCompletion correlates_with IPEncumbranceCount (from QL084)
+LEGAL.031,TECH.023,correlates_with,InternalControlDeficiency correlates_with IPEncumbranceCount (from QL084)
+LEGAL.013,CORP.044,influences,ComplianceRemediationRate influences CorporateInformationCompleteness (from QF001)
+FIN.003,FIN.002,influences,RevenueCAGR [derived: CAGR of FIN.001] influences RevenueGrowthRate [derived: (FIN.001_t - FIN.001_t-1) / FIN.001_t-1] (from QF086)
+FIN.008,FIN.002,influences,OrganicRevenueGrowth influences RevenueGrowthRate [derived: (FIN.001_t - FIN.001_t-1) / FIN.001_t-1] (from QF086)
+FIN.009,FIN.002,influences,AcquisitionDrivenGrowth influences RevenueGrowthRate [derived: (FIN.001_t - FIN.001_t-1) / FIN.001_t-1] (from QF086)
+FIN.002,FIN.008,correlates_with,RevenueGrowthRate [derived: (FIN.001_t - FIN.001_t-1) / FIN.001_t-1] correlates_with OrganicRevenueGrowth (from QF086)
+FIN.002,FIN.009,correlates_with,RevenueGrowthRate [derived: (FIN.001_t - FIN.001_t-1) / FIN.001_t-1] correlates_with AcquisitionDrivenGrowth (from QF086)
+FIN.002,FIN.001,correlates_with,RevenueGrowthRate [derived: (FIN.001_t - FIN.001_t-1) / FIN.001_t-1] correlates_with Revenue (from QF086)
+FIN.003,FIN.008,correlates_with,RevenueCAGR [derived: CAGR of FIN.001] correlates_with OrganicRevenueGrowth (from QF086)
+FIN.003,FIN.009,correlates_with,RevenueCAGR [derived: CAGR of FIN.001] correlates_with AcquisitionDrivenGrowth (from QF086)
+FIN.003,FIN.001,correlates_with,RevenueCAGR [derived: CAGR of FIN.001] correlates_with Revenue (from QF086)
+FIN.008,FIN.001,correlates_with,OrganicRevenueGrowth correlates_with Revenue (from QF086)
+FIN.009,FIN.001,correlates_with,AcquisitionDrivenGrowth correlates_with Revenue (from QF086)
+BMOD.011,FIN.006,influences,ProductRevenueRatio influences RevenueConcentration (from QF087)
+BMOD.012,FIN.006,influences,ServiceRevenueRatio influences RevenueConcentration (from QF087)
+PROD.011,FIN.006,influences,CoreProductRevenueRatio influences RevenueConcentration (from QF087)
+PROD.005,FIN.006,influences,ProductRevenueConcentration influences RevenueConcentration (from QF087)
+FIN.006,BMOD.011,correlates_with,RevenueConcentration correlates_with ProductRevenueRatio (from QF087)
+FIN.006,BMOD.012,correlates_with,RevenueConcentration correlates_with ServiceRevenueRatio (from QF087)
+FIN.006,PROD.011,correlates_with,RevenueConcentration correlates_with CoreProductRevenueRatio (from QF087)
+FIN.006,PROD.005,correlates_with,RevenueConcentration correlates_with ProductRevenueConcentration (from QF087)
+BMOD.011,PROD.011,correlates_with,ProductRevenueRatio correlates_with CoreProductRevenueRatio (from QF087)
+BMOD.011,PROD.005,correlates_with,ProductRevenueRatio correlates_with ProductRevenueConcentration (from QF087)
+BMOD.012,PROD.011,correlates_with,ServiceRevenueRatio correlates_with CoreProductRevenueRatio (from QF087)
+BMOD.012,PROD.005,correlates_with,ServiceRevenueRatio correlates_with ProductRevenueConcentration (from QF087)
+PROD.011,PROD.005,correlates_with,CoreProductRevenueRatio correlates_with ProductRevenueConcentration (from QF087)
+FIN.048,CUST.024,influences,DSO [derived: (FIN.056 / FIN.001) * 365] influences CustomerPaymentDays (from QF088)
+CUST.025,CUST.024,influences,CustomerAR influences CustomerPaymentDays (from QF088)
+CUST.026,CUST.024,influences,CustomerOverdueRatio influences CustomerPaymentDays (from QF088)
+CUST.024,FIN.048,correlates_with,CustomerPaymentDays correlates_with DSO [derived: (FIN.056 / FIN.001) * 365] (from QF088)
+CUST.024,CUST.026,correlates_with,CustomerPaymentDays correlates_with CustomerOverdueRatio (from QF088)
+FIN.048,CUST.025,correlates_with,DSO [derived: (FIN.056 / FIN.001) * 365] correlates_with CustomerAR (from QF088)
+FIN.048,CUST.026,correlates_with,DSO [derived: (FIN.056 / FIN.001) * 365] correlates_with CustomerOverdueRatio (from QF088)
+CUST.013,CUST.011,influences,Top5CustomerRevenueRatio influences Top1CustomerRevenueRatio (from QF089)
+CUST.019,CUST.011,influences,RelatedCustomerRevenueRatio influences Top1CustomerRevenueRatio (from QF089)
+CORP.036,CUST.011,influences,RelatedPartyCount influences Top1CustomerRevenueRatio (from QF089)
+CUST.011,CUST.013,correlates_with,Top1CustomerRevenueRatio correlates_with Top5CustomerRevenueRatio (from QF089)
+CUST.011,CUST.019,correlates_with,Top1CustomerRevenueRatio correlates_with RelatedCustomerRevenueRatio (from QF089)
+CUST.011,CORP.036,correlates_with,Top1CustomerRevenueRatio correlates_with RelatedPartyCount (from QF089)
+CUST.013,CUST.019,correlates_with,Top5CustomerRevenueRatio correlates_with RelatedCustomerRevenueRatio (from QF089)
+CUST.013,CORP.036,correlates_with,Top5CustomerRevenueRatio correlates_with RelatedPartyCount (from QF089)
+CUST.021,CUST.011,influences,CustomerCreditQuality influences Top1CustomerRevenueRatio (from QF090)
+CUST.022,CUST.011,influences,CustomerProfitability influences Top1CustomerRevenueRatio (from QF090)
+FIN.006,CUST.011,influences,RevenueConcentration influences Top1CustomerRevenueRatio (from QF090)
+CUST.011,CUST.021,correlates_with,Top1CustomerRevenueRatio correlates_with CustomerCreditQuality (from QF090)
+CUST.011,CUST.022,correlates_with,Top1CustomerRevenueRatio correlates_with CustomerProfitability (from QF090)
+CUST.011,FIN.006,correlates_with,Top1CustomerRevenueRatio correlates_with RevenueConcentration (from QF090)
+CUST.021,FIN.006,correlates_with,CustomerCreditQuality correlates_with RevenueConcentration (from QF090)
+CUST.022,FIN.006,correlates_with,CustomerProfitability correlates_with RevenueConcentration (from QF090)
+FIN.056,CUST.021,influences,AccountsReceivable influences CustomerCreditQuality (from QF091)
+CUST.021,FIN.056,correlates_with,CustomerCreditQuality correlates_with AccountsReceivable (from QF091)
+CUST.026,FIN.056,correlates_with,CustomerOverdueRatio correlates_with AccountsReceivable (from QF091)
+CUST.015,CUST.011,influences,CustomerHHI influences Top1CustomerRevenueRatio (from QF092)
+CUST.030,CUST.011,influences,CustomerDependencyScore influences Top1CustomerRevenueRatio (from QF092)
+CUST.011,CUST.015,should_be_consistent_with,Top1CustomerRevenueRatio should_be_consistent_with CustomerHHI (from QF092)
+CUST.011,CUST.030,should_be_consistent_with,Top1CustomerRevenueRatio should_be_consistent_with CustomerDependencyScore (from QF092)
+CUST.013,CUST.015,should_be_consistent_with,Top5CustomerRevenueRatio should_be_consistent_with CustomerHHI (from QF092)
+CUST.013,CUST.030,should_be_consistent_with,Top5CustomerRevenueRatio should_be_consistent_with CustomerDependencyScore (from QF092)
+CUST.015,CUST.030,should_be_consistent_with,CustomerHHI should_be_consistent_with CustomerDependencyScore (from QF092)
+PROD.039,PROD.008,influences,UnitProductionCost influences ProductAveragePrice (from QF093)
+PROD.040,PROD.008,influences,ManufacturingCostRatio influences ProductAveragePrice (from QF093)
+PROD.023,PROD.008,influences,FactoryCapacity influences ProductAveragePrice (from QF093)
+PROD.026,PROD.008,influences,CapacityUtilization influences ProductAveragePrice (from QF093)
+PROD.008,PROD.039,influences,ProductAveragePrice influences UnitProductionCost (from QF093)
+PROD.008,PROD.040,influences,ProductAveragePrice influences ManufacturingCostRatio (from QF093)
+PROD.008,PROD.023,influences,ProductAveragePrice influences FactoryCapacity (from QF093)
+PROD.008,PROD.026,influences,ProductAveragePrice influences CapacityUtilization (from QF093)
+PROD.039,PROD.023,influences,UnitProductionCost influences FactoryCapacity (from QF093)
+PROD.039,PROD.026,influences,UnitProductionCost influences CapacityUtilization (from QF093)
+PROD.040,PROD.023,influences,ManufacturingCostRatio influences FactoryCapacity (from QF093)
+PROD.040,PROD.026,influences,ManufacturingCostRatio influences CapacityUtilization (from QF093)
+PROD.023,PROD.026,influences,FactoryCapacity influences CapacityUtilization (from QF093)
+CUST.025,FIN.001,influences,CustomerAR influences Revenue (from QF094)
+FIN.055,FIN.001,influences,CashBalance influences Revenue (from QF094)
+FIN.056,FIN.001,influences,AccountsReceivable influences Revenue (from QF094)
+FIN.001,CUST.025,correlates_with,Revenue correlates_with CustomerAR (from QF094)
+FIN.001,FIN.055,correlates_with,Revenue correlates_with CashBalance (from QF094)
+FIN.001,FIN.056,correlates_with,Revenue correlates_with AccountsReceivable (from QF094)
+CUST.025,FIN.055,correlates_with,CustomerAR correlates_with CashBalance (from QF094)
+FIN.006,CORP.037,influences,RevenueConcentration influences RelatedPartyTransactionRatio (from QF095)
+FIN.001,CORP.037,influences,Revenue influences RelatedPartyTransactionRatio (from QF095)
+CORP.037,FIN.006,correlates_with,RelatedPartyTransactionRatio correlates_with RevenueConcentration (from QF095)
+CORP.037,FIN.001,correlates_with,RelatedPartyTransactionRatio correlates_with Revenue (from QF095)
+CUST.019,FIN.006,correlates_with,RelatedCustomerRevenueRatio correlates_with RevenueConcentration (from QF095)
+CUST.019,FIN.001,correlates_with,RelatedCustomerRevenueRatio correlates_with Revenue (from QF095)
+FIN.006,FIN.001,correlates_with,RevenueConcentration correlates_with Revenue (from QF095)
+CUST.046,CUST.036,influences,OrderCancellationRate influences ContractTerminationRate (from QF096)
+PROD.009,CUST.036,influences,ProductReturnRate influences ContractTerminationRate (from QF096)
+PROD.044,CUST.036,influences,ProductReturnRate influences ContractTerminationRate (from QF096)
+PROD.045,CUST.036,influences,WarrantyClaimRate influences ContractTerminationRate (from QF096)
+CUST.036,PROD.009,correlates_with,ContractTerminationRate correlates_with ProductReturnRate (from QF096)
+CUST.036,PROD.044,correlates_with,ContractTerminationRate correlates_with ProductReturnRate (from QF096)
+CUST.036,PROD.045,correlates_with,ContractTerminationRate correlates_with WarrantyClaimRate (from QF096)
+CUST.046,PROD.009,correlates_with,OrderCancellationRate correlates_with ProductReturnRate (from QF096)
+CUST.046,PROD.044,correlates_with,OrderCancellationRate correlates_with ProductReturnRate (from QF096)
+CUST.046,PROD.045,correlates_with,OrderCancellationRate correlates_with WarrantyClaimRate (from QF096)
+PROD.009,PROD.044,correlates_with,ProductReturnRate correlates_with ProductReturnRate (from QF096)
+PROD.009,PROD.045,correlates_with,ProductReturnRate correlates_with WarrantyClaimRate (from QF096)
+CUST.032,FIN.001,influences,ContractValue influences Revenue (from QF097)
+CUST.041,FIN.001,influences,OrderCount influences Revenue (from QF097)
+CUST.047,FIN.001,influences,OrderFulfillmentRate influences Revenue (from QF097)
+FIN.001,CUST.032,should_be_consistent_with,Revenue should_be_consistent_with ContractValue (from QF097)
+FIN.001,CUST.041,should_be_consistent_with,Revenue should_be_consistent_with OrderCount (from QF097)
+FIN.001,CUST.047,should_be_consistent_with,Revenue should_be_consistent_with OrderFulfillmentRate (from QF097)
+CUST.032,CUST.041,should_be_consistent_with,ContractValue should_be_consistent_with OrderCount (from QF097)
+CUST.032,CUST.047,should_be_consistent_with,ContractValue should_be_consistent_with OrderFulfillmentRate (from QF097)
+CUST.032,FIN.056,should_be_consistent_with,ContractValue should_be_consistent_with AccountsReceivable (from QF097)
+CUST.041,CUST.047,should_be_consistent_with,OrderCount should_be_consistent_with OrderFulfillmentRate (from QF097)
+CUST.041,FIN.056,should_be_consistent_with,OrderCount should_be_consistent_with AccountsReceivable (from QF097)
+CUST.047,FIN.056,should_be_consistent_with,OrderFulfillmentRate should_be_consistent_with AccountsReceivable (from QF097)
+FIN.034,FIN.033,influences,NonRecurringProfitRatio [derived: (FIN.030 - FIN.033) / FIN.030] influences AdjustedNetIncome (from QF098)
+FIN.035,FIN.033,influences,OperatingCashFlow influences AdjustedNetIncome (from QF098)
+FIN.056,FIN.033,influences,AccountsReceivable influences AdjustedNetIncome (from QF098)
+FIN.033,FIN.035,influences,AdjustedNetIncome influences OperatingCashFlow (from QF098)
+FIN.033,FIN.056,influences,AdjustedNetIncome influences AccountsReceivable (from QF098)
+FIN.034,FIN.030,influences,NonRecurringProfitRatio [derived: (FIN.030 - FIN.033) / FIN.030] influences NetIncome (from QF098)
+FIN.034,FIN.056,influences,NonRecurringProfitRatio [derived: (FIN.030 - FIN.033) / FIN.030] influences AccountsReceivable (from QF098)
+FIN.030,FIN.035,influences,NetIncome influences OperatingCashFlow (from QF098)
+FIN.030,FIN.056,influences,NetIncome influences AccountsReceivable (from QF098)
+FIN.035,FIN.056,influences,OperatingCashFlow influences AccountsReceivable (from QF098)
+FIN.030,FIN.034,correlates_with,NetIncome correlates_with NonRecurringProfitRatio [derived: (FIN.030 - FIN.033) / FIN.030] (from QF099)
+FIN.030,LEGAL.027,influences,NetIncome influences TaxExposure (from QF100)
+FIN.095,LEGAL.027,influences,RevenueForecast influences TaxExposure (from QF100)
+FIN.098,LEGAL.027,influences,NetIncomeForecast influences TaxExposure (from QF100)
+LEGAL.027,FIN.030,indicates_exposure_to,TaxExposure indicates_exposure_to NetIncome (from QF100)
+LEGAL.027,FIN.095,indicates_exposure_to,TaxExposure indicates_exposure_to RevenueForecast (from QF100)
+LEGAL.027,FIN.098,indicates_exposure_to,TaxExposure indicates_exposure_to NetIncomeForecast (from QF100)
+FIN.030,FIN.095,indicates_exposure_to,NetIncome indicates_exposure_to RevenueForecast (from QF100)
+FIN.030,FIN.098,indicates_exposure_to,NetIncome indicates_exposure_to NetIncomeForecast (from QF100)
+FIN.095,FIN.098,indicates_exposure_to,RevenueForecast indicates_exposure_to NetIncomeForecast (from QF100)
+QL002,CORP.021,ASKS_FOR,Question QL002 asks for UltimateBeneficialOwner (role: PRIMARY)
+QL002,CORP.022,ASKS_FOR,Question QL002 asks for VotingRightsRatio (role: SUPPORTING)
+QL002,CORP.023,ASKS_FOR,Question QL002 asks for ControlRightsRatio (role: SUPPORTING)
+QL002,CORP.025,ASKS_FOR,Question QL002 asks for BoardControlRatio (role: SUPPORTING)
+QL002,CORP.026,ASKS_FOR,Question QL002 asks for VetoRights (role: SUPPORTING)
+QL002,CORP.027,ASKS_FOR,Question QL002 asks for ConcertPartyArrangement (role: SUPPORTING)
+QL002,CORP.028,ASKS_FOR,Question QL002 asks for ControlChainLength (role: SUPPORTING)
+QL002,CORP.029,ASKS_FOR,Question QL002 asks for ControlComplexity (role: SUPPORTING)
+QL002,CORP.030,ASKS_FOR,Question QL002 asks for ControlStability (role: SUPPORTING)
+QL003,CORP.021,ASKS_FOR,Question QL003 asks for UltimateBeneficialOwner (role: PRIMARY)
+QL003,CORP.030,ASKS_FOR,Question QL003 asks for ControlStability (role: SUPPORTING)
+QL003,CORP.041,ASKS_FOR,Question QL003 asks for CorporateLifecycleStatus (role: SUPPORTING)
+QL004,CORP.012,ASKS_FOR,Question QL004 asks for ShareholderCount (role: PRIMARY)
+QL004,CORP.019,ASKS_FOR,Question QL004 asks for InstitutionalOwnership (role: SUPPORTING)
+QL004,CORP.035,ASKS_FOR,Question QL004 asks for ConsolidationScope (role: SUPPORTING)
+QL004,LEGAL.032,ASKS_FOR,Question QL004 asks for RegulatoryDependency (role: SUPPORTING)
+QL005,CORP.012,ASKS_FOR,Question QL005 asks for ShareholderCount (role: PRIMARY)
+QL005,CORP.013,ASKS_FOR,Question QL005 asks for Top1ShareholderRatio (role: SUPPORTING)
+QL005,CORP.030,ASKS_FOR,Question QL005 asks for ControlStability (role: SUPPORTING)
+QL006,CORP.013,ASKS_FOR,Question QL006 asks for Top1ShareholderRatio (role: PRIMARY)
+QL006,CORP.014,ASKS_FOR,Question QL006 asks for Top3ShareholderRatio (role: SUPPORTING)
+QL006,CORP.015,ASKS_FOR,Question QL006 asks for Top5ShareholderRatio (role: SUPPORTING)
+QL006,TXN.003,ASKS_FOR,Question QL006 asks for EntryEnterpriseValue (role: SUPPORTING)
+QL006,TXN.017,ASKS_FOR,Question QL006 asks for EntryValuationPercentile (role: SUPPORTING)
+QL007,CORP.036,ASKS_FOR,Question QL007 asks for RelatedPartyCount (role: PRIMARY)
+QL007,CORP.037,ASKS_FOR,Question QL007 asks for RelatedPartyTransactionRatio (role: SUPPORTING)
+QL007,CORP.038,ASKS_FOR,Question QL007 asks for RelatedPartyReceivable (role: SUPPORTING)
+QL007,CORP.039,ASKS_FOR,Question QL007 asks for RelatedPartyPayable (role: SUPPORTING)
+QL007,FIN.033,ASKS_FOR,Question QL007 asks for AdjustedNetIncome (role: SUPPORTING)
+QL008,LEGAL.027,ASKS_FOR,Question QL008 asks for TaxExposure (role: PRIMARY)
+QL008,LEGAL.009,ASKS_FOR,Question QL008 asks for AdministrativePenaltyCount (role: SUPPORTING)
+QL008,LEGAL.010,ASKS_FOR,Question QL008 asks for AdministrativePenaltyAmount (role: SUPPORTING)
+QL009,CORP.005,ASKS_FOR,Question QL009 asks for RegisteredCapital (role: PRIMARY)
+QL009,CORP.006,ASKS_FOR,Question QL009 asks for PaidInCapital (role: SUPPORTING)
+QL010,TXN.001,ASKS_FOR,Question QL010 asks for DealSize (role: PRIMARY)
+QL010,TXN.004,ASKS_FOR,Question QL010 asks for PrimaryInvestment (role: SUPPORTING)
+QL010,TXN.005,ASKS_FOR,Question QL010 asks for SecondaryInvestment (role: SUPPORTING)
+QL010,LEGAL.033,ASKS_FOR,Question QL010 asks for LegalDueDiligenceCompletion (role: SUPPORTING)
+QL010,LEGAL.016,ASKS_FOR,Question QL010 asks for MaterialContractCount (role: SUPPORTING)
+QL011,LEGAL.001,ASKS_FOR,Question QL011 asks for LitigationCount (role: PRIMARY)
+QL011,LEGAL.003,ASKS_FOR,Question QL011 asks for MaterialLitigationCount (role: SUPPORTING)
+QL011,LEGAL.005,ASKS_FOR,Question QL011 asks for PotentialLiability (role: SUPPORTING)
+QL011,LEGAL.013,ASKS_FOR,Question QL011 asks for ComplianceRemediationRate (role: SUPPORTING)
+QL012,CORP.043,ASKS_FOR,Question QL012 asks for DormantShellEntityExposure (role: PRIMARY)
+QL012,CORP.044,ASKS_FOR,Question QL012 asks for CorporateInformationCompleteness (role: SUPPORTING)
+QL012,LEGAL.030,ASKS_FOR,Question QL012 asks for RelatedPartyLegalExposure (role: SUPPORTING)
+QL013,CORP.043,ASKS_FOR,Question QL013 asks for DormantShellEntityExposure (role: PRIMARY)
+QL013,CORP.044,ASKS_FOR,Question QL013 asks for CorporateInformationCompleteness (role: SUPPORTING)
+QL013,LEGAL.030,ASKS_FOR,Question QL013 asks for RelatedPartyLegalExposure (role: SUPPORTING)
+QL014,CORP.043,ASKS_FOR,Question QL014 asks for DormantShellEntityExposure (role: PRIMARY)
+QL014,CORP.044,ASKS_FOR,Question QL014 asks for CorporateInformationCompleteness (role: SUPPORTING)
+QL014,LEGAL.030,ASKS_FOR,Question QL014 asks for RelatedPartyLegalExposure (role: SUPPORTING)
+QL015,CORP.040,ASKS_FOR,Question QL015 asks for RelatedPartyCapitalOccupation (role: PRIMARY)
+QL015,CORP.038,ASKS_FOR,Question QL015 asks for RelatedPartyReceivable (role: SUPPORTING)
+QL015,CORP.039,ASKS_FOR,Question QL015 asks for RelatedPartyPayable (role: SUPPORTING)
+QL015,FIN.055,ASKS_FOR,Question QL015 asks for CashBalance (role: SUPPORTING)
+QL016,CORP.021,ASKS_FOR,Question QL016 asks for UltimateBeneficialOwner (role: PRIMARY)
+QL016,CORP.036,ASKS_FOR,Question QL016 asks for RelatedPartyCount (role: SUPPORTING)
+QL016,CORP.043,ASKS_FOR,Question QL016 asks for DormantShellEntityExposure (role: SUPPORTING)
+QL017,CORP.017,ASKS_FOR,Question QL017 asks for ManagementOwnership (role: PRIMARY)
+QL017,MGMT.019,ASKS_FOR,Question QL017 asks for KeyManagementVacancy (role: SUPPORTING)
+QL017,MGMT.020,ASKS_FOR,Question QL017 asks for ManagementSuccessionPlan (role: SUPPORTING)
+QL017,ESG.026,ASKS_FOR,Question QL017 asks for ESGGovernanceMaturity (role: SUPPORTING)
+QL018,CORP.017,ASKS_FOR,Question QL018 asks for ManagementOwnership (role: PRIMARY)
+QL018,CORP.018,ASKS_FOR,Question QL018 asks for EmployeeOwnership (role: SUPPORTING)
+QL018,CORP.040,ASKS_FOR,Question QL018 asks for RelatedPartyCapitalOccupation (role: SUPPORTING)
+QL018,FIN.033,ASKS_FOR,Question QL018 asks for AdjustedNetIncome (role: SUPPORTING)
+QL019,MGMT.021,ASKS_FOR,Question QL019 asks for EmployeeCount (role: PRIMARY)
+QL019,MGMT.023,ASKS_FOR,Question QL019 asks for EmployeeTurnoverRate (role: SUPPORTING)
+QL019,CORP.018,ASKS_FOR,Question QL019 asks for EmployeeOwnership (role: SUPPORTING)
+QL020,CORP.018,ASKS_FOR,Question QL020 asks for EmployeeOwnership (role: PRIMARY)
+QL020,LEGAL.027,ASKS_FOR,Question QL020 asks for TaxExposure (role: SUPPORTING)
+QL020,FIN.033,ASKS_FOR,Question QL020 asks for AdjustedNetIncome (role: SUPPORTING)
+QL021,FIN.033,ASKS_FOR,Question QL021 asks for AdjustedNetIncome (role: PRIMARY)
+QL021,FIN.030,ASKS_FOR,Question QL021 asks for NetIncome (role: SUPPORTING)
+QL021,FIN.031,ASKS_FOR,Question QL021 asks for NetIncomeGrowth [derived: (FIN.030_t - FIN.030_t-1) / FIN.030_t-1] (role: SUPPORTING)
+QL022,CORP.017,ASKS_FOR,Question QL022 asks for ManagementOwnership (role: PRIMARY)
+QL022,CORP.018,ASKS_FOR,Question QL022 asks for EmployeeOwnership (role: SUPPORTING)
+QL022,TXN.007,ASKS_FOR,Question QL022 asks for DilutionRate (role: SUPPORTING)
+QL022,TXN.006,ASKS_FOR,Question QL022 asks for OwnershipAfterInvestment (role: SUPPORTING)
+QL023,MGMT.007,ASKS_FOR,Question QL023 asks for FounderOwnership (role: PRIMARY)
+QL023,MGMT.008,ASKS_FOR,Question QL023 asks for FounderControl (role: SUPPORTING)
+QL023,CORP.016,ASKS_FOR,Question QL023 asks for FounderOwnership (role: SUPPORTING)
+QL023,CORP.024,ASKS_FOR,Question QL023 asks for FounderControlRatio (role: SUPPORTING)
+QL023,TXN.003,ASKS_FOR,Question QL023 asks for EntryEnterpriseValue (role: SUPPORTING)
+QL024,CORP.036,ASKS_FOR,Question QL024 asks for RelatedPartyCount (role: PRIMARY)
+QL024,CORP.037,ASKS_FOR,Question QL024 asks for RelatedPartyTransactionRatio (role: SUPPORTING)
+QL024,CUST.019,ASKS_FOR,Question QL024 asks for RelatedCustomerRevenueRatio (role: SUPPORTING)
+QL024,SUPP.010,ASKS_FOR,Question QL024 asks for SupplierConcentrationRisk (role: SUPPORTING)
+QL025,CORP.037,ASKS_FOR,Question QL025 asks for RelatedPartyTransactionRatio (role: PRIMARY)
+QL025,CUST.019,ASKS_FOR,Question QL025 asks for RelatedCustomerRevenueRatio (role: SUPPORTING)
+QL025,SUPP.010,ASKS_FOR,Question QL025 asks for SupplierConcentrationRisk (role: SUPPORTING)
+QL026,CORP.037,ASKS_FOR,Question QL026 asks for RelatedPartyTransactionRatio (role: PRIMARY)
+QL026,LEGAL.030,ASKS_FOR,Question QL026 asks for RelatedPartyLegalExposure (role: SUPPORTING)
+QL026,ESG.021,ASKS_FOR,Question QL026 asks for RelatedPartyGovernanceRisk (role: SUPPORTING)
+QL027,CORP.037,ASKS_FOR,Question QL027 asks for RelatedPartyTransactionRatio (role: PRIMARY)
+QL027,CUST.022,ASKS_FOR,Question QL027 asks for CustomerProfitability (role: SUPPORTING)
+QL027,SUPP.010,ASKS_FOR,Question QL027 asks for SupplierConcentrationRisk (role: SUPPORTING)
+QL028,CORP.037,ASKS_FOR,Question QL028 asks for RelatedPartyTransactionRatio (role: PRIMARY)
+QL028,CUST.036,ASKS_FOR,Question QL028 asks for ContractTerminationRate (role: SUPPORTING)
+QL028,CUST.046,ASKS_FOR,Question QL028 asks for OrderCancellationRate (role: SUPPORTING)
+QL029,CORP.037,ASKS_FOR,Question QL029 asks for RelatedPartyTransactionRatio (role: PRIMARY)
+QL029,CUST.001,ASKS_FOR,Question QL029 asks for CustomerCount (role: SUPPORTING)
+QL029,SUPP.001,ASKS_FOR,Question QL029 asks for SupplierCount (role: SUPPORTING)
+QL030,CORP.037,ASKS_FOR,Question QL030 asks for RelatedPartyTransactionRatio (role: PRIMARY)
+QL030,CORP.038,ASKS_FOR,Question QL030 asks for RelatedPartyReceivable (role: SUPPORTING)
+QL030,CORP.039,ASKS_FOR,Question QL030 asks for RelatedPartyPayable (role: SUPPORTING)
+QL031,CORP.036,ASKS_FOR,Question QL031 asks for RelatedPartyCount (role: PRIMARY)
+QL031,CORP.037,ASKS_FOR,Question QL031 asks for RelatedPartyTransactionRatio (role: SUPPORTING)
+QL031,LEGAL.030,ASKS_FOR,Question QL031 asks for RelatedPartyLegalExposure (role: SUPPORTING)
+QL032,CORP.036,ASKS_FOR,Question QL032 asks for RelatedPartyCount (role: PRIMARY)
+QL032,CORP.043,ASKS_FOR,Question QL032 asks for DormantShellEntityExposure (role: SUPPORTING)
+QL032,CUST.019,ASKS_FOR,Question QL032 asks for RelatedCustomerRevenueRatio (role: SUPPORTING)
+QL032,SUPP.010,ASKS_FOR,Question QL032 asks for SupplierConcentrationRisk (role: SUPPORTING)
+QL033,CUST.021,ASKS_FOR,Question QL033 asks for CustomerCreditQuality (role: PRIMARY)
+QL033,CUST.025,ASKS_FOR,Question QL033 asks for CustomerAR (role: SUPPORTING)
+QL033,CUST.026,ASKS_FOR,Question QL033 asks for CustomerOverdueRatio (role: SUPPORTING)
+QL033,CUST.027,ASKS_FOR,Question QL033 asks for CustomerBadDebtRatio (role: SUPPORTING)
+QL033,SUPP.028,ASKS_FOR,Question QL033 asks for SupplierQualityRate (role: SUPPORTING)
+QL033,SUPP.029,ASKS_FOR,Question QL033 asks for SupplierOnTimeDeliveryRate (role: SUPPORTING)
+QL034,CUST.025,ASKS_FOR,Question QL034 asks for CustomerAR (role: PRIMARY)
+QL034,FIN.056,ASKS_FOR,Question QL034 asks for AccountsReceivable (role: SUPPORTING)
+QL034,CORP.038,ASKS_FOR,Question QL034 asks for RelatedPartyReceivable (role: SUPPORTING)
+QL034,CORP.039,ASKS_FOR,Question QL034 asks for RelatedPartyPayable (role: SUPPORTING)
+QL035,LEGAL.005,ASKS_FOR,Question QL035 asks for PotentialLiability (role: PRIMARY)
+QL035,FIN.056,ASKS_FOR,Question QL035 asks for AccountsReceivable (role: SUPPORTING)
+QL035,FIN.057,ASKS_FOR,Question QL035 asks for InventoryBalance (role: SUPPORTING)
+QL036,CUST.025,ASKS_FOR,Question QL036 asks for CustomerAR (role: PRIMARY)
+QL036,CUST.027,ASKS_FOR,Question QL036 asks for CustomerBadDebtRatio (role: SUPPORTING)
+QL036,FIN.056,ASKS_FOR,Question QL036 asks for AccountsReceivable (role: SUPPORTING)
+QL036,FIN.057,ASKS_FOR,Question QL036 asks for InventoryBalance (role: SUPPORTING)
+QL037,LEGAL.014,ASKS_FOR,Question QL037 asks for LicenseCount (role: PRIMARY)
+QL037,LEGAL.031,ASKS_FOR,Question QL037 asks for InternalControlDeficiency (role: SUPPORTING)
+QL038,LEGAL.011,ASKS_FOR,Question QL038 asks for ComplianceViolationCount (role: PRIMARY)
+QL038,LEGAL.009,ASKS_FOR,Question QL038 asks for AdministrativePenaltyCount (role: SUPPORTING)
+QL038,ESG.011,ASKS_FOR,Question QL038 asks for EnvironmentalPenaltyCount (role: SUPPORTING)
+QL038,ESG.012,ASKS_FOR,Question QL038 asks for EnvironmentalIncidentCount (role: SUPPORTING)
+QL038,ESG.013,ASKS_FOR,Question QL038 asks for EnvironmentalComplianceRate (role: SUPPORTING)
+QL039,LEGAL.014,ASKS_FOR,Question QL039 asks for LicenseCount (role: PRIMARY)
+QL039,LEGAL.015,ASKS_FOR,Question QL039 asks for LicenseExpiryExposure (role: SUPPORTING)
+QL039,ESG.006,ASKS_FOR,Question QL039 asks for EnergyConsumption (role: SUPPORTING)
+QL039,ESG.007,ASKS_FOR,Question QL039 asks for EnergyIntensity (role: SUPPORTING)
+QL040,LEGAL.014,ASKS_FOR,Question QL040 asks for LicenseCount (role: PRIMARY)
+QL040,LEGAL.015,ASKS_FOR,Question QL040 asks for LicenseExpiryExposure (role: SUPPORTING)
+QL041,LEGAL.014,ASKS_FOR,Question QL041 asks for LicenseCount (role: PRIMARY)
+QL041,LEGAL.031,ASKS_FOR,Question QL041 asks for InternalControlDeficiency (role: SUPPORTING)
+QL042,LEGAL.014,ASKS_FOR,Question QL042 asks for LicenseCount (role: PRIMARY)
+QL042,LEGAL.031,ASKS_FOR,Question QL042 asks for InternalControlDeficiency (role: SUPPORTING)
+QL042,ESG.018,ASKS_FOR,Question QL042 asks for LaborComplianceRate (role: SUPPORTING)
+QL043,LEGAL.014,ASKS_FOR,Question QL043 asks for LicenseCount (role: PRIMARY)
+QL043,LEGAL.015,ASKS_FOR,Question QL043 asks for LicenseExpiryExposure (role: SUPPORTING)
+QL043,ESG.013,ASKS_FOR,Question QL043 asks for EnvironmentalComplianceRate (role: SUPPORTING)
+QL044,LEGAL.033,ASKS_FOR,Question QL044 asks for LegalDueDiligenceCompletion (role: PRIMARY)
+QL044,LEGAL.013,ASKS_FOR,Question QL044 asks for ComplianceRemediationRate (role: SUPPORTING)
+QL044,LEGAL.031,ASKS_FOR,Question QL044 asks for InternalControlDeficiency (role: SUPPORTING)
+QL044,ESG.026,ASKS_FOR,Question QL044 asks for ESGGovernanceMaturity (role: SUPPORTING)
+QL045,LEGAL.005,ASKS_FOR,Question QL045 asks for PotentialLiability (role: PRIMARY)
+QL045,LEGAL.024,ASKS_FOR,Question QL045 asks for GuaranteeExposure (role: SUPPORTING)
+QL045,LEGAL.025,ASKS_FOR,Question QL045 asks for PledgeExposure (role: SUPPORTING)
+QL045,LEGAL.026,ASKS_FOR,Question QL045 asks for MortgageExposure (role: SUPPORTING)
+QL046,LEGAL.014,ASKS_FOR,Question QL046 asks for LicenseCount (role: PRIMARY)
+QL046,LEGAL.031,ASKS_FOR,Question QL046 asks for InternalControlDeficiency (role: SUPPORTING)
+QL046,ESG.012,ASKS_FOR,Question QL046 asks for EnvironmentalIncidentCount (role: SUPPORTING)
+QL047,LEGAL.014,ASKS_FOR,Question QL047 asks for LicenseCount (role: PRIMARY)
+QL047,LEGAL.015,ASKS_FOR,Question QL047 asks for LicenseExpiryExposure (role: SUPPORTING)
+QL047,ESG.013,ASKS_FOR,Question QL047 asks for EnvironmentalComplianceRate (role: SUPPORTING)
+QL048,LEGAL.014,ASKS_FOR,Question QL048 asks for LicenseCount (role: PRIMARY)
+QL048,LEGAL.031,ASKS_FOR,Question QL048 asks for InternalControlDeficiency (role: SUPPORTING)
+QL048,ESG.010,ASKS_FOR,Question QL048 asks for WasteGeneration (role: SUPPORTING)
+QL049,ESG.010,ASKS_FOR,Question QL049 asks for WasteGeneration (role: PRIMARY)
+QL049,ESG.013,ASKS_FOR,Question QL049 asks for EnvironmentalComplianceRate (role: SUPPORTING)
+QL050,LEGAL.014,ASKS_FOR,Question QL050 asks for LicenseCount (role: PRIMARY)
+QL050,LEGAL.015,ASKS_FOR,Question QL050 asks for LicenseExpiryExposure (role: SUPPORTING)
+QL050,ESG.014,ASKS_FOR,Question QL050 asks for EmployeeSafetyIncidentRate (role: SUPPORTING)
+QL050,ESG.015,ASKS_FOR,Question QL050 asks for LostTimeInjuryRate (role: SUPPORTING)
+QL051,LEGAL.011,ASKS_FOR,Question QL051 asks for ComplianceViolationCount (role: PRIMARY)
+QL051,LEGAL.012,ASKS_FOR,Question QL051 asks for RegulatoryInvestigationCount (role: SUPPORTING)
+QL051,ESG.014,ASKS_FOR,Question QL051 asks for EmployeeSafetyIncidentRate (role: SUPPORTING)
+QL051,ESG.015,ASKS_FOR,Question QL051 asks for LostTimeInjuryRate (role: SUPPORTING)
+QL051,ESG.018,ASKS_FOR,Question QL051 asks for LaborComplianceRate (role: SUPPORTING)
+QL052,TECH.023,ASKS_FOR,Question QL052 asks for IPEncumbranceCount (role: PRIMARY)
+QL052,TECH.025,ASKS_FOR,Question QL052 asks for PatentExpiryExposure (role: SUPPORTING)
+QL052,LEGAL.025,ASKS_FOR,Question QL052 asks for PledgeExposure (role: SUPPORTING)
+QL052,LEGAL.026,ASKS_FOR,Question QL052 asks for MortgageExposure (role: SUPPORTING)
+QL053,TECH.001,ASKS_FOR,Question QL053 asks for CoreTechnologyCount (role: PRIMARY)
+QL053,TECH.010,ASKS_FOR,Question QL053 asks for TechnologyValidationCount (role: SUPPORTING)
+QL053,TECH.021,ASKS_FOR,Question QL053 asks for IPOwnershipRatio (role: SUPPORTING)
+QL053,TECH.022,ASKS_FOR,Question QL053 asks for ThirdPartyLicenseRatio (role: SUPPORTING)
+QL054,TECH.021,ASKS_FOR,Question QL054 asks for IPOwnershipRatio (role: PRIMARY)
+QL054,TECH.022,ASKS_FOR,Question QL054 asks for ThirdPartyLicenseRatio (role: SUPPORTING)
+QL054,TECH.027,ASKS_FOR,Question QL054 asks for FreedomToOperate (role: SUPPORTING)
+QL054,TECH.032,ASKS_FOR,Question QL054 asks for ThirdPartyTechnologyDependency (role: SUPPORTING)
+QL055,TECH.031,ASKS_FOR,Question QL055 asks for CorePersonTechnologyDependency (role: PRIMARY)
+QL055,TECH.028,ASKS_FOR,Question QL055 asks for TradeSecretDependency (role: SUPPORTING)
+QL055,TECH.021,ASKS_FOR,Question QL055 asks for IPOwnershipRatio (role: SUPPORTING)
+QL056,TECH.024,ASKS_FOR,Question QL056 asks for IPDisputeCount (role: PRIMARY)
+QL056,LEGAL.029,ASKS_FOR,Question QL056 asks for IPDisputeExposure (role: SUPPORTING)
+QL057,TECH.028,ASKS_FOR,Question QL057 asks for TradeSecretDependency (role: PRIMARY)
+QL057,TECH.031,ASKS_FOR,Question QL057 asks for CorePersonTechnologyDependency (role: SUPPORTING)
+QL057,TECH.033,ASKS_FOR,Question QL057 asks for OpenSourceDependency (role: SUPPORTING)
+QL058,SUPP.006,ASKS_FOR,Question QL058 asks for SingleSourceSupplierCount (role: PRIMARY)
+QL058,SUPP.007,ASKS_FOR,Question QL058 asks for StrategicSupplierCount (role: SUPPORTING)
+QL058,SUPP.010,ASKS_FOR,Question QL058 asks for SupplierConcentrationRisk (role: SUPPORTING)
+QL058,SUPP.019,ASKS_FOR,Question QL058 asks for LongTermContractCoverage (role: SUPPORTING)
+QL058,SUPP.027,ASKS_FOR,Question QL058 asks for AlternativeSupplierCoverage (role: SUPPORTING)
+QL059,SUPP.006,ASKS_FOR,Question QL059 asks for SingleSourceSupplierCount (role: PRIMARY)
+QL059,SUPP.019,ASKS_FOR,Question QL059 asks for LongTermContractCoverage (role: SUPPORTING)
+QL059,SUPP.026,ASKS_FOR,Question QL059 asks for CriticalMaterialCount (role: SUPPORTING)
+QL059,LEGAL.021,ASKS_FOR,Question QL059 asks for ExclusivityExposure (role: SUPPORTING)
+QL059,LEGAL.022,ASKS_FOR,Question QL059 asks for MinimumPurchaseExposure (role: SUPPORTING)
+QL060,SUPP.027,ASKS_FOR,Question QL060 asks for AlternativeSupplierCoverage (role: PRIMARY)
+QL060,SUPP.021,ASKS_FOR,Question QL060 asks for AverageSupplierLeadTime (role: SUPPORTING)
+QL060,SUPP.030,ASKS_FOR,Question QL060 asks for SupplyChainResilienceScore (role: SUPPORTING)
+QL061,LEGAL.016,ASKS_FOR,Question QL061 asks for MaterialContractCount (role: PRIMARY)
+QL061,LEGAL.017,ASKS_FOR,Question QL061 asks for MaterialContractValue (role: SUPPORTING)
+QL061,LEGAL.018,ASKS_FOR,Question QL061 asks for ContractConcentration (role: SUPPORTING)
+QL061,LEGAL.019,ASKS_FOR,Question QL061 asks for ContractTerminationExposure (role: SUPPORTING)
+QL061,LEGAL.020,ASKS_FOR,Question QL061 asks for ChangeOfControlExposure (role: SUPPORTING)
+QL061,CORP.044,ASKS_FOR,Question QL061 asks for CorporateInformationCompleteness (role: SUPPORTING)
+QL062,LEGAL.020,ASKS_FOR,Question QL062 asks for ChangeOfControlExposure (role: PRIMARY)
+QL062,LEGAL.024,ASKS_FOR,Question QL062 asks for GuaranteeExposure (role: SUPPORTING)
+QL062,FIN.065,ASKS_FOR,Question QL062 asks for TotalDebt (role: SUPPORTING)
+QL062,FIN.066,ASKS_FOR,Question QL062 asks for ShortTermDebt (role: SUPPORTING)
+QL063,MGMT.013,ASKS_FOR,Question QL063 asks for ManagementTurnover (role: PRIMARY)
+QL063,MGMT.019,ASKS_FOR,Question QL063 asks for KeyManagementVacancy (role: SUPPORTING)
+QL063,MGMT.036,ASKS_FOR,Question QL063 asks for KeyRoleVacancy (role: SUPPORTING)
+QL063,MGMT.037,ASKS_FOR,Question QL063 asks for ManagementCapabilityGap (role: SUPPORTING)
+QL064,CORP.031,ASKS_FOR,Question QL064 asks for SubsidiaryCount (role: PRIMARY)
+QL064,CORP.042,ASKS_FOR,Question QL064 asks for CorporateRegistrationAnomalies (role: SUPPORTING)
+QL064,LEGAL.033,ASKS_FOR,Question QL064 asks for LegalDueDiligenceCompletion (role: SUPPORTING)
+QL065,CORP.005,ASKS_FOR,Question QL065 asks for RegisteredCapital (role: PRIMARY)
+QL065,CORP.006,ASKS_FOR,Question QL065 asks for PaidInCapital (role: SUPPORTING)
+QL066,LEGAL.016,ASKS_FOR,Question QL066 asks for MaterialContractCount (role: PRIMARY)
+QL066,LEGAL.019,ASKS_FOR,Question QL066 asks for ContractTerminationExposure (role: SUPPORTING)
+QL066,LEGAL.031,ASKS_FOR,Question QL066 asks for InternalControlDeficiency (role: SUPPORTING)
+QL067,LEGAL.016,ASKS_FOR,Question QL067 asks for MaterialContractCount (role: PRIMARY)
+QL067,LEGAL.015,ASKS_FOR,Question QL067 asks for LicenseExpiryExposure (role: SUPPORTING)
+QL068,CORP.007,ASKS_FOR,Question QL068 asks for RegisteredAddress (role: PRIMARY)
+QL068,CORP.008,ASKS_FOR,Question QL068 asks for OperatingAddress (role: SUPPORTING)
+QL068,CORP.042,ASKS_FOR,Question QL068 asks for CorporateRegistrationAnomalies (role: SUPPORTING)
+QL069,TXN.001,ASKS_FOR,Question QL069 asks for DealSize (role: PRIMARY)
+QL069,TXN.002,ASKS_FOR,Question QL069 asks for EntryEquityValue (role: SUPPORTING)
+QL069,TXN.003,ASKS_FOR,Question QL069 asks for EntryEnterpriseValue (role: SUPPORTING)
+QL069,TXN.018,ASKS_FOR,Question QL069 asks for EntryIRR (role: SUPPORTING)
+QL069,TXN.019,ASKS_FOR,Question QL069 asks for EntryMOIC (role: SUPPORTING)
+QL070,LEGAL.001,ASKS_FOR,Question QL070 asks for LitigationCount (role: PRIMARY)
+QL070,LEGAL.002,ASKS_FOR,Question QL070 asks for LitigationAmount (role: SUPPORTING)
+QL070,LEGAL.006,ASKS_FOR,Question QL070 asks for ArbitrationCount (role: SUPPORTING)
+QL070,LEGAL.007,ASKS_FOR,Question QL070 asks for ArbitrationAmount (role: SUPPORTING)
+QL070,LEGAL.009,ASKS_FOR,Question QL070 asks for AdministrativePenaltyCount (role: SUPPORTING)
+QL070,CORP.042,ASKS_FOR,Question QL070 asks for CorporateRegistrationAnomalies (role: SUPPORTING)
+QL071,ESG.018,ASKS_FOR,Question QL071 asks for LaborComplianceRate (role: PRIMARY)
+QL071,MGMT.023,ASKS_FOR,Question QL071 asks for EmployeeTurnoverRate (role: SUPPORTING)
+QL072,MGMT.021,ASKS_FOR,Question QL072 asks for EmployeeCount (role: PRIMARY)
+QL072,ESG.018,ASKS_FOR,Question QL072 asks for LaborComplianceRate (role: SUPPORTING)
+QL072,LEGAL.032,ASKS_FOR,Question QL072 asks for RegulatoryDependency (role: SUPPORTING)
+QL073,MGMT.013,ASKS_FOR,Question QL073 asks for ManagementTurnover (role: PRIMARY)
+QL073,MGMT.019,ASKS_FOR,Question QL073 asks for KeyManagementVacancy (role: SUPPORTING)
+QL073,MGMT.024,ASKS_FOR,Question QL073 asks for AverageEmployeeTenure (role: SUPPORTING)
+QL073,MGMT.034,ASKS_FOR,Question QL073 asks for TalentRetentionCapability (role: SUPPORTING)
+QL074,MGMT.021,ASKS_FOR,Question QL074 asks for EmployeeCount (role: PRIMARY)
+QL074,MGMT.023,ASKS_FOR,Question QL074 asks for EmployeeTurnoverRate (role: SUPPORTING)
+QL074,LEGAL.028,ASKS_FOR,Question QL074 asks for LaborDisputeCount (role: SUPPORTING)
+QL074,ESG.018,ASKS_FOR,Question QL074 asks for LaborComplianceRate (role: SUPPORTING)
+QL075,TXN.001,ASKS_FOR,Question QL075 asks for DealSize (role: PRIMARY)
+QL075,TXN.006,ASKS_FOR,Question QL075 asks for OwnershipAfterInvestment (role: SUPPORTING)
+QL075,CORP.012,ASKS_FOR,Question QL075 asks for ShareholderCount (role: SUPPORTING)
+QL075,CORP.013,ASKS_FOR,Question QL075 asks for Top1ShareholderRatio (role: SUPPORTING)
+QL076,LEGAL.020,ASKS_FOR,Question QL076 asks for ChangeOfControlExposure (role: PRIMARY)
+QL076,LEGAL.019,ASKS_FOR,Question QL076 asks for ContractTerminationExposure (role: SUPPORTING)
+QL076,LEGAL.024,ASKS_FOR,Question QL076 asks for GuaranteeExposure (role: SUPPORTING)
+QL076,LEGAL.025,ASKS_FOR,Question QL076 asks for PledgeExposure (role: SUPPORTING)
+QL076,LEGAL.026,ASKS_FOR,Question QL076 asks for MortgageExposure (role: SUPPORTING)
+QL077,LEGAL.005,ASKS_FOR,Question QL077 asks for PotentialLiability (role: PRIMARY)
+QL077,LEGAL.018,ASKS_FOR,Question QL077 asks for ContractConcentration (role: SUPPORTING)
+QL077,LEGAL.020,ASKS_FOR,Question QL077 asks for ChangeOfControlExposure (role: SUPPORTING)
+QL077,LEGAL.030,ASKS_FOR,Question QL077 asks for RelatedPartyLegalExposure (role: SUPPORTING)
+QL078,LEGAL.005,ASKS_FOR,Question QL078 asks for PotentialLiability (role: PRIMARY)
+QL078,LEGAL.023,ASKS_FOR,Question QL078 asks for ContractPenaltyExposure (role: SUPPORTING)
+QL078,LEGAL.024,ASKS_FOR,Question QL078 asks for GuaranteeExposure (role: SUPPORTING)
+QL079,CORP.021,ASKS_FOR,Question QL079 asks for UltimateBeneficialOwner (role: PRIMARY)
+QL079,CORP.030,ASKS_FOR,Question QL079 asks for ControlStability (role: SUPPORTING)
+QL079,TXN.006,ASKS_FOR,Question QL079 asks for OwnershipAfterInvestment (role: SUPPORTING)
+QL079,TXN.024,ASKS_FOR,Question QL079 asks for ReturnSensitivity (role: SUPPORTING)
+QL080,LEGAL.033,ASKS_FOR,Question QL080 asks for LegalDueDiligenceCompletion (role: PRIMARY)
+QL080,RISK.001,ASKS_FOR,Question QL080 asks for StrategicRiskScore (role: SUPPORTING)
+QL080,RISK.003,ASKS_FOR,Question QL080 asks for HIGH (role: SUPPORTING)
+QL080,RISK.008,ASKS_FOR,Question QL080 asks for HIGH (role: SUPPORTING)
+QL080,RISK.010,ASKS_FOR,Question QL080 asks for HIGH (role: SUPPORTING)
+QL081,LEGAL.033,ASKS_FOR,Question QL081 asks for LegalDueDiligenceCompletion (role: PRIMARY)
+QL081,CORP.044,ASKS_FOR,Question QL081 asks for CorporateInformationCompleteness (role: SUPPORTING)
+QL081,CORP.045,ASKS_FOR,Question QL081 asks for CorporateDataConsistency (role: SUPPORTING)
+QL082,LEGAL.013,ASKS_FOR,Question QL082 asks for ComplianceRemediationRate (role: PRIMARY)
+QL082,LEGAL.033,ASKS_FOR,Question QL082 asks for LegalDueDiligenceCompletion (role: SUPPORTING)
+QL083,LEGAL.015,ASKS_FOR,Question QL083 asks for LicenseExpiryExposure (role: PRIMARY)
+QL083,LEGAL.019,ASKS_FOR,Question QL083 asks for ContractTerminationExposure (role: SUPPORTING)
+QL083,LEGAL.033,ASKS_FOR,Question QL083 asks for LegalDueDiligenceCompletion (role: SUPPORTING)
+QL084,LEGAL.033,ASKS_FOR,Question QL084 asks for LegalDueDiligenceCompletion (role: PRIMARY)
+QL084,LEGAL.031,ASKS_FOR,Question QL084 asks for InternalControlDeficiency (role: SUPPORTING)
+QL084,TECH.023,ASKS_FOR,Question QL084 asks for IPEncumbranceCount (role: SUPPORTING)
+QF001,LEGAL.033,ASKS_FOR,Question QF001 asks for LegalDueDiligenceCompletion (role: PRIMARY)
+QF001,LEGAL.013,ASKS_FOR,Question QF001 asks for ComplianceRemediationRate (role: SUPPORTING)
+QF001,CORP.044,ASKS_FOR,Question QF001 asks for CorporateInformationCompleteness (role: SUPPORTING)
+QF002,CORP.021,ASKS_FOR,Question QF002 asks for UltimateBeneficialOwner (role: PRIMARY)
+QF002,CORP.022,ASKS_FOR,Question QF002 asks for VotingRightsRatio (role: SUPPORTING)
+QF002,CORP.023,ASKS_FOR,Question QF002 asks for ControlRightsRatio (role: SUPPORTING)
+QF002,CORP.025,ASKS_FOR,Question QF002 asks for BoardControlRatio (role: SUPPORTING)
+QF002,CORP.026,ASKS_FOR,Question QF002 asks for VetoRights (role: SUPPORTING)
+QF002,CORP.027,ASKS_FOR,Question QF002 asks for ConcertPartyArrangement (role: SUPPORTING)
+QF002,CORP.028,ASKS_FOR,Question QF002 asks for ControlChainLength (role: SUPPORTING)
+QF002,CORP.029,ASKS_FOR,Question QF002 asks for ControlComplexity (role: SUPPORTING)
+QF002,CORP.030,ASKS_FOR,Question QF002 asks for ControlStability (role: SUPPORTING)
+QF003,CORP.021,ASKS_FOR,Question QF003 asks for UltimateBeneficialOwner (role: PRIMARY)
+QF003,CORP.030,ASKS_FOR,Question QF003 asks for ControlStability (role: SUPPORTING)
+QF003,CORP.041,ASKS_FOR,Question QF003 asks for CorporateLifecycleStatus (role: SUPPORTING)
+QF004,CORP.012,ASKS_FOR,Question QF004 asks for ShareholderCount (role: PRIMARY)
+QF004,CORP.019,ASKS_FOR,Question QF004 asks for InstitutionalOwnership (role: SUPPORTING)
+QF004,CORP.035,ASKS_FOR,Question QF004 asks for ConsolidationScope (role: SUPPORTING)
+QF004,LEGAL.032,ASKS_FOR,Question QF004 asks for RegulatoryDependency (role: SUPPORTING)
+QF005,CORP.012,ASKS_FOR,Question QF005 asks for ShareholderCount (role: PRIMARY)
+QF005,CORP.013,ASKS_FOR,Question QF005 asks for Top1ShareholderRatio (role: SUPPORTING)
+QF005,CORP.030,ASKS_FOR,Question QF005 asks for ControlStability (role: SUPPORTING)
+QF006,CORP.013,ASKS_FOR,Question QF006 asks for Top1ShareholderRatio (role: PRIMARY)
+QF006,CORP.014,ASKS_FOR,Question QF006 asks for Top3ShareholderRatio (role: SUPPORTING)
+QF006,CORP.015,ASKS_FOR,Question QF006 asks for Top5ShareholderRatio (role: SUPPORTING)
+QF006,TXN.003,ASKS_FOR,Question QF006 asks for EntryEnterpriseValue (role: SUPPORTING)
+QF006,TXN.017,ASKS_FOR,Question QF006 asks for EntryValuationPercentile (role: SUPPORTING)
+QF007,CORP.036,ASKS_FOR,Question QF007 asks for RelatedPartyCount (role: PRIMARY)
+QF007,CORP.037,ASKS_FOR,Question QF007 asks for RelatedPartyTransactionRatio (role: SUPPORTING)
+QF007,CORP.038,ASKS_FOR,Question QF007 asks for RelatedPartyReceivable (role: SUPPORTING)
+QF007,CORP.039,ASKS_FOR,Question QF007 asks for RelatedPartyPayable (role: SUPPORTING)
+QF007,FIN.033,ASKS_FOR,Question QF007 asks for AdjustedNetIncome (role: SUPPORTING)
+QF008,LEGAL.027,ASKS_FOR,Question QF008 asks for TaxExposure (role: PRIMARY)
+QF008,LEGAL.009,ASKS_FOR,Question QF008 asks for AdministrativePenaltyCount (role: SUPPORTING)
+QF008,LEGAL.010,ASKS_FOR,Question QF008 asks for AdministrativePenaltyAmount (role: SUPPORTING)
+QF009,CORP.005,ASKS_FOR,Question QF009 asks for RegisteredCapital (role: PRIMARY)
+QF009,CORP.006,ASKS_FOR,Question QF009 asks for PaidInCapital (role: SUPPORTING)
+QF010,TXN.001,ASKS_FOR,Question QF010 asks for DealSize (role: PRIMARY)
+QF010,TXN.004,ASKS_FOR,Question QF010 asks for PrimaryInvestment (role: SUPPORTING)
+QF010,TXN.005,ASKS_FOR,Question QF010 asks for SecondaryInvestment (role: SUPPORTING)
+QF010,LEGAL.033,ASKS_FOR,Question QF010 asks for LegalDueDiligenceCompletion (role: SUPPORTING)
+QF010,LEGAL.016,ASKS_FOR,Question QF010 asks for MaterialContractCount (role: SUPPORTING)
+QF011,LEGAL.001,ASKS_FOR,Question QF011 asks for LitigationCount (role: PRIMARY)
+QF011,LEGAL.003,ASKS_FOR,Question QF011 asks for MaterialLitigationCount (role: SUPPORTING)
+QF011,LEGAL.005,ASKS_FOR,Question QF011 asks for PotentialLiability (role: SUPPORTING)
+QF011,LEGAL.013,ASKS_FOR,Question QF011 asks for ComplianceRemediationRate (role: SUPPORTING)
+QF012,CORP.043,ASKS_FOR,Question QF012 asks for DormantShellEntityExposure (role: PRIMARY)
+QF012,CORP.044,ASKS_FOR,Question QF012 asks for CorporateInformationCompleteness (role: SUPPORTING)
+QF012,LEGAL.030,ASKS_FOR,Question QF012 asks for RelatedPartyLegalExposure (role: SUPPORTING)
+QF013,CORP.043,ASKS_FOR,Question QF013 asks for DormantShellEntityExposure (role: PRIMARY)
+QF013,CORP.044,ASKS_FOR,Question QF013 asks for CorporateInformationCompleteness (role: SUPPORTING)
+QF013,LEGAL.030,ASKS_FOR,Question QF013 asks for RelatedPartyLegalExposure (role: SUPPORTING)
+QF014,CORP.043,ASKS_FOR,Question QF014 asks for DormantShellEntityExposure (role: PRIMARY)
+QF014,CORP.044,ASKS_FOR,Question QF014 asks for CorporateInformationCompleteness (role: SUPPORTING)
+QF014,LEGAL.030,ASKS_FOR,Question QF014 asks for RelatedPartyLegalExposure (role: SUPPORTING)
+QF015,CORP.040,ASKS_FOR,Question QF015 asks for RelatedPartyCapitalOccupation (role: PRIMARY)
+QF015,CORP.038,ASKS_FOR,Question QF015 asks for RelatedPartyReceivable (role: SUPPORTING)
+QF015,CORP.039,ASKS_FOR,Question QF015 asks for RelatedPartyPayable (role: SUPPORTING)
+QF015,FIN.055,ASKS_FOR,Question QF015 asks for CashBalance (role: SUPPORTING)
+QF016,CORP.021,ASKS_FOR,Question QF016 asks for UltimateBeneficialOwner (role: PRIMARY)
+QF016,CORP.036,ASKS_FOR,Question QF016 asks for RelatedPartyCount (role: SUPPORTING)
+QF016,CORP.043,ASKS_FOR,Question QF016 asks for DormantShellEntityExposure (role: SUPPORTING)
+QF017,CORP.017,ASKS_FOR,Question QF017 asks for ManagementOwnership (role: PRIMARY)
+QF017,MGMT.019,ASKS_FOR,Question QF017 asks for KeyManagementVacancy (role: SUPPORTING)
+QF017,MGMT.020,ASKS_FOR,Question QF017 asks for ManagementSuccessionPlan (role: SUPPORTING)
+QF017,ESG.026,ASKS_FOR,Question QF017 asks for ESGGovernanceMaturity (role: SUPPORTING)
+QF018,CORP.017,ASKS_FOR,Question QF018 asks for ManagementOwnership (role: PRIMARY)
+QF018,CORP.018,ASKS_FOR,Question QF018 asks for EmployeeOwnership (role: SUPPORTING)
+QF018,CORP.040,ASKS_FOR,Question QF018 asks for RelatedPartyCapitalOccupation (role: SUPPORTING)
+QF018,FIN.033,ASKS_FOR,Question QF018 asks for AdjustedNetIncome (role: SUPPORTING)
+QF019,MGMT.021,ASKS_FOR,Question QF019 asks for EmployeeCount (role: PRIMARY)
+QF019,MGMT.023,ASKS_FOR,Question QF019 asks for EmployeeTurnoverRate (role: SUPPORTING)
+QF019,CORP.018,ASKS_FOR,Question QF019 asks for EmployeeOwnership (role: SUPPORTING)
+QF020,CORP.018,ASKS_FOR,Question QF020 asks for EmployeeOwnership (role: PRIMARY)
+QF020,LEGAL.027,ASKS_FOR,Question QF020 asks for TaxExposure (role: SUPPORTING)
+QF020,FIN.033,ASKS_FOR,Question QF020 asks for AdjustedNetIncome (role: SUPPORTING)
+QF021,FIN.033,ASKS_FOR,Question QF021 asks for AdjustedNetIncome (role: PRIMARY)
+QF021,FIN.030,ASKS_FOR,Question QF021 asks for NetIncome (role: SUPPORTING)
+QF021,FIN.031,ASKS_FOR,Question QF021 asks for NetIncomeGrowth [derived: (FIN.030_t - FIN.030_t-1) / FIN.030_t-1] (role: SUPPORTING)
+QF022,CORP.017,ASKS_FOR,Question QF022 asks for ManagementOwnership (role: PRIMARY)
+QF022,CORP.018,ASKS_FOR,Question QF022 asks for EmployeeOwnership (role: SUPPORTING)
+QF022,TXN.007,ASKS_FOR,Question QF022 asks for DilutionRate (role: SUPPORTING)
+QF022,TXN.006,ASKS_FOR,Question QF022 asks for OwnershipAfterInvestment (role: SUPPORTING)
+QF023,MGMT.007,ASKS_FOR,Question QF023 asks for FounderOwnership (role: PRIMARY)
+QF023,MGMT.008,ASKS_FOR,Question QF023 asks for FounderControl (role: SUPPORTING)
+QF023,CORP.016,ASKS_FOR,Question QF023 asks for FounderOwnership (role: SUPPORTING)
+QF023,CORP.024,ASKS_FOR,Question QF023 asks for FounderControlRatio (role: SUPPORTING)
+QF023,TXN.003,ASKS_FOR,Question QF023 asks for EntryEnterpriseValue (role: SUPPORTING)
+QF024,CORP.036,ASKS_FOR,Question QF024 asks for RelatedPartyCount (role: PRIMARY)
+QF024,CORP.037,ASKS_FOR,Question QF024 asks for RelatedPartyTransactionRatio (role: SUPPORTING)
+QF024,CUST.019,ASKS_FOR,Question QF024 asks for RelatedCustomerRevenueRatio (role: SUPPORTING)
+QF024,SUPP.010,ASKS_FOR,Question QF024 asks for SupplierConcentrationRisk (role: SUPPORTING)
+QF025,CORP.037,ASKS_FOR,Question QF025 asks for RelatedPartyTransactionRatio (role: PRIMARY)
+QF025,CUST.019,ASKS_FOR,Question QF025 asks for RelatedCustomerRevenueRatio (role: SUPPORTING)
+QF025,SUPP.010,ASKS_FOR,Question QF025 asks for SupplierConcentrationRisk (role: SUPPORTING)
+QF026,CORP.037,ASKS_FOR,Question QF026 asks for RelatedPartyTransactionRatio (role: PRIMARY)
+QF026,LEGAL.030,ASKS_FOR,Question QF026 asks for RelatedPartyLegalExposure (role: SUPPORTING)
+QF026,ESG.021,ASKS_FOR,Question QF026 asks for RelatedPartyGovernanceRisk (role: SUPPORTING)
+QF027,CORP.037,ASKS_FOR,Question QF027 asks for RelatedPartyTransactionRatio (role: PRIMARY)
+QF027,CUST.022,ASKS_FOR,Question QF027 asks for CustomerProfitability (role: SUPPORTING)
+QF027,SUPP.010,ASKS_FOR,Question QF027 asks for SupplierConcentrationRisk (role: SUPPORTING)
+QF028,CORP.037,ASKS_FOR,Question QF028 asks for RelatedPartyTransactionRatio (role: PRIMARY)
+QF028,CUST.036,ASKS_FOR,Question QF028 asks for ContractTerminationRate (role: SUPPORTING)
+QF028,CUST.046,ASKS_FOR,Question QF028 asks for OrderCancellationRate (role: SUPPORTING)
+QF029,CORP.037,ASKS_FOR,Question QF029 asks for RelatedPartyTransactionRatio (role: PRIMARY)
+QF029,CUST.001,ASKS_FOR,Question QF029 asks for CustomerCount (role: SUPPORTING)
+QF029,SUPP.001,ASKS_FOR,Question QF029 asks for SupplierCount (role: SUPPORTING)
+QF030,CORP.037,ASKS_FOR,Question QF030 asks for RelatedPartyTransactionRatio (role: PRIMARY)
+QF030,CORP.038,ASKS_FOR,Question QF030 asks for RelatedPartyReceivable (role: SUPPORTING)
+QF030,CORP.039,ASKS_FOR,Question QF030 asks for RelatedPartyPayable (role: SUPPORTING)
+QF031,CORP.036,ASKS_FOR,Question QF031 asks for RelatedPartyCount (role: PRIMARY)
+QF031,CORP.037,ASKS_FOR,Question QF031 asks for RelatedPartyTransactionRatio (role: SUPPORTING)
+QF031,LEGAL.030,ASKS_FOR,Question QF031 asks for RelatedPartyLegalExposure (role: SUPPORTING)
+QF032,CORP.036,ASKS_FOR,Question QF032 asks for RelatedPartyCount (role: PRIMARY)
+QF032,CORP.043,ASKS_FOR,Question QF032 asks for DormantShellEntityExposure (role: SUPPORTING)
+QF032,CUST.019,ASKS_FOR,Question QF032 asks for RelatedCustomerRevenueRatio (role: SUPPORTING)
+QF032,SUPP.010,ASKS_FOR,Question QF032 asks for SupplierConcentrationRisk (role: SUPPORTING)
+QF033,CUST.021,ASKS_FOR,Question QF033 asks for CustomerCreditQuality (role: PRIMARY)
+QF033,CUST.025,ASKS_FOR,Question QF033 asks for CustomerAR (role: SUPPORTING)
+QF033,CUST.026,ASKS_FOR,Question QF033 asks for CustomerOverdueRatio (role: SUPPORTING)
+QF033,CUST.027,ASKS_FOR,Question QF033 asks for CustomerBadDebtRatio (role: SUPPORTING)
+QF033,SUPP.028,ASKS_FOR,Question QF033 asks for SupplierQualityRate (role: SUPPORTING)
+QF033,SUPP.029,ASKS_FOR,Question QF033 asks for SupplierOnTimeDeliveryRate (role: SUPPORTING)
+QF034,CUST.025,ASKS_FOR,Question QF034 asks for CustomerAR (role: PRIMARY)
+QF034,FIN.056,ASKS_FOR,Question QF034 asks for AccountsReceivable (role: SUPPORTING)
+QF034,CORP.038,ASKS_FOR,Question QF034 asks for RelatedPartyReceivable (role: SUPPORTING)
+QF034,CORP.039,ASKS_FOR,Question QF034 asks for RelatedPartyPayable (role: SUPPORTING)
+QF035,LEGAL.005,ASKS_FOR,Question QF035 asks for PotentialLiability (role: PRIMARY)
+QF035,FIN.056,ASKS_FOR,Question QF035 asks for AccountsReceivable (role: SUPPORTING)
+QF035,FIN.057,ASKS_FOR,Question QF035 asks for InventoryBalance (role: SUPPORTING)
+QF036,CUST.025,ASKS_FOR,Question QF036 asks for CustomerAR (role: PRIMARY)
+QF036,CUST.027,ASKS_FOR,Question QF036 asks for CustomerBadDebtRatio (role: SUPPORTING)
+QF036,FIN.056,ASKS_FOR,Question QF036 asks for AccountsReceivable (role: SUPPORTING)
+QF036,FIN.057,ASKS_FOR,Question QF036 asks for InventoryBalance (role: SUPPORTING)
+QF037,LEGAL.014,ASKS_FOR,Question QF037 asks for LicenseCount (role: PRIMARY)
+QF037,LEGAL.031,ASKS_FOR,Question QF037 asks for InternalControlDeficiency (role: SUPPORTING)
+QF038,LEGAL.011,ASKS_FOR,Question QF038 asks for ComplianceViolationCount (role: PRIMARY)
+QF038,LEGAL.009,ASKS_FOR,Question QF038 asks for AdministrativePenaltyCount (role: SUPPORTING)
+QF038,ESG.011,ASKS_FOR,Question QF038 asks for EnvironmentalPenaltyCount (role: SUPPORTING)
+QF038,ESG.012,ASKS_FOR,Question QF038 asks for EnvironmentalIncidentCount (role: SUPPORTING)
+QF038,ESG.013,ASKS_FOR,Question QF038 asks for EnvironmentalComplianceRate (role: SUPPORTING)
+QF039,LEGAL.014,ASKS_FOR,Question QF039 asks for LicenseCount (role: PRIMARY)
+QF039,LEGAL.015,ASKS_FOR,Question QF039 asks for LicenseExpiryExposure (role: SUPPORTING)
+QF039,ESG.006,ASKS_FOR,Question QF039 asks for EnergyConsumption (role: SUPPORTING)
+QF039,ESG.007,ASKS_FOR,Question QF039 asks for EnergyIntensity (role: SUPPORTING)
+QF040,LEGAL.014,ASKS_FOR,Question QF040 asks for LicenseCount (role: PRIMARY)
+QF040,LEGAL.015,ASKS_FOR,Question QF040 asks for LicenseExpiryExposure (role: SUPPORTING)
+QF041,LEGAL.014,ASKS_FOR,Question QF041 asks for LicenseCount (role: PRIMARY)
+QF041,LEGAL.031,ASKS_FOR,Question QF041 asks for InternalControlDeficiency (role: SUPPORTING)
+QF042,LEGAL.014,ASKS_FOR,Question QF042 asks for LicenseCount (role: PRIMARY)
+QF042,LEGAL.031,ASKS_FOR,Question QF042 asks for InternalControlDeficiency (role: SUPPORTING)
+QF042,ESG.018,ASKS_FOR,Question QF042 asks for LaborComplianceRate (role: SUPPORTING)
+QF043,LEGAL.014,ASKS_FOR,Question QF043 asks for LicenseCount (role: PRIMARY)
+QF043,LEGAL.015,ASKS_FOR,Question QF043 asks for LicenseExpiryExposure (role: SUPPORTING)
+QF043,ESG.013,ASKS_FOR,Question QF043 asks for EnvironmentalComplianceRate (role: SUPPORTING)
+QF044,LEGAL.033,ASKS_FOR,Question QF044 asks for LegalDueDiligenceCompletion (role: PRIMARY)
+QF044,LEGAL.013,ASKS_FOR,Question QF044 asks for ComplianceRemediationRate (role: SUPPORTING)
+QF044,LEGAL.031,ASKS_FOR,Question QF044 asks for InternalControlDeficiency (role: SUPPORTING)
+QF044,ESG.026,ASKS_FOR,Question QF044 asks for ESGGovernanceMaturity (role: SUPPORTING)
+QF045,LEGAL.005,ASKS_FOR,Question QF045 asks for PotentialLiability (role: PRIMARY)
+QF045,LEGAL.024,ASKS_FOR,Question QF045 asks for GuaranteeExposure (role: SUPPORTING)
+QF045,LEGAL.025,ASKS_FOR,Question QF045 asks for PledgeExposure (role: SUPPORTING)
+QF045,LEGAL.026,ASKS_FOR,Question QF045 asks for MortgageExposure (role: SUPPORTING)
+QF046,LEGAL.014,ASKS_FOR,Question QF046 asks for LicenseCount (role: PRIMARY)
+QF046,LEGAL.031,ASKS_FOR,Question QF046 asks for InternalControlDeficiency (role: SUPPORTING)
+QF046,ESG.012,ASKS_FOR,Question QF046 asks for EnvironmentalIncidentCount (role: SUPPORTING)
+QF047,LEGAL.014,ASKS_FOR,Question QF047 asks for LicenseCount (role: PRIMARY)
+QF047,LEGAL.015,ASKS_FOR,Question QF047 asks for LicenseExpiryExposure (role: SUPPORTING)
+QF047,ESG.013,ASKS_FOR,Question QF047 asks for EnvironmentalComplianceRate (role: SUPPORTING)
+QF048,LEGAL.014,ASKS_FOR,Question QF048 asks for LicenseCount (role: PRIMARY)
+QF048,LEGAL.031,ASKS_FOR,Question QF048 asks for InternalControlDeficiency (role: SUPPORTING)
+QF048,ESG.010,ASKS_FOR,Question QF048 asks for WasteGeneration (role: SUPPORTING)
+QF049,ESG.010,ASKS_FOR,Question QF049 asks for WasteGeneration (role: PRIMARY)
+QF049,ESG.013,ASKS_FOR,Question QF049 asks for EnvironmentalComplianceRate (role: SUPPORTING)
+QF050,LEGAL.014,ASKS_FOR,Question QF050 asks for LicenseCount (role: PRIMARY)
+QF050,LEGAL.015,ASKS_FOR,Question QF050 asks for LicenseExpiryExposure (role: SUPPORTING)
+QF050,ESG.014,ASKS_FOR,Question QF050 asks for EmployeeSafetyIncidentRate (role: SUPPORTING)
+QF050,ESG.015,ASKS_FOR,Question QF050 asks for LostTimeInjuryRate (role: SUPPORTING)
+QF051,LEGAL.011,ASKS_FOR,Question QF051 asks for ComplianceViolationCount (role: PRIMARY)
+QF051,LEGAL.012,ASKS_FOR,Question QF051 asks for RegulatoryInvestigationCount (role: SUPPORTING)
+QF051,ESG.014,ASKS_FOR,Question QF051 asks for EmployeeSafetyIncidentRate (role: SUPPORTING)
+QF051,ESG.015,ASKS_FOR,Question QF051 asks for LostTimeInjuryRate (role: SUPPORTING)
+QF051,ESG.018,ASKS_FOR,Question QF051 asks for LaborComplianceRate (role: SUPPORTING)
+QF052,TECH.023,ASKS_FOR,Question QF052 asks for IPEncumbranceCount (role: PRIMARY)
+QF052,TECH.025,ASKS_FOR,Question QF052 asks for PatentExpiryExposure (role: SUPPORTING)
+QF052,LEGAL.025,ASKS_FOR,Question QF052 asks for PledgeExposure (role: SUPPORTING)
+QF052,LEGAL.026,ASKS_FOR,Question QF052 asks for MortgageExposure (role: SUPPORTING)
+QF053,TECH.001,ASKS_FOR,Question QF053 asks for CoreTechnologyCount (role: PRIMARY)
+QF053,TECH.010,ASKS_FOR,Question QF053 asks for TechnologyValidationCount (role: SUPPORTING)
+QF053,TECH.021,ASKS_FOR,Question QF053 asks for IPOwnershipRatio (role: SUPPORTING)
+QF053,TECH.022,ASKS_FOR,Question QF053 asks for ThirdPartyLicenseRatio (role: SUPPORTING)
+QF054,TECH.021,ASKS_FOR,Question QF054 asks for IPOwnershipRatio (role: PRIMARY)
+QF054,TECH.022,ASKS_FOR,Question QF054 asks for ThirdPartyLicenseRatio (role: SUPPORTING)
+QF054,TECH.027,ASKS_FOR,Question QF054 asks for FreedomToOperate (role: SUPPORTING)
+QF054,TECH.032,ASKS_FOR,Question QF054 asks for ThirdPartyTechnologyDependency (role: SUPPORTING)
+QF055,TECH.031,ASKS_FOR,Question QF055 asks for CorePersonTechnologyDependency (role: PRIMARY)
+QF055,TECH.028,ASKS_FOR,Question QF055 asks for TradeSecretDependency (role: SUPPORTING)
+QF055,TECH.021,ASKS_FOR,Question QF055 asks for IPOwnershipRatio (role: SUPPORTING)
+QF056,TECH.024,ASKS_FOR,Question QF056 asks for IPDisputeCount (role: PRIMARY)
+QF056,LEGAL.029,ASKS_FOR,Question QF056 asks for IPDisputeExposure (role: SUPPORTING)
+QF057,TECH.028,ASKS_FOR,Question QF057 asks for TradeSecretDependency (role: PRIMARY)
+QF057,TECH.031,ASKS_FOR,Question QF057 asks for CorePersonTechnologyDependency (role: SUPPORTING)
+QF057,TECH.033,ASKS_FOR,Question QF057 asks for OpenSourceDependency (role: SUPPORTING)
+QF058,SUPP.006,ASKS_FOR,Question QF058 asks for SingleSourceSupplierCount (role: PRIMARY)
+QF058,SUPP.007,ASKS_FOR,Question QF058 asks for StrategicSupplierCount (role: SUPPORTING)
+QF058,SUPP.010,ASKS_FOR,Question QF058 asks for SupplierConcentrationRisk (role: SUPPORTING)
+QF058,SUPP.019,ASKS_FOR,Question QF058 asks for LongTermContractCoverage (role: SUPPORTING)
+QF058,SUPP.027,ASKS_FOR,Question QF058 asks for AlternativeSupplierCoverage (role: SUPPORTING)
+QF059,SUPP.006,ASKS_FOR,Question QF059 asks for SingleSourceSupplierCount (role: PRIMARY)
+QF059,SUPP.019,ASKS_FOR,Question QF059 asks for LongTermContractCoverage (role: SUPPORTING)
+QF059,SUPP.026,ASKS_FOR,Question QF059 asks for CriticalMaterialCount (role: SUPPORTING)
+QF059,LEGAL.021,ASKS_FOR,Question QF059 asks for ExclusivityExposure (role: SUPPORTING)
+QF059,LEGAL.022,ASKS_FOR,Question QF059 asks for MinimumPurchaseExposure (role: SUPPORTING)
+QF060,SUPP.027,ASKS_FOR,Question QF060 asks for AlternativeSupplierCoverage (role: PRIMARY)
+QF060,SUPP.021,ASKS_FOR,Question QF060 asks for AverageSupplierLeadTime (role: SUPPORTING)
+QF060,SUPP.030,ASKS_FOR,Question QF060 asks for SupplyChainResilienceScore (role: SUPPORTING)
+QF061,LEGAL.016,ASKS_FOR,Question QF061 asks for MaterialContractCount (role: PRIMARY)
+QF061,LEGAL.017,ASKS_FOR,Question QF061 asks for MaterialContractValue (role: SUPPORTING)
+QF061,LEGAL.018,ASKS_FOR,Question QF061 asks for ContractConcentration (role: SUPPORTING)
+QF061,LEGAL.019,ASKS_FOR,Question QF061 asks for ContractTerminationExposure (role: SUPPORTING)
+QF061,LEGAL.020,ASKS_FOR,Question QF061 asks for ChangeOfControlExposure (role: SUPPORTING)
+QF061,CORP.044,ASKS_FOR,Question QF061 asks for CorporateInformationCompleteness (role: SUPPORTING)
+QF062,LEGAL.020,ASKS_FOR,Question QF062 asks for ChangeOfControlExposure (role: PRIMARY)
+QF062,LEGAL.024,ASKS_FOR,Question QF062 asks for GuaranteeExposure (role: SUPPORTING)
+QF062,FIN.065,ASKS_FOR,Question QF062 asks for TotalDebt (role: SUPPORTING)
+QF062,FIN.066,ASKS_FOR,Question QF062 asks for ShortTermDebt (role: SUPPORTING)
+QF063,MGMT.013,ASKS_FOR,Question QF063 asks for ManagementTurnover (role: PRIMARY)
+QF063,MGMT.019,ASKS_FOR,Question QF063 asks for KeyManagementVacancy (role: SUPPORTING)
+QF063,MGMT.036,ASKS_FOR,Question QF063 asks for KeyRoleVacancy (role: SUPPORTING)
+QF063,MGMT.037,ASKS_FOR,Question QF063 asks for ManagementCapabilityGap (role: SUPPORTING)
+QF064,CORP.031,ASKS_FOR,Question QF064 asks for SubsidiaryCount (role: PRIMARY)
+QF064,CORP.042,ASKS_FOR,Question QF064 asks for CorporateRegistrationAnomalies (role: SUPPORTING)
+QF064,LEGAL.033,ASKS_FOR,Question QF064 asks for LegalDueDiligenceCompletion (role: SUPPORTING)
+QF065,CORP.005,ASKS_FOR,Question QF065 asks for RegisteredCapital (role: PRIMARY)
+QF065,CORP.006,ASKS_FOR,Question QF065 asks for PaidInCapital (role: SUPPORTING)
+QF066,LEGAL.016,ASKS_FOR,Question QF066 asks for MaterialContractCount (role: PRIMARY)
+QF066,LEGAL.019,ASKS_FOR,Question QF066 asks for ContractTerminationExposure (role: SUPPORTING)
+QF066,LEGAL.031,ASKS_FOR,Question QF066 asks for InternalControlDeficiency (role: SUPPORTING)
+QF067,LEGAL.016,ASKS_FOR,Question QF067 asks for MaterialContractCount (role: PRIMARY)
+QF067,LEGAL.015,ASKS_FOR,Question QF067 asks for LicenseExpiryExposure (role: SUPPORTING)
+QF068,CORP.007,ASKS_FOR,Question QF068 asks for RegisteredAddress (role: PRIMARY)
+QF068,CORP.008,ASKS_FOR,Question QF068 asks for OperatingAddress (role: SUPPORTING)
+QF068,CORP.042,ASKS_FOR,Question QF068 asks for CorporateRegistrationAnomalies (role: SUPPORTING)
+QF069,TXN.001,ASKS_FOR,Question QF069 asks for DealSize (role: PRIMARY)
+QF069,TXN.002,ASKS_FOR,Question QF069 asks for EntryEquityValue (role: SUPPORTING)
+QF069,TXN.003,ASKS_FOR,Question QF069 asks for EntryEnterpriseValue (role: SUPPORTING)
+QF069,TXN.018,ASKS_FOR,Question QF069 asks for EntryIRR (role: SUPPORTING)
+QF069,TXN.019,ASKS_FOR,Question QF069 asks for EntryMOIC (role: SUPPORTING)
+QF070,LEGAL.001,ASKS_FOR,Question QF070 asks for LitigationCount (role: PRIMARY)
+QF070,LEGAL.002,ASKS_FOR,Question QF070 asks for LitigationAmount (role: SUPPORTING)
+QF070,LEGAL.006,ASKS_FOR,Question QF070 asks for ArbitrationCount (role: SUPPORTING)
+QF070,LEGAL.007,ASKS_FOR,Question QF070 asks for ArbitrationAmount (role: SUPPORTING)
+QF070,LEGAL.009,ASKS_FOR,Question QF070 asks for AdministrativePenaltyCount (role: SUPPORTING)
+QF070,CORP.042,ASKS_FOR,Question QF070 asks for CorporateRegistrationAnomalies (role: SUPPORTING)
+QF071,ESG.018,ASKS_FOR,Question QF071 asks for LaborComplianceRate (role: PRIMARY)
+QF071,MGMT.023,ASKS_FOR,Question QF071 asks for EmployeeTurnoverRate (role: SUPPORTING)
+QF072,MGMT.021,ASKS_FOR,Question QF072 asks for EmployeeCount (role: PRIMARY)
+QF072,ESG.018,ASKS_FOR,Question QF072 asks for LaborComplianceRate (role: SUPPORTING)
+QF072,LEGAL.032,ASKS_FOR,Question QF072 asks for RegulatoryDependency (role: SUPPORTING)
+QF073,MGMT.013,ASKS_FOR,Question QF073 asks for ManagementTurnover (role: PRIMARY)
+QF073,MGMT.019,ASKS_FOR,Question QF073 asks for KeyManagementVacancy (role: SUPPORTING)
+QF073,MGMT.024,ASKS_FOR,Question QF073 asks for AverageEmployeeTenure (role: SUPPORTING)
+QF073,MGMT.034,ASKS_FOR,Question QF073 asks for TalentRetentionCapability (role: SUPPORTING)
+QF074,MGMT.021,ASKS_FOR,Question QF074 asks for EmployeeCount (role: PRIMARY)
+QF074,MGMT.023,ASKS_FOR,Question QF074 asks for EmployeeTurnoverRate (role: SUPPORTING)
+QF074,LEGAL.028,ASKS_FOR,Question QF074 asks for LaborDisputeCount (role: SUPPORTING)
+QF074,ESG.018,ASKS_FOR,Question QF074 asks for LaborComplianceRate (role: SUPPORTING)
+QF075,TXN.001,ASKS_FOR,Question QF075 asks for DealSize (role: PRIMARY)
+QF075,TXN.006,ASKS_FOR,Question QF075 asks for OwnershipAfterInvestment (role: SUPPORTING)
+QF075,CORP.012,ASKS_FOR,Question QF075 asks for ShareholderCount (role: SUPPORTING)
+QF075,CORP.013,ASKS_FOR,Question QF075 asks for Top1ShareholderRatio (role: SUPPORTING)
+QF076,LEGAL.020,ASKS_FOR,Question QF076 asks for ChangeOfControlExposure (role: PRIMARY)
+QF076,LEGAL.019,ASKS_FOR,Question QF076 asks for ContractTerminationExposure (role: SUPPORTING)
+QF076,LEGAL.024,ASKS_FOR,Question QF076 asks for GuaranteeExposure (role: SUPPORTING)
+QF076,LEGAL.025,ASKS_FOR,Question QF076 asks for PledgeExposure (role: SUPPORTING)
+QF076,LEGAL.026,ASKS_FOR,Question QF076 asks for MortgageExposure (role: SUPPORTING)
+QF077,LEGAL.005,ASKS_FOR,Question QF077 asks for PotentialLiability (role: PRIMARY)
+QF077,LEGAL.018,ASKS_FOR,Question QF077 asks for ContractConcentration (role: SUPPORTING)
+QF077,LEGAL.020,ASKS_FOR,Question QF077 asks for ChangeOfControlExposure (role: SUPPORTING)
+QF077,LEGAL.030,ASKS_FOR,Question QF077 asks for RelatedPartyLegalExposure (role: SUPPORTING)
+QF078,LEGAL.005,ASKS_FOR,Question QF078 asks for PotentialLiability (role: PRIMARY)
+QF078,LEGAL.023,ASKS_FOR,Question QF078 asks for ContractPenaltyExposure (role: SUPPORTING)
+QF078,LEGAL.024,ASKS_FOR,Question QF078 asks for GuaranteeExposure (role: SUPPORTING)
+QF079,CORP.021,ASKS_FOR,Question QF079 asks for UltimateBeneficialOwner (role: PRIMARY)
+QF079,CORP.030,ASKS_FOR,Question QF079 asks for ControlStability (role: SUPPORTING)
+QF079,TXN.006,ASKS_FOR,Question QF079 asks for OwnershipAfterInvestment (role: SUPPORTING)
+QF079,TXN.024,ASKS_FOR,Question QF079 asks for ReturnSensitivity (role: SUPPORTING)
+QF080,LEGAL.033,ASKS_FOR,Question QF080 asks for LegalDueDiligenceCompletion (role: PRIMARY)
+QF080,RISK.001,ASKS_FOR,Question QF080 asks for StrategicRiskScore (role: SUPPORTING)
+QF080,RISK.003,ASKS_FOR,Question QF080 asks for HIGH (role: SUPPORTING)
+QF080,RISK.008,ASKS_FOR,Question QF080 asks for HIGH (role: SUPPORTING)
+QF080,RISK.010,ASKS_FOR,Question QF080 asks for HIGH (role: SUPPORTING)
+QF081,LEGAL.033,ASKS_FOR,Question QF081 asks for LegalDueDiligenceCompletion (role: PRIMARY)
+QF081,CORP.044,ASKS_FOR,Question QF081 asks for CorporateInformationCompleteness (role: SUPPORTING)
+QF081,CORP.045,ASKS_FOR,Question QF081 asks for CorporateDataConsistency (role: SUPPORTING)
+QF082,LEGAL.013,ASKS_FOR,Question QF082 asks for ComplianceRemediationRate (role: PRIMARY)
+QF082,LEGAL.033,ASKS_FOR,Question QF082 asks for LegalDueDiligenceCompletion (role: SUPPORTING)
+QF083,LEGAL.015,ASKS_FOR,Question QF083 asks for LicenseExpiryExposure (role: PRIMARY)
+QF083,LEGAL.019,ASKS_FOR,Question QF083 asks for ContractTerminationExposure (role: SUPPORTING)
+QF083,LEGAL.033,ASKS_FOR,Question QF083 asks for LegalDueDiligenceCompletion (role: SUPPORTING)
+QF084,LEGAL.033,ASKS_FOR,Question QF084 asks for LegalDueDiligenceCompletion (role: PRIMARY)
+QF084,LEGAL.031,ASKS_FOR,Question QF084 asks for InternalControlDeficiency (role: SUPPORTING)
+QF084,TECH.023,ASKS_FOR,Question QF084 asks for IPEncumbranceCount (role: SUPPORTING)
+QF085,LEGAL.033,ASKS_FOR,Question QF085 asks for LegalDueDiligenceCompletion (role: PRIMARY)
+QF085,LEGAL.013,ASKS_FOR,Question QF085 asks for ComplianceRemediationRate (role: SUPPORTING)
+QF085,CORP.044,ASKS_FOR,Question QF085 asks for CorporateInformationCompleteness (role: SUPPORTING)
+QF086,FIN.002,ASKS_FOR,Question QF086 asks for RevenueGrowthRate [derived: (FIN.001_t - FIN.001_t-1) / FIN.001_t-1] (role: PRIMARY)
+QF086,FIN.003,ASKS_FOR,Question QF086 asks for RevenueCAGR [derived: CAGR of FIN.001] (role: SUPPORTING)
+QF086,FIN.008,ASKS_FOR,Question QF086 asks for OrganicRevenueGrowth (role: SUPPORTING)
+QF086,FIN.009,ASKS_FOR,Question QF086 asks for AcquisitionDrivenGrowth (role: SUPPORTING)
+QF086,FIN.001,ASKS_FOR,Question QF086 asks for Revenue (role: SUPPORTING)
+QF087,FIN.006,ASKS_FOR,Question QF087 asks for RevenueConcentration (role: PRIMARY)
+QF087,BMOD.011,ASKS_FOR,Question QF087 asks for ProductRevenueRatio (role: SUPPORTING)
+QF087,BMOD.012,ASKS_FOR,Question QF087 asks for ServiceRevenueRatio (role: SUPPORTING)
+QF087,PROD.011,ASKS_FOR,Question QF087 asks for CoreProductRevenueRatio (role: SUPPORTING)
+QF087,PROD.005,ASKS_FOR,Question QF087 asks for ProductRevenueConcentration (role: SUPPORTING)
+QF088,CUST.024,ASKS_FOR,Question QF088 asks for CustomerPaymentDays (role: PRIMARY)
+QF088,FIN.048,ASKS_FOR,Question QF088 asks for DSO [derived: (FIN.056 / FIN.001) * 365] (role: SUPPORTING)
+QF088,CUST.025,ASKS_FOR,Question QF088 asks for CustomerAR (role: SUPPORTING)
+QF088,CUST.026,ASKS_FOR,Question QF088 asks for CustomerOverdueRatio (role: SUPPORTING)
+QF089,CUST.011,ASKS_FOR,Question QF089 asks for Top1CustomerRevenueRatio (role: PRIMARY)
+QF089,CUST.013,ASKS_FOR,Question QF089 asks for Top5CustomerRevenueRatio (role: SUPPORTING)
+QF089,CUST.019,ASKS_FOR,Question QF089 asks for RelatedCustomerRevenueRatio (role: SUPPORTING)
+QF089,CORP.036,ASKS_FOR,Question QF089 asks for RelatedPartyCount (role: SUPPORTING)
+QF090,CUST.011,ASKS_FOR,Question QF090 asks for Top1CustomerRevenueRatio (role: PRIMARY)
+QF090,CUST.021,ASKS_FOR,Question QF090 asks for CustomerCreditQuality (role: SUPPORTING)
+QF090,CUST.022,ASKS_FOR,Question QF090 asks for CustomerProfitability (role: SUPPORTING)
+QF090,FIN.006,ASKS_FOR,Question QF090 asks for RevenueConcentration (role: SUPPORTING)
+QF091,CUST.021,ASKS_FOR,Question QF091 asks for CustomerCreditQuality (role: PRIMARY)
+QF091,CUST.025,ASKS_FOR,Question QF091 asks for CustomerAR (role: SUPPORTING)
+QF091,CUST.026,ASKS_FOR,Question QF091 asks for CustomerOverdueRatio (role: SUPPORTING)
+QF091,CUST.027,ASKS_FOR,Question QF091 asks for CustomerBadDebtRatio (role: SUPPORTING)
+QF091,FIN.056,ASKS_FOR,Question QF091 asks for AccountsReceivable (role: SUPPORTING)
+QF092,CUST.011,ASKS_FOR,Question QF092 asks for Top1CustomerRevenueRatio (role: PRIMARY)
+QF092,CUST.013,ASKS_FOR,Question QF092 asks for Top5CustomerRevenueRatio (role: SUPPORTING)
+QF092,CUST.015,ASKS_FOR,Question QF092 asks for CustomerHHI (role: SUPPORTING)
+QF092,CUST.030,ASKS_FOR,Question QF092 asks for CustomerDependencyScore (role: SUPPORTING)
+QF093,PROD.008,ASKS_FOR,Question QF093 asks for ProductAveragePrice (role: PRIMARY)
+QF093,PROD.039,ASKS_FOR,Question QF093 asks for UnitProductionCost (role: SUPPORTING)
+QF093,PROD.040,ASKS_FOR,Question QF093 asks for ManufacturingCostRatio (role: SUPPORTING)
+QF093,PROD.023,ASKS_FOR,Question QF093 asks for FactoryCapacity (role: SUPPORTING)
+QF093,PROD.026,ASKS_FOR,Question QF093 asks for CapacityUtilization (role: SUPPORTING)
+QF094,FIN.001,ASKS_FOR,Question QF094 asks for Revenue (role: PRIMARY)
+QF094,CUST.025,ASKS_FOR,Question QF094 asks for CustomerAR (role: SUPPORTING)
+QF094,FIN.055,ASKS_FOR,Question QF094 asks for CashBalance (role: SUPPORTING)
+QF094,FIN.056,ASKS_FOR,Question QF094 asks for AccountsReceivable (role: SUPPORTING)
+QF095,CORP.037,ASKS_FOR,Question QF095 asks for RelatedPartyTransactionRatio (role: PRIMARY)
+QF095,CUST.019,ASKS_FOR,Question QF095 asks for RelatedCustomerRevenueRatio (role: SUPPORTING)
+QF095,FIN.006,ASKS_FOR,Question QF095 asks for RevenueConcentration (role: SUPPORTING)
+QF095,FIN.001,ASKS_FOR,Question QF095 asks for Revenue (role: SUPPORTING)
+QF096,CUST.036,ASKS_FOR,Question QF096 asks for ContractTerminationRate (role: PRIMARY)
+QF096,CUST.046,ASKS_FOR,Question QF096 asks for OrderCancellationRate (role: SUPPORTING)
+QF096,PROD.009,ASKS_FOR,Question QF096 asks for ProductReturnRate (role: SUPPORTING)
+QF096,PROD.044,ASKS_FOR,Question QF096 asks for ProductReturnRate (role: SUPPORTING)
+QF096,PROD.045,ASKS_FOR,Question QF096 asks for WarrantyClaimRate (role: SUPPORTING)
+QF097,FIN.001,ASKS_FOR,Question QF097 asks for Revenue (role: PRIMARY)
+QF097,CUST.032,ASKS_FOR,Question QF097 asks for ContractValue (role: SUPPORTING)
+QF097,CUST.041,ASKS_FOR,Question QF097 asks for OrderCount (role: SUPPORTING)
+QF097,CUST.047,ASKS_FOR,Question QF097 asks for OrderFulfillmentRate (role: SUPPORTING)
+QF097,FIN.056,ASKS_FOR,Question QF097 asks for AccountsReceivable (role: SUPPORTING)
+QF098,FIN.033,ASKS_FOR,Question QF098 asks for AdjustedNetIncome (role: PRIMARY)
+QF098,FIN.034,ASKS_FOR,Question QF098 asks for NonRecurringProfitRatio [derived: (FIN.030 - FIN.033) / FIN.030] (role: SUPPORTING)
+QF098,FIN.030,ASKS_FOR,Question QF098 asks for NetIncome (role: SUPPORTING)
+QF098,FIN.035,ASKS_FOR,Question QF098 asks for OperatingCashFlow (role: SUPPORTING)
+QF098,FIN.056,ASKS_FOR,Question QF098 asks for AccountsReceivable (role: SUPPORTING)
+QF099,FIN.030,ASKS_FOR,Question QF099 asks for NetIncome (role: PRIMARY)
+QF099,FIN.033,ASKS_FOR,Question QF099 asks for AdjustedNetIncome (role: SUPPORTING)
+QF099,FIN.034,ASKS_FOR,Question QF099 asks for NonRecurringProfitRatio [derived: (FIN.030 - FIN.033) / FIN.030] (role: SUPPORTING)
+QF100,LEGAL.027,ASKS_FOR,Question QF100 asks for TaxExposure (role: PRIMARY)
+QF100,FIN.030,ASKS_FOR,Question QF100 asks for NetIncome (role: SUPPORTING)
+QF100,FIN.095,ASKS_FOR,Question QF100 asks for RevenueForecast (role: SUPPORTING)
+QF100,FIN.098,ASKS_FOR,Question QF100 asks for NetIncomeForecast (role: SUPPORTING)
+CUST.011,RR.CUST.016.001,EVALUATED_BY,CUST.011 evaluated by RR.CUST.016.001
+CUST.013,RR.CUST.018.001,EVALUATED_BY,CUST.013 evaluated by RR.CUST.018.001
+FIN.072,RR.FIN.060.001,EVALUATED_BY,FIN.072 evaluated by RR.FIN.060.001
+FIN.072,RR.FIN.060.002,EVALUATED_BY,FIN.072 evaluated by RR.FIN.060.002
+FIN.073,RR.FIN.055.001,EVALUATED_BY,FIN.073 evaluated by RR.FIN.055.001
+MGMT.013,RR.MGMT.011.001,EVALUATED_BY,MGMT.013 evaluated by RR.MGMT.011.001
+DATA.001,RR.DATA.001.001,EVALUATED_BY,DATA.001 evaluated by RR.DATA.001.001
+DATA.002,RR.DATA.002.001,EVALUATED_BY,DATA.002 evaluated by RR.DATA.002.001
+DATA.008,RR.DATA.008.001,EVALUATED_BY,DATA.008 evaluated by RR.DATA.008.001
+LOGI.002,RR.LOGI.002.001,EVALUATED_BY,LOGI.002 evaluated by RR.LOGI.002.001
+LOGI.005,RR.LOGI.005.001,EVALUATED_BY,LOGI.005 evaluated by RR.LOGI.005.001
+MGMT.041,RR.MGMT.041.001,EVALUATED_BY,MGMT.041 evaluated by RR.MGMT.041.001
+LEGAL.039,RR.LEGAL.039.001,EVALUATED_BY,LEGAL.039 evaluated by RR.LEGAL.039.001
+PROD.050,RR.PROD.050.001,EVALUATED_BY,PROD.050 evaluated by RR.PROD.050.001
+PROD.051,RR.PROD.051.001,EVALUATED_BY,PROD.051 evaluated by RR.PROD.051.001
+CUST.061,RR.CUST.061.001,EVALUATED_BY,CUST.061 evaluated by RR.CUST.061.001
+MKT.042,RR.MKT.042.001,EVALUATED_BY,MKT.042 evaluated by RR.MKT.042.001
+FIN.002,RR.TREND.001,EVALUATED_BY,FIN.002 evaluated by RR.TREND.001
+FIN.012,RR.TREND.002,EVALUATED_BY,FIN.012 evaluated by RR.TREND.002
+CUST.009,RR.TREND.003,EVALUATED_BY,CUST.009 evaluated by RR.TREND.003
+FIN.036,RR.TREND.004,EVALUATED_BY,FIN.036 evaluated by RR.TREND.004
+FIN.103,RR.TREND.005,EVALUATED_BY,FIN.103 evaluated by RR.TREND.005
+PROD.036,RR.TREND.006,EVALUATED_BY,PROD.036 evaluated by RR.TREND.006
+CUST.013,RR.COMP.CUST.001,EVALUATED_BY,CUST.013 evaluated by RR.COMP.CUST.001
+CUST.035,RR.COMP.CUST.001,EVALUATED_BY,CUST.035 evaluated by RR.COMP.CUST.001
+FIN.072,RR.COMP.FIN.003,EVALUATED_BY,FIN.072 evaluated by RR.COMP.FIN.003
+FIN.073,RR.COMP.FIN.003,EVALUATED_BY,FIN.073 evaluated by RR.COMP.FIN.003
+SUPP.004,RR.COMP.SUPP.002,EVALUATED_BY,SUPP.004 evaluated by RR.COMP.SUPP.002
+FIN.052,RR.COMP.SUPP.002,EVALUATED_BY,FIN.052 evaluated by RR.COMP.SUPP.002
+MGMT.013,RR.COMP.MGMT.004,EVALUATED_BY,MGMT.013 evaluated by RR.COMP.MGMT.004
+FIN.103,RR.COMP.MGMT.004,EVALUATED_BY,FIN.103 evaluated by RR.COMP.MGMT.004
+PROD.042,RR.COMP.PROD.005,EVALUATED_BY,PROD.042 evaluated by RR.COMP.PROD.005
+FIN.012,RR.COMP.PROD.005,EVALUATED_BY,FIN.012 evaluated by RR.COMP.PROD.005
+TXN.009,RR.COMP.TXN.006,EVALUATED_BY,TXN.009 evaluated by RR.COMP.TXN.006
+RISK.019,RR.COMP.TXN.006,EVALUATED_BY,RISK.019 evaluated by RR.COMP.TXN.006
+DATA.001,RR.COMP.DATA.001,EVALUATED_BY,DATA.001 evaluated by RR.COMP.DATA.001
+DATA.002,RR.COMP.DATA.001,EVALUATED_BY,DATA.002 evaluated by RR.COMP.DATA.001
+LOGI.002,RR.COMP.LOGI.001,EVALUATED_BY,LOGI.002 evaluated by RR.COMP.LOGI.001
+LOGI.005,RR.COMP.LOGI.001,EVALUATED_BY,LOGI.005 evaluated by RR.COMP.LOGI.001
+CUST.013,RR.CROSS.003,EVALUATED_BY,CUST.013 evaluated by RR.CROSS.003
+CUST.009,RR.CROSS.003,EVALUATED_BY,CUST.009 evaluated by RR.CROSS.003
+FIN.072,RR.CROSS.003,EVALUATED_BY,FIN.072 evaluated by RR.CROSS.003
+MGMT.013,RR.CROSS.006,EVALUATED_BY,MGMT.013 evaluated by RR.CROSS.006
+FIN.103,RR.CROSS.006,EVALUATED_BY,FIN.103 evaluated by RR.CROSS.006
+FIN.002,RR.CROSS.007,EVALUATED_BY,FIN.002 evaluated by RR.CROSS.007
+FIN.048,RR.CROSS.007,EVALUATED_BY,FIN.048 evaluated by RR.CROSS.007
+FIN.037,RR.CROSS.007,EVALUATED_BY,FIN.037 evaluated by RR.CROSS.007
+SUPP.004,RR.CROSS.008,EVALUATED_BY,SUPP.004 evaluated by RR.CROSS.008
+PROD.042,RR.CROSS.008,EVALUATED_BY,PROD.042 evaluated by RR.CROSS.008
+PROD.043,RR.CROSS.008,EVALUATED_BY,PROD.043 evaluated by RR.CROSS.008
+MGMT.013,RR.CROSS.009,EVALUATED_BY,MGMT.013 evaluated by RR.CROSS.009
+TECH.001,RR.CROSS.009,EVALUATED_BY,TECH.001 evaluated by RR.CROSS.009
+CUST.009,RR.CROSS.009,EVALUATED_BY,CUST.009 evaluated by RR.CROSS.009
+LEGAL.011,RR.CROSS.010,EVALUATED_BY,LEGAL.011 evaluated by RR.CROSS.010
+FIN.083,RR.CROSS.010,EVALUATED_BY,FIN.083 evaluated by RR.CROSS.010
+FIN.084,RR.CROSS.010,EVALUATED_BY,FIN.084 evaluated by RR.CROSS.010
+DATA.002,RR.CROSS.011,EVALUATED_BY,DATA.002 evaluated by RR.CROSS.011
+MKT.042,RR.CROSS.011,EVALUATED_BY,MKT.042 evaluated by RR.CROSS.011
+LOGI.005,RR.CROSS.011,EVALUATED_BY,LOGI.005 evaluated by RR.CROSS.011
+RR.CUST.016.001,RISK.004,TRIGGERS,RR.CUST.016.001 triggers RISK.004 (severity: HIGH)
+RR.CUST.018.001,RISK.004,TRIGGERS,RR.CUST.018.001 triggers RISK.004 (severity: HIGH)
+RR.FIN.060.001,RISK.009,TRIGGERS,RR.FIN.060.001 triggers RISK.009 (severity: HIGH)
+RR.FIN.060.002,RISK.009,TRIGGERS,RR.FIN.060.002 triggers RISK.009 (severity: CRITICAL)
+RR.FIN.055.001,RISK.009,TRIGGERS,RR.FIN.055.001 triggers RISK.009 (severity: HIGH)
+RR.MGMT.011.001,RISK.008,TRIGGERS,RR.MGMT.011.001 triggers RISK.008 (severity: HIGH)
+RR.DATA.001.001,RISK.021,TRIGGERS,RR.DATA.001.001 triggers RISK.021 (severity: HIGH)
+RR.DATA.002.001,RISK.021,TRIGGERS,RR.DATA.002.001 triggers RISK.021 (severity: HIGH)
+RR.DATA.008.001,RISK.021,TRIGGERS,RR.DATA.008.001 triggers RISK.021 (severity: CRITICAL)
+RR.LOGI.002.001,RISK.022,TRIGGERS,RR.LOGI.002.001 triggers RISK.022 (severity: HIGH)
+RR.LOGI.005.001,RISK.022,TRIGGERS,RR.LOGI.005.001 triggers RISK.022 (severity: HIGH)
+RR.MGMT.041.001,RISK.008,TRIGGERS,RR.MGMT.041.001 triggers RISK.008 (severity: HIGH)
+RR.LEGAL.039.001,RISK.011,TRIGGERS,RR.LEGAL.039.001 triggers RISK.011 (severity: HIGH)
+RR.PROD.050.001,RISK.005,TRIGGERS,RR.PROD.050.001 triggers RISK.005 (severity: HIGH)
+RR.PROD.051.001,RISK.005,TRIGGERS,RR.PROD.051.001 triggers RISK.005 (severity: HIGH)
+RR.CUST.061.001,RISK.004,TRIGGERS,RR.CUST.061.001 triggers RISK.004 (severity: HIGH)
+RR.MKT.042.001,RISK.011,TRIGGERS,RR.MKT.042.001 triggers RISK.011 (severity: HIGH)
+RR.TREND.001,RISK.003,TRIGGERS,RR.TREND.001 triggers RISK.003 (severity: HIGH)
+RR.TREND.002,RISK.009,TRIGGERS,RR.TREND.002 triggers RISK.009 (severity: HIGH)
+RR.TREND.003,RISK.004,TRIGGERS,RR.TREND.003 triggers RISK.004 (severity: HIGH)
+RR.TREND.004,RISK.009,TRIGGERS,RR.TREND.004 triggers RISK.009 (severity: HIGH)
+RR.TREND.005,RISK.008,TRIGGERS,RR.TREND.005 triggers RISK.008 (severity: MEDIUM)
+RR.TREND.006,RISK.010,TRIGGERS,RR.TREND.006 triggers RISK.010 (severity: MEDIUM)
+RR.COMP.CUST.001,RISK.004,TRIGGERS,RR.COMP.CUST.001 triggers RISK.004 (severity: CRITICAL)
+RR.COMP.FIN.003,RISK.009,TRIGGERS,RR.COMP.FIN.003 triggers RISK.009 (severity: CRITICAL)
+RR.COMP.SUPP.002,RISK.010,TRIGGERS,RR.COMP.SUPP.002 triggers RISK.010 (severity: HIGH)
+RR.COMP.MGMT.004,RISK.008,TRIGGERS,RR.COMP.MGMT.004 triggers RISK.008 (severity: HIGH)
+RR.COMP.PROD.005,RISK.005,TRIGGERS,RR.COMP.PROD.005 triggers RISK.005 (severity: HIGH)
+RR.COMP.TXN.006,RISK.015,TRIGGERS,RR.COMP.TXN.006 triggers RISK.015 (severity: CRITICAL)
+RR.COMP.DATA.001,RISK.021,TRIGGERS,RR.COMP.DATA.001 triggers RISK.021 (severity: CRITICAL)
+RR.COMP.LOGI.001,RISK.022,TRIGGERS,RR.COMP.LOGI.001 triggers RISK.022 (severity: CRITICAL)
+RR.CROSS.003,RISK.009,TRIGGERS,RR.CROSS.003 triggers RISK.009 (severity: CRITICAL)
+RR.CROSS.006,RISK.008,TRIGGERS,RR.CROSS.006 triggers RISK.008 (severity: HIGH)
+RR.CROSS.007,RISK.009,TRIGGERS,RR.CROSS.007 triggers RISK.009 (severity: HIGH)
+RR.CROSS.008,RISK.010,TRIGGERS,RR.CROSS.008 triggers RISK.010 (severity: HIGH)
+RR.CROSS.009,RISK.006,TRIGGERS,RR.CROSS.009 triggers RISK.006 (severity: HIGH)
+RR.CROSS.010,RISK.011,TRIGGERS,RR.CROSS.010 triggers RISK.011 (severity: CRITICAL)
+RR.CROSS.011,RISK.022,TRIGGERS,RR.CROSS.011 triggers RISK.022 (severity: HIGH)

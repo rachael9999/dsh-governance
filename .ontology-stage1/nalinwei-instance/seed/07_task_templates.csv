@@ -1,0 +1,9 @@
+task_template_id,definition
+T_EXTRACT_FACT,从指定材料提取实体、事实、时间、金额、口径并绑定原文证据
+T_VERIFY_DOCUMENT,核验关键文件是否存在、有效、完整，并检查签章/日期/主体
+T_EXTERNAL_VERIFY,通过公开信息或独立第三方来源进行外部核验
+T_CALCULATE_METRIC,从原始数据计算对应指标、趋势或敏感性
+T_CROSS_CHECK,跨文档/跨来源勾稽同一事实，识别口径差异和冲突
+T_ANALYZE,基于事实、关系和历史趋势形成风险/合理性分析
+T_ASK_HUMAN,生成管理层/律师/财务顾问补充问题
+T_RISK_EXPAND,依据Risk Rule触发二次调查问题与任务

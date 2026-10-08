@@ -52,4 +52,7 @@ pre-merge-commit:
 pre-push:
   jobs:
     - name: typecheck
+      # lefthook defaults its pre-push comparison base to `master`; this repo's
+      # primary branch is `main`, so pin the base explicitly.
+      base: main
       run: pnpm run typecheck

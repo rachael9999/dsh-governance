@@ -73,6 +73,22 @@
     - id: workspace
       name: '@deepseek-ai/dsh-workspace'
 
+    # Project knowledge: the domain, the WeKnora provider (which carries
+    # document upload), and the model-facing tools over them. The provider's
+    # API key itself is never written here — it resolves through the
+    # credentials domain ahead of the launch environment, so it is settable
+    # from Settings → Plugins and needs no shell export.
+    - id: knowledge
+      name: '@deepseek-ai/dsh-knowledge'
+
+    - id: knowledge-weknora
+      name: '@deepseek-ai/dsh-knowledge-weknora'
+      config:
+        baseUrl: !!js process.env.WEKNORA_BASE_URL ?? 'http://127.0.0.1:8080/api/v1'
+
+    - id: tool-knowledge
+      name: '@deepseek-ai/dsh-tool-knowledge'
+
     - id: session-projection-cache
       name: '@deepseek-ai/dsh-session-projection-cache'
       config:
@@ -98,6 +114,28 @@
     # shares. The base layer's agent-default-model service owns the default model.
     - id: api-gateway
       name: '@deepseek-ai/dsh-host-apiproxy'
+      config:
+        governanceDbPath: !!js dshHomePath('governance.sqlite')
+
+    # Provides the context-pinned `ctx.semantic` runtime (exploration build:
+    # requireApproved=false so the still-candidate PE canonical pack is browsable).
+    - id: semantic-host
+      name: '@deepseek-ai/dsh-semantic-host'
+
+    # Real PE canonical pack provider — loads `.ontology-stage1/pe-dd-canonical`
+    # (audited PASS) and admits it to `ctx.semantic` so the read-only explorer
+    # shows genuine PE due-diligence data.
+    - id: semantic-provider-pe
+      name: '@deepseek-ai/dsh-semantic-provider-pe'
+
+    # Dynamic ontology pack loader provider — discovers and loads packs from
+    # `.ontology-stage1/` directory on demand, enabling UI-driven pack selection.
+    - id: semantic-provider-ontology-loader
+      name: '@deepseek-ai/dsh-semantic-provider-ontology-loader'
+
+    # Read-only Typert Remote surface over `ctx.semantic` (namespace `ontology`).
+    - id: ontology-rpc
+      name: '@deepseek-ai/dsh-api-ontology-rpc'
 
     - id: cordis-host-runner
       name: '@deepseek-ai/dsh-cordis-host-runner'
@@ -210,6 +248,10 @@
     - id: ui-workflow-run
       name: '@deepseek-ai/dsh-client-ui-workflow-run'
 
+    # V1/V2 governance visibility stays additive to the conversation shell.
+    - id: ui-governance
+      name: '@deepseek-ai/dsh-client-ui-governance'
+
     # Turn tail: the produced-files row under each closing assistant message.
     # Remove this entry to turn the surface off; the tail hole renders empty.
     - id: ui-deliverables
@@ -272,6 +314,10 @@
 
     - id: ui-trajectory
       name: '@deepseek-ai/dsh-client-ui-trajectory'
+
+    # Read-only ontology explorer contributed to the Conversation view tab (order 20).
+    - id: ui-ontology
+      name: '@deepseek-ai/dsh-client-ui-ontology'
 
 # ── the agent plane moves behind agent presets ─────────────────────────────
 #

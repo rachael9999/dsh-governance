@@ -1,0 +1,39 @@
+rule_id,condition,risk_id,severity
+RR.CUST.016.001,"Top1 Customer Revenue Ratio > 30%",`RISK.004`,HIGH
+RR.CUST.018.001,"Top5 Customer Revenue Ratio > 60%",`RISK.004`,HIGH
+RR.FIN.060.001,"Net Debt / EBITDA > 4x",`RISK.009`,HIGH
+RR.FIN.060.002,"Net Debt / EBITDA > 6x",`RISK.009`,CRITICAL
+RR.FIN.055.001,"Interest Coverage < 3x",`RISK.009`,HIGH
+RR.MGMT.011.001,"Senior Management Turnover Rate > 25%",`RISK.008`,HIGH
+RR.DATA.001.001,"Data Coverage < 70%",`RISK.021`,HIGH
+RR.DATA.002.001,"Data Accuracy < 85%",`RISK.021`,HIGH
+RR.DATA.008.001,"Data Licensing Ownership Compliance = `non_compliant`",`RISK.021`,CRITICAL
+RR.LOGI.002.001,"Logistics Provider Concentration > 0.25",`RISK.022`,HIGH
+RR.LOGI.005.001,"Logistics Delivery Reliability < 92%",`RISK.022`,HIGH
+RR.MGMT.041.001,"Functional Team Attrition Rate > 20%",`RISK.008`,HIGH
+RR.LEGAL.039.001,"EHS System Maturity < 60",`RISK.011`,HIGH
+RR.PROD.050.001,"Quality Control System Maturity < 70",`RISK.005`,HIGH
+RR.PROD.051.001,"Production Process Documentation Completeness < 80%",`RISK.005`,HIGH
+RR.CUST.061.001,"Repurchase Rate < 25%",`RISK.004`,HIGH
+RR.MKT.042.001,"Policy Trend Direction = `tightening`",`RISK.011`,HIGH
+RR.TREND.001,"Revenue Growth declines for 3 consecutive periods",`RISK.003`,HIGH
+RR.TREND.002,"Gross Margin declines > 300 bps for 3 consecutive periods",`RISK.009`,HIGH
+RR.TREND.003,"Customer Churn Rate increases for 2 consecutive periods",`RISK.004`,HIGH
+RR.TREND.004,"Operating Cash Flow Margin declines for 3 consecutive periods",`RISK.009`,HIGH
+RR.TREND.005,"Forecast Accuracy declines for 2 consecutive periods",`RISK.008`,MEDIUM
+RR.TREND.006,"On-time Delivery Rate declines for 2 consecutive periods",`RISK.010`,MEDIUM
+RR.COMP.CUST.001,"Top5 Customer Concentration > 60% **AND** Largest Customer Renewal Rate < 70%",`RISK.004`,CRITICAL
+RR.COMP.FIN.003,"Net Debt / EBITDA > 4x **AND** Interest Coverage < 3x",`RISK.009`,CRITICAL
+RR.COMP.SUPP.002,"Top3 Supplier Concentration > 40% **AND** Inventory Turnover < 3x",`RISK.010`,HIGH
+RR.COMP.MGMT.004,"Senior Management Turnover Rate > 20% **AND** Forecast Accuracy < 75%",`RISK.008`,HIGH
+RR.COMP.PROD.005,"Defect Rate > 2% **AND** Gross Margin < 20%",`RISK.005`,HIGH
+RR.COMP.TXN.006,"Entry EV/EBITDA > 14x **AND** Downside Case Probability > 35%",`RISK.015`,CRITICAL
+RR.COMP.DATA.001,"Data Coverage < 70% **AND** Data Accuracy < 85%",`RISK.021`,CRITICAL
+RR.COMP.LOGI.001,"Logistics Provider Concentration > 0.25 **AND** Logistics Delivery Reliability < 92%",`RISK.022`,CRITICAL
+RR.CROSS.003,"Top5 Customer Concentration High **AND** Churn High **AND** Net Debt/EBITDA High",`RISK.009`,CRITICAL
+RR.CROSS.006,"Management Turnover High **AND** Forecast Accuracy < 70%",`RISK.008`,HIGH
+RR.CROSS.007,"Revenue Growth Downtrend **AND** DSO Rising **AND** Cash Conversion Worsening",`RISK.009`,HIGH
+RR.CROSS.008,"Supplier Concentration High **AND** Defect Rate High **AND** Customer Complaints High",`RISK.010`,HIGH
+RR.CROSS.009,"Management Turnover High **AND** R&D Intensity Low **AND** Churn High",`RISK.006`,HIGH
+RR.CROSS.010,"Compliance Incidents High **AND** Refinancing Pressure High **AND** Covenant Headroom Low",`RISK.011`,CRITICAL
+RR.CROSS.011,"Data Accuracy Low **AND** Policy Trend Tightening **AND** Logistics Delivery Reliability Low",`RISK.022`,HIGH
