@@ -62,6 +62,11 @@ function main(): void {
     encoding: 'utf8',
     env: invocation.env,
     maxBuffer: MAX_CAPTURED_OUTPUT_BYTES,
+    // Inherit stdin; pipe stdout/stderr. On Windows, a piped child stdin makes
+    // spawnSync fail with EBUSY when the parent's own stdio is a pipe (CI, git
+    // hooks, captured shells). Inheriting stdin avoids that while keeping
+    // stdout/stderr capturable for the optional second fix pass.
+    stdio: ['inherit', 'pipe', 'pipe'],
   })
   if (first.error !== undefined) throw first.error
   if (first.signal !== null) {
